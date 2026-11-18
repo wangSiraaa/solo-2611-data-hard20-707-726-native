@@ -1,0 +1,5 @@
+{"op": "import_and_attempt", "file": "addresses.csv"}
+{"op": "apply_revision", "file": "revision.json"}
+{"op": "retry", "parcel_ids": ["P1", "P3", "P4"]}
+{"op": "replay_submitted", "parcel_id": "P2"}
+{"op": "new_parcel", "parcel_id": "P7", "city_id": "C1", "district_text": "西", "street_text": "东路", "house_no": 2}

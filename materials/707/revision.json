@@ -1,0 +1,18 @@
+{
+  "revision": "r2",
+  "operations": [
+    {
+      "op": "add_street_alias",
+      "street_id": "S1",
+      "alias": "东部支路"
+    },
+    {
+      "op": "remove_coverage",
+      "coverage_id": "K3"
+    },
+    {
+      "op": "deactivate_street",
+      "street_id": "S2"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+parcel_id,city_id,district_text,street_text,house_no
+P1,C1,同区,东路,2
+P2,C1,同区,学园路,2
+P3,C1,东,东路,9
+P4,C1,东,东部支路,2
+P5,C1,东,"学,园",2
+P6,C1, 东 ,Café路,2

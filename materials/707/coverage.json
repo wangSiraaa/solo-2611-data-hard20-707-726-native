@@ -1,0 +1,45 @@
+{
+  "revision": "r1",
+  "coverages": [
+    {
+      "coverage_id": "K1",
+      "street_id": "S1",
+      "station_id": "A",
+      "lo": 1,
+      "hi": 20,
+      "parity": "any"
+    },
+    {
+      "coverage_id": "K2",
+      "street_id": "S1",
+      "station_id": "A",
+      "lo": 1,
+      "hi": 9,
+      "parity": "odd"
+    },
+    {
+      "coverage_id": "K3",
+      "street_id": "S1",
+      "station_id": "X",
+      "lo": 8,
+      "hi": 10,
+      "parity": "any"
+    },
+    {
+      "coverage_id": "K4",
+      "street_id": "S2",
+      "station_id": "B",
+      "lo": 1,
+      "hi": 20,
+      "parity": "even"
+    },
+    {
+      "coverage_id": "K5",
+      "street_id": "S3",
+      "station_id": "A",
+      "lo": 1,
+      "hi": 20,
+      "parity": "any"
+    }
+  ]
+}

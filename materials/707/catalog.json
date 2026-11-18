@@ -1,0 +1,56 @@
+{
+  "revision": "r1",
+  "cities": [
+    {
+      "city_id": "C1",
+      "name": "临川市"
+    }
+  ],
+  "districts": [
+    {
+      "district_id": "D1",
+      "city_id": "C1",
+      "name": "东区",
+      "aliases": [
+        "东",
+        "同区"
+      ]
+    },
+    {
+      "district_id": "D2",
+      "city_id": "C1",
+      "name": "西区",
+      "aliases": [
+        "西",
+        "同区"
+      ]
+    }
+  ],
+  "streets": [
+    {
+      "street_id": "S1",
+      "district_id": "D1",
+      "name": "东路",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "street_id": "S2",
+      "district_id": "D2",
+      "name": "东路",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "street_id": "S3",
+      "district_id": "D1",
+      "name": "学园路",
+      "aliases": [
+        "学,园",
+        "学  园",
+        "Café路"
+      ],
+      "active": true
+    }
+  ]
+}
