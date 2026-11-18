@@ -1,0 +1,18 @@
+{
+  "gap_minutes":3,
+  "batches":[
+    {"revision":1,"events":[{"event_id":"E0","revision":1,"time":0},{"event_id":"E2","revision":1,"time":2},{"event_id":"E8","revision":1,"time":8},{"event_id":"E10","revision":1,"time":10}]},
+    {"revision":2,"events":[{"event_id":"E5","revision":1,"time":5}]},
+    {"revision":3,"events":[{"event_id":"E5","revision":2,"withdraw":true}]}
+  ],
+  "issued_at_revision":1,
+  "issued":{
+    "A":[{"ticket":"I0","anchor":"E0","status":"RECEIVED"},{"ticket":"I8","anchor":"E8","status":"OPEN"}],
+    "B":[{"ticket":"J0","anchor":"E0","status":"RECEIVED"},{"ticket":"J8","anchor":"E8","status":"RECEIVED"}]
+  },
+  "requests":[
+    {"id":"U1","consumer":"A","source_revision":2},
+    {"id":"U2","consumer":"B","source_revision":2},
+    {"id":"U3","consumer":"A","source_revision":3}
+  ]
+}
