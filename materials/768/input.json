@@ -1,0 +1,109 @@
+{
+  "cells": [
+    {
+      "id": "S1",
+      "zone": "north",
+      "owner": "A"
+    },
+    {
+      "id": "S2",
+      "zone": "north",
+      "owner": "A"
+    },
+    {
+      "id": "S3",
+      "zone": "north",
+      "owner": "B"
+    }
+  ],
+  "teams": [
+    "A",
+    "B"
+  ],
+  "catalogs": [
+    {
+      "id": "v1",
+      "allow": {
+        "B": [
+          "S1",
+          "S2"
+        ]
+      }
+    },
+    {
+      "id": "v2",
+      "allow": {
+        "B": []
+      }
+    }
+  ],
+  "loans": [
+    {
+      "id": "L1",
+      "catalog": "v1",
+      "owner": "A",
+      "borrower": "B",
+      "cells": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "holds": [
+    {
+      "id": "H1",
+      "team": "B",
+      "cells": [
+        "S1"
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "id": "K1",
+      "action": "return",
+      "catalog": "v2",
+      "loan": "L1"
+    },
+    {
+      "id": "K2",
+      "action": "hold",
+      "catalog": "v2",
+      "team": "A",
+      "cells": [
+        "S2"
+      ]
+    },
+    {
+      "id": "K3",
+      "action": "close_hold",
+      "hold": "H1"
+    },
+    {
+      "id": "K4",
+      "action": "return",
+      "catalog": "v2",
+      "loan": "L1"
+    },
+    {
+      "id": "K5",
+      "action": "hold",
+      "catalog": "v2",
+      "team": "A",
+      "cells": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "id": "K6",
+      "action": "borrow",
+      "catalog": "v2",
+      "owner": "A",
+      "borrower": "B",
+      "cells": [
+        "S2"
+      ]
+    }
+  ]
+}
