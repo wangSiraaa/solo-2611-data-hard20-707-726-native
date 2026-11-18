@@ -1,0 +1,53 @@
+{
+  "minimum_continuous_stay": 4,
+  "visits": [
+    {
+      "visit_id": "V",
+      "region_id": "R",
+      "knots": [
+        {
+          "t": 0,
+          "x": -1,
+          "y": 5
+        },
+        {
+          "t": 12,
+          "x": 11,
+          "y": 5
+        }
+      ]
+    },
+    {
+      "visit_id": "EDGE",
+      "region_id": "R",
+      "knots": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "t": 5,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "visit_id": "HOLE_EDGE",
+      "region_id": "R",
+      "knots": [
+        {
+          "t": 0,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "t": 5,
+          "x": 4,
+          "y": 4
+        }
+      ]
+    }
+  ]
+}

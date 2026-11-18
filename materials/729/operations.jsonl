@@ -1,0 +1,4 @@
+{"op": "evaluate_visits", "file": "visits.json", "report_id": "R1"}
+{"op": "revise_region", "file": "revision.json"}
+{"op": "evaluate_visits", "file": "visits.json", "report_id": "R2"}
+{"op": "read_report", "report_id": "R1"}

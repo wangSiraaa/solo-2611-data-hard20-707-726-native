@@ -1,0 +1,20 @@
+{
+  "revision": "r2",
+  "region_id": "R",
+  "outer_rectangles": [
+    [
+      0,
+      0,
+      10,
+      10
+    ]
+  ],
+  "excluded_rectangles": [
+    [
+      3,
+      4,
+      7,
+      6
+    ]
+  ]
+}
