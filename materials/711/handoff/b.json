@@ -1,0 +1,15 @@
+{
+  "schema": "sealed-box/v1",
+  "seal_id": "SEAL_B_1",
+  "box_id": "BOX_B",
+  "rule_revision": "r1",
+  "capacity": 5,
+  "contents": [
+    {
+      "item_id": "I3",
+      "category": "B",
+      "weight": 4
+    }
+  ],
+  "total_weight": 4
+}

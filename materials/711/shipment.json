@@ -1,0 +1,8 @@
+{
+  "schema": "handoff-request/v1",
+  "shipment_id": "SHIP_1",
+  "manifest_files": [
+    "handoff/a.json",
+    "handoff/b.json"
+  ]
+}

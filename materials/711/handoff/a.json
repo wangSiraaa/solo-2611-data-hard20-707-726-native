@@ -1,0 +1,15 @@
+{
+  "schema": "sealed-box/v1",
+  "seal_id": "SEAL_A_1",
+  "box_id": "BOX_A",
+  "rule_revision": "r1",
+  "capacity": 3,
+  "contents": [
+    {
+      "item_id": "I1",
+      "category": "A",
+      "weight": 2
+    }
+  ],
+  "total_weight": 2
+}

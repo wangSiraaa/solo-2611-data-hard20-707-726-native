@@ -1,0 +1,100 @@
+{
+  "schema": "packing-seed/v1",
+  "catalog": {
+    "revision": "r1",
+    "incompatible_pairs": [
+      [
+        "A",
+        "B"
+      ],
+      [
+        "A",
+        "A"
+      ]
+    ]
+  },
+  "items": [
+    {
+      "item_id": "I1",
+      "category": "A",
+      "weight": 2
+    },
+    {
+      "item_id": "I2",
+      "category": "A",
+      "weight": 3
+    },
+    {
+      "item_id": "I3",
+      "category": "B",
+      "weight": 4
+    },
+    {
+      "item_id": "I4",
+      "category": "A",
+      "weight": 1
+    }
+  ],
+  "boxes": [
+    {
+      "box_id": "BOX_A",
+      "capacity": 3,
+      "status": "SEALED",
+      "seal_id": "SEAL_A_1",
+      "item_ids": [
+        "I1"
+      ]
+    },
+    {
+      "box_id": "BOX_B",
+      "capacity": 5,
+      "status": "SEALED",
+      "seal_id": "SEAL_B_1",
+      "item_ids": [
+        "I3"
+      ]
+    },
+    {
+      "box_id": "BOX_M",
+      "capacity": 6,
+      "status": "OPEN",
+      "item_ids": [
+        "I2",
+        "I4"
+      ]
+    }
+  ],
+  "trusted_seals": [
+    {
+      "schema": "sealed-box/v1",
+      "seal_id": "SEAL_A_1",
+      "box_id": "BOX_A",
+      "rule_revision": "r1",
+      "capacity": 3,
+      "contents": [
+        {
+          "item_id": "I1",
+          "category": "A",
+          "weight": 2
+        }
+      ],
+      "total_weight": 2
+    },
+    {
+      "schema": "sealed-box/v1",
+      "seal_id": "SEAL_B_1",
+      "box_id": "BOX_B",
+      "rule_revision": "r1",
+      "capacity": 5,
+      "contents": [
+        {
+          "item_id": "I3",
+          "category": "B",
+          "weight": 4
+        }
+      ],
+      "total_weight": 4
+    }
+  ],
+  "shipments": []
+}

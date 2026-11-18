@@ -1,0 +1,7 @@
+{"op": "receive", "file": "changed_shipment.json"}
+{"op": "seal", "box_id": "BOX_M", "expect": "reject_A_A"}
+{"op": "apply_revision", "file": "revision.json"}
+{"op": "seal", "box_id": "BOX_M"}
+{"op": "receive", "file": "shipment.json"}
+{"op": "receive", "file": "shipment.json"}
+{"op": "unseal", "box_id": "BOX_A", "expect": "reject_shipped"}

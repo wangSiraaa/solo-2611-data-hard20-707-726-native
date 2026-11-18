@@ -1,0 +1,7 @@
+{
+  "schema": "handoff-request/v1",
+  "shipment_id": "SHIP_BAD",
+  "manifest_files": [
+    "handoff/a_changed.json"
+  ]
+}

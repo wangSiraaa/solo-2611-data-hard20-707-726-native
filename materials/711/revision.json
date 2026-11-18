@@ -1,0 +1,9 @@
+{
+  "revision": "r2",
+  "incompatible_pairs": [
+    [
+      "A",
+      "B"
+    ]
+  ]
+}
