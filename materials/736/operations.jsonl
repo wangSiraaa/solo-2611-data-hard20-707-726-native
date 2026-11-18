@@ -1,0 +1,4 @@
+{"op": "verify", "report_id": "R1"}
+{"op": "withdraw_claims", "file": "correction.json"}
+{"op": "verify", "report_id": "R2"}
+{"op": "read_report", "report_id": "R1"}

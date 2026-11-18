@@ -1,0 +1,10 @@
+{
+  "check_id": "V",
+  "object_id": "O",
+  "required_location": "A",
+  "period": [
+    0,
+    20
+  ],
+  "minimum_continuous_proven_duration": 10
+}

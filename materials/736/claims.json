@@ -1,0 +1,31 @@
+{
+  "revision": "r1",
+  "object_id": "O",
+  "scope": [
+    0,
+    20
+  ],
+  "claims": [
+    {
+      "claim_id": "C1",
+      "source_id": "S1",
+      "start": 0,
+      "end": 10,
+      "location": "A"
+    },
+    {
+      "claim_id": "C2",
+      "source_id": "S2",
+      "start": 5,
+      "end": 15,
+      "location": "A"
+    },
+    {
+      "claim_id": "C3",
+      "source_id": "S3",
+      "start": 8,
+      "end": 12,
+      "location": "B"
+    }
+  ]
+}
