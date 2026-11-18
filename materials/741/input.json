@@ -1,0 +1,84 @@
+{
+  "operations": [
+    {
+      "op": "apply",
+      "label": "p1",
+      "parent": null,
+      "batch_id": "init",
+      "partitions": [
+        {
+          "day": 1,
+          "path": "day1-v1.jsonl",
+          "sha256": "2d094c43f53520d00657f6d898ff9ca52628b220148ceb9e52120e3e8ef253fa"
+        },
+        {
+          "day": 2,
+          "path": "day2-v1.jsonl",
+          "sha256": "6a43a3687a684059a9875aaf82862622d536eb293e50b965888002c9dd9caa09"
+        }
+      ]
+    },
+    {
+      "op": "report",
+      "product": "p1",
+      "report_id": "old"
+    },
+    {
+      "op": "apply_reject",
+      "parent": "p1",
+      "batch_id": "bad-move",
+      "partitions": [
+        {
+          "day": 2,
+          "path": "day2-v2.jsonl",
+          "sha256": "3e461e0b17b4107e93e261b20c2f521ce58471310ab815781d8fde3b090e6352"
+        }
+      ]
+    },
+    {
+      "op": "apply",
+      "label": "p2",
+      "parent": "p1",
+      "batch_id": "move",
+      "partitions": [
+        {
+          "day": 1,
+          "path": "day1-v2.jsonl",
+          "sha256": "59b90421e22c4a5aca6ceaad3c9bba4002625ba60895c9827dbee21c4360dd3f"
+        },
+        {
+          "day": 2,
+          "path": "day2-v2.jsonl",
+          "sha256": "3e461e0b17b4107e93e261b20c2f521ce58471310ab815781d8fde3b090e6352"
+        }
+      ]
+    },
+    {
+      "op": "report",
+      "product": "p2",
+      "report_id": "moved"
+    },
+    {
+      "op": "apply",
+      "label": "p3",
+      "parent": "p2",
+      "batch_id": "empty",
+      "partitions": [
+        {
+          "day": 1,
+          "path": "day1-empty.jsonl",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "op": "report",
+      "product": "p3",
+      "report_id": "after-empty"
+    },
+    {
+      "op": "read_report",
+      "report_id": "old"
+    }
+  ]
+}
