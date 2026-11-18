@@ -1,0 +1,5 @@
+{"operation":"reconcile_and_publish_shortage_basis","save_as":"B1"}
+{"operation":"revise_observation","observation":{"observation_id":"OB","revision":2,"node_id":"B","lower":3,"upper":4}}
+{"operation":"reconcile_and_publish_shortage_basis","save_as":"B2"}
+{"operation":"try_observation_batch","observations":[{"observation_id":"OB","revision":3,"node_id":"B","lower":3,"upper":3}],"expect":"inconsistent_no_formal_basis"}
+{"operation":"read_historical_basis","basis":"B1"}

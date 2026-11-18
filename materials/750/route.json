@@ -1,0 +1,32 @@
+{
+  "route_id": "TREE1",
+  "revision": 1,
+  "root": "R",
+  "dispatched": 10,
+  "nodes": [
+    "R",
+    "H",
+    "A",
+    "B"
+  ],
+  "edges": [
+    {
+      "edge_id": "RH",
+      "from": "R",
+      "to": "H",
+      "max_loss": 2
+    },
+    {
+      "edge_id": "HA",
+      "from": "H",
+      "to": "A",
+      "max_loss": 0
+    },
+    {
+      "edge_id": "HB",
+      "from": "H",
+      "to": "B",
+      "max_loss": 0
+    }
+  ]
+}
