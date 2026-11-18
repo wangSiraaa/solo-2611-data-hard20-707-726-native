@@ -1,0 +1,101 @@
+{
+  "batches": [
+    {
+      "batch_id": "b1",
+      "declarations": [
+        {
+          "local_id": "p",
+          "type": "person",
+          "business_key": "P1",
+          "name": "First",
+          "department": {
+            "local": "d"
+          }
+        },
+        {
+          "local_id": "d",
+          "type": "department",
+          "business_key": "D1",
+          "name": "One",
+          "leader": {
+            "local": "p"
+          }
+        }
+      ]
+    },
+    {
+      "batch_id": "b2",
+      "declarations": [
+        {
+          "local_id": "d",
+          "type": "department",
+          "business_key": "D2",
+          "name": "Two",
+          "leader": {
+            "local": "p"
+          }
+        },
+        {
+          "local_id": "p",
+          "type": "person",
+          "business_key": "P2",
+          "name": "Second",
+          "department": {
+            "local": "d"
+          }
+        }
+      ]
+    },
+    {
+      "batch_id": "bad",
+      "declarations": [
+        {
+          "local_id": "p",
+          "type": "person",
+          "business_key": "P-BAD",
+          "name": "Must not survive",
+          "department": {
+            "local": "nobody"
+          }
+        }
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "op": "import",
+      "batch_id": "b1"
+    },
+    {
+      "op": "import",
+      "batch_id": "b2"
+    },
+    {
+      "op": "import_reject",
+      "batch_id": "bad"
+    },
+    {
+      "op": "lookup",
+      "type": "person",
+      "business_key": "P-BAD"
+    },
+    {
+      "op": "set_department_leader",
+      "batch_id": "b3",
+      "department_business_key": "D1",
+      "leader_person_business_key": "P2"
+    },
+    {
+      "op": "read_department",
+      "business_key": "D1"
+    },
+    {
+      "op": "read_person",
+      "business_key": "P1"
+    },
+    {
+      "op": "replay",
+      "batch_id": "b1"
+    }
+  ]
+}
