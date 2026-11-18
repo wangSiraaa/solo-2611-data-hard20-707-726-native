@@ -1,0 +1,35 @@
+{
+  "revision": "r1",
+  "parts": [
+    {
+      "part_id": "A",
+      "active": true
+    },
+    {
+      "part_id": "B",
+      "active": true
+    },
+    {
+      "part_id": "C",
+      "active": true
+    }
+  ],
+  "contracts": [
+    {
+      "contract_id": "AB_DRY",
+      "version": 1,
+      "required_part": "A",
+      "actual_part": "B",
+      "environment": "dry",
+      "k": 2
+    },
+    {
+      "contract_id": "BC_DRY",
+      "version": 1,
+      "required_part": "B",
+      "actual_part": "C",
+      "environment": "dry",
+      "k": 1
+    }
+  ]
+}

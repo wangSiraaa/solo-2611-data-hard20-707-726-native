@@ -1,0 +1,13 @@
+{
+  "revision": "r2",
+  "contracts": [
+    {
+      "contract_id": "AB_DRY",
+      "version": 2,
+      "required_part": "A",
+      "actual_part": "B",
+      "environment": "dry",
+      "k": 3
+    }
+  ]
+}

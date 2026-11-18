@@ -1,0 +1,6 @@
+{"op": "apply_revision", "file": "revision.json"}
+{"op": "return", "return_id": "R_REST", "issue_id": "I_OLD", "lines": [{"line_id": "L1", "requirement_qty": 1}]}
+{"op": "issue", "issue_id": "I_OVER", "work_order_id": "W2", "lines": [{"line_id": "L1", "actual_part": "B", "requirement_qty": 2}, {"line_id": "L2", "actual_part": "B", "requirement_qty": 1}]}
+{"op": "issue", "issue_id": "I_NEW", "work_order_id": "W2", "lines": [{"line_id": "L1", "actual_part": "B", "requirement_qty": 2}]}
+{"op": "issue", "issue_id": "I_TRANSITIVE", "work_order_id": "W2", "lines": [{"line_id": "L2", "actual_part": "C", "requirement_qty": 1}]}
+{"op": "return", "return_id": "R_REST", "issue_id": "I_OLD", "lines": [{"line_id": "L1", "requirement_qty": 1}]}
