@@ -1,0 +1,63 @@
+{
+  "cargo_positions": [
+    {
+      "car_id": "V1",
+      "cargo_id": "C1",
+      "cargo_status": "LOADED",
+      "in_window": false,
+      "local_position": {
+        "d": 1,
+        "n": 2
+      },
+      "orientation": -1,
+      "x": {
+        "d": 1,
+        "n": 28
+      }
+    },
+    {
+      "car_id": "V2",
+      "cargo_id": "C2",
+      "cargo_status": "LOADED",
+      "in_window": false,
+      "local_position": {
+        "d": 1,
+        "n": 2
+      },
+      "orientation": -1,
+      "x": {
+        "d": 1,
+        "n": 18
+      }
+    },
+    {
+      "car_id": "V3",
+      "cargo_id": "C3",
+      "cargo_status": "LOADED",
+      "in_window": true,
+      "local_position": {
+        "d": 1,
+        "n": 2
+      },
+      "orientation": 1,
+      "x": {
+        "d": 1,
+        "n": 2
+      }
+    }
+  ],
+  "composition_version": "6eda132dfb6bcbbc2ac0093962abfb06352c874cb8a30fed474e1168d4fa7e62",
+  "report_id": "R2",
+  "schema": "platform-scan/v1",
+  "train_id": "T",
+  "window": {
+    "end": {
+      "d": 1,
+      "n": 5
+    },
+    "start": {
+      "d": 1,
+      "n": 0
+    }
+  }
+}
