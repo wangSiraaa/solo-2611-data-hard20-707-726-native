@@ -1,0 +1,12 @@
+{
+  "template_id": "T_FOOD",
+  "version": 2,
+  "spec": {
+    "skus": [
+      "A"
+    ],
+    "minimum": 1500,
+    "discount": 200,
+    "group": "FOOD"
+  }
+}

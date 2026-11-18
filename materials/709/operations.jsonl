@@ -1,0 +1,5 @@
+{"op": "revise_template", "file": "template_revision.json"}
+{"op": "redeem", "request_id": "R_NEW", "order_id": "O_NEW", "user_id": "U1", "lines": [{"sku": "A", "qty": 1, "unit_price": 600}, {"sku": "A", "qty": 1, "unit_price": 600}], "coupon_ids": ["I_FOOD", "I_SHIP"]}
+{"op": "cancel", "request_id": "R_CANCEL", "cancel_id": "C_OLD", "order_id": "O_OLD", "user_id": "U1"}
+{"op": "cancel", "request_id": "R_CANCEL", "cancel_id": "C_OLD", "order_id": "O_OLD", "user_id": "U1"}
+{"op": "redeem", "request_id": "R_MUTUAL", "order_id": "O_MUTUAL", "user_id": "U1", "lines": [{"sku": "A", "qty": 1, "unit_price": 2000}], "coupon_ids": ["I_FOOD", "I_ALT"]}
