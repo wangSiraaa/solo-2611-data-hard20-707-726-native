@@ -1,0 +1,117 @@
+{
+  "pieces": [
+    "U1",
+    "U2"
+  ],
+  "version1": [
+    {
+      "piece": "U1",
+      "cycle": "C1",
+      "from": 1,
+      "to": 10,
+      "cap": 2,
+      "stations": [
+        "bench"
+      ]
+    },
+    {
+      "piece": "U2",
+      "cycle": "D1",
+      "from": 1,
+      "to": 10,
+      "cap": 1,
+      "stations": [
+        "bench"
+      ]
+    }
+  ],
+  "version2_replace": [
+    {
+      "piece": "U2",
+      "cycle": "D1",
+      "from": 1,
+      "to": 8,
+      "cap": 1,
+      "stations": [
+        "bench"
+      ]
+    },
+    {
+      "piece": "U2",
+      "cycle": "D2",
+      "from": 8,
+      "to": 12,
+      "cap": 1,
+      "stations": [
+        "bench"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "batch": "H1",
+      "item": "A",
+      "day": 7,
+      "piece": "U1",
+      "cycle": "C1",
+      "uses": 1
+    },
+    {
+      "batch": "H2",
+      "item": "B",
+      "day": 7,
+      "piece": "U2",
+      "cycle": "D1",
+      "uses": 1
+    }
+  ],
+  "batches": [
+    {
+      "batch": "B1",
+      "day": 8,
+      "station": "bench",
+      "items": [
+        {
+          "id": "T1",
+          "piece": "U1"
+        },
+        {
+          "id": "T2",
+          "piece": "U1"
+        }
+      ]
+    },
+    {
+      "batch": "B2",
+      "day": 8,
+      "station": "bench",
+      "items": [
+        {
+          "id": "T3",
+          "piece": "U1"
+        },
+        {
+          "id": "T4",
+          "piece": "U2"
+        }
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "id": "A1",
+      "batch": "B1",
+      "catalog": "v1"
+    },
+    {
+      "id": "A2",
+      "batch": "B2",
+      "catalog": "v1"
+    },
+    {
+      "id": "A3",
+      "batch": "B2",
+      "catalog": "v2"
+    }
+  ]
+}
