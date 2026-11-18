@@ -1,0 +1,82 @@
+{
+  "station": "W",
+  "opening": [
+    [
+      0,
+      50
+    ],
+    [
+      45,
+      60
+    ]
+  ],
+  "offline": [
+    [
+      42,
+      44
+    ]
+  ],
+  "catalogs": [
+    {
+      "revision": "v1",
+      "setup": {
+        "blue": {
+          "blue": 0,
+          "green": 4
+        },
+        "green": {
+          "blue": 8,
+          "green": 0
+        }
+      }
+    },
+    {
+      "revision": "v2",
+      "setup": {
+        "blue": {
+          "blue": 0,
+          "green": 4
+        },
+        "green": {
+          "blue": 7,
+          "green": 0
+        }
+      }
+    }
+  ],
+  "committed": [
+    {
+      "id": "L",
+      "tooling": "blue",
+      "start": 0,
+      "end": 10
+    },
+    {
+      "id": "R",
+      "tooling": "blue",
+      "start": 30,
+      "end": 40
+    }
+  ],
+  "candidate": {
+    "id": "G",
+    "station": "W",
+    "tooling": "green",
+    "start": 15,
+    "end": 23
+  },
+  "operations": [
+    {
+      "request_id": "J1",
+      "catalog": "v1",
+      "action": "insert",
+      "candidate": "G"
+    },
+    {
+      "request_id": "J2",
+      "catalog": "v2",
+      "action": "insert",
+      "candidate": "G"
+    }
+  ]
+}
