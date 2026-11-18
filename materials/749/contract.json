@@ -1,0 +1,10 @@
+{
+  "contract_id": "K1",
+  "revision": 1,
+  "excluded_reasons": [
+    "WEATHER"
+  ],
+  "free_minutes": 120,
+  "block_minutes": 60,
+  "rate_cents": 100
+}

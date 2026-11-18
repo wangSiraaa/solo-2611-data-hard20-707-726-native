@@ -1,0 +1,5 @@
+{"operation":"issue_statement","job_id":"J1","save_as":"S1"}
+{"operation":"revise_stop","evidence":{"evidence_id":"W2","revision":2,"job_id":"J1","start":120,"end":240,"reason":"WEATHER"}}
+{"operation":"recalculate_and_issue_adjustment","previous_statement":"S1","save_as":"A1"}
+{"operation":"recalculate_and_issue_adjustment","previous_statement":"S1","expect":"same_adjustment_not_duplicate"}
+{"operation":"read_old_statement","statement":"S1"}
