@@ -1,0 +1,110 @@
+{
+  "initial": {
+    "R": [
+      {
+        "tuple": [
+          "east",
+          "A",
+          2
+        ],
+        "multiplicity": 2
+      },
+      {
+        "tuple": [
+          "east",
+          "Q",
+          1
+        ],
+        "multiplicity": 1
+      }
+    ],
+    "S": [
+      {
+        "tuple": [
+          "A",
+          "v",
+          3
+        ],
+        "multiplicity": 1
+      }
+    ]
+  },
+  "batches": [
+    {
+      "batch_id": "b2",
+      "changes": [
+        {
+          "source": "S",
+          "tuple": [
+            "A",
+            "v",
+            3
+          ],
+          "delta": -1
+        },
+        {
+          "source": "S",
+          "tuple": [
+            "A",
+            "w",
+            4
+          ],
+          "delta": 1
+        },
+        {
+          "source": "R",
+          "tuple": [
+            "east",
+            "A",
+            2
+          ],
+          "delta": 1
+        }
+      ]
+    },
+    {
+      "batch_id": "b3",
+      "changes": [
+        {
+          "source": "S",
+          "tuple": [
+            "A",
+            "w",
+            4
+          ],
+          "delta": -1
+        }
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "op": "derive",
+      "result_id": "initial"
+    },
+    {
+      "op": "apply",
+      "batch_id": "b2"
+    },
+    {
+      "op": "derive",
+      "result_id": "after-b2"
+    },
+    {
+      "op": "apply",
+      "batch_id": "b3"
+    },
+    {
+      "op": "derive",
+      "result_id": "after-b3"
+    },
+    {
+      "op": "read_result",
+      "result_id": "initial"
+    },
+    {
+      "op": "replay",
+      "batch_id": "b2"
+    }
+  ]
+}
