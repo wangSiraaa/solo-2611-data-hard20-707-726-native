@@ -1,0 +1,6 @@
+{"operation":"publish","publication_id":"v1","cut":"initial"}
+{"operation":"apply","cut":"revision-2","facts":[{"fact_id":"f-BX","revision":2,"row_id":"B","column_id":"X","quantity":"3/2"}]}
+{"operation":"publish","publication_id":"v2","cut":"revision-2"}
+{"operation":"read_publication","publication_id":"v1"}
+{"operation":"apply","cut":"revision-3","facts":[{"fact_id":"f-BX","revision":3,"row_id":"B","column_id":"X","quantity":"7/4"}]}
+{"operation":"publish","publication_id":"wrong-margins","cut":"revision-3"}

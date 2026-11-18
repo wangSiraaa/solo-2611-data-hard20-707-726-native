@@ -1,0 +1,10 @@
+{
+  "rows": ["A", "B"],
+  "columns": ["X", "Y"],
+  "facts": [
+    {"fact_id": "f-AX", "revision": 1, "row_id": "A", "column_id": "X", "quantity": "3/2"},
+    {"fact_id": "f-AY", "revision": 1, "row_id": "A", "column_id": "Y", "quantity": "1/2"},
+    {"fact_id": "f-BX", "revision": 1, "row_id": "B", "column_id": "X", "quantity": "1/2"},
+    {"fact_id": "f-BY", "revision": 1, "row_id": "B", "column_id": "Y", "quantity": "3/2"}
+  ]
+}
