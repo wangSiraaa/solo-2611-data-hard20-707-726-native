@@ -1,0 +1,4 @@
+{"operation":"publish_scale","scale_id":"A","version":2,"missing_weight_limit":1,"entries":[{"question_id":"Q1","weight":2,"reverse":true},{"question_id":"Q2","weight":1,"reverse":false}]}
+{"operation":"revise_answers","respondent_id":"U1","revision":2,"answers":{"Q1":4,"Q2":"MISSING"}}
+{"operation":"publish_score","respondent_id":"U1","answer_revision":2,"scale_id":"A","scale_version":2}
+{"operation":"publish_score","respondent_id":"U1","answer_revision":2,"scale_id":"B","scale_version":1}

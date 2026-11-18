@@ -1,0 +1,67 @@
+{
+  "format": "scale-catalog-legacy/1",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "min": 1,
+      "max": 5
+    },
+    {
+      "question_id": "Q2",
+      "min": 0,
+      "max": 2
+    }
+  ],
+  "scales": [
+    {
+      "scale_id": "A",
+      "version": 1,
+      "missing_weight_limit": 1,
+      "entries": [
+        {
+          "question_id": "Q1",
+          "weight": 2,
+          "reverse": false
+        },
+        {
+          "question_id": "Q2",
+          "weight": 1,
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "scale_id": "B",
+      "version": 1,
+      "missing_weight_limit": 0,
+      "entries": [
+        {
+          "question_id": "Q1",
+          "weight": 1,
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "scale_id": "C",
+      "version": 1,
+      "missing_weight_limit": 3,
+      "entries": [
+        {
+          "question_id": "Q1",
+          "weight": 2,
+          "reverse": false
+        },
+        {
+          "question_id": "Q2",
+          "weight": 1,
+          "reverse": false
+        }
+      ]
+    }
+  ],
+  "direction_cache_by_question": {
+    "Q1": false,
+    "Q2": true
+  }
+}

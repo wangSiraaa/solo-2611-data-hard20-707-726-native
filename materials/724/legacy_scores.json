@@ -1,0 +1,31 @@
+{
+  "format": "published-scores/1",
+  "report_id": "HIST_SCORE_001",
+  "scoring_contract": "legacy-shared-direction",
+  "scores": [
+    {
+      "respondent_id": "U1",
+      "answer_revision": 1,
+      "scale_id": "A",
+      "scale_version": 1,
+      "eligible": true,
+      "weighted_sum": 10,
+      "answered_weight": 2,
+      "min_total": 10,
+      "max_total": 12,
+      "mean": "5/1"
+    },
+    {
+      "respondent_id": "U1",
+      "answer_revision": 1,
+      "scale_id": "B",
+      "scale_version": 1,
+      "eligible": true,
+      "weighted_sum": 5,
+      "answered_weight": 1,
+      "min_total": 5,
+      "max_total": 5,
+      "mean": "5/1"
+    }
+  ]
+}
