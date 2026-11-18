@@ -1,0 +1,7 @@
+{
+  "schema": "export-booking/v1",
+  "reservations": [
+    {"id": "old-A", "route": "A", "start": 10, "end": 20, "rate": 4},
+    {"id": "old-B", "route": "B", "start": 20, "end": 24, "rate": 4}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "schema": "route-capacity/v1",
+  "routes": [
+    {"route": "A", "rate": 6},
+    {"route": "B", "rate": 6}
+  ]
+}

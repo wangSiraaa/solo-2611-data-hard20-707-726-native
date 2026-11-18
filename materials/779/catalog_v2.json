@@ -1,0 +1,14 @@
+{
+  "schema": "route-capacity/v2",
+  "routes": [
+    {"route": "A", "rate": 6},
+    {"route": "B", "rate": 6}
+  ],
+  "shared_groups": [
+    {
+      "group_id": "AB",
+      "routes": ["A", "B"],
+      "limits": [[0, 14, 7], [14, 1440, 6]]
+    }
+  ]
+}
