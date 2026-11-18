@@ -1,0 +1,45 @@
+{
+  "batch_id": "b1",
+  "threshold": {
+    "project": "p",
+    "revision": 1,
+    "value": "5"
+  },
+  "measurements": [
+    {
+      "sample_id": "s1",
+      "project": "p",
+      "revision": 1,
+      "observation": {
+        "kind": "LT",
+        "upper": "5"
+      }
+    },
+    {
+      "sample_id": "s2",
+      "project": "p",
+      "revision": 1,
+      "observation": {
+        "kind": "EXACT",
+        "value": "5"
+      }
+    },
+    {
+      "sample_id": "s3",
+      "project": "p",
+      "revision": 1,
+      "observation": {
+        "kind": "GT",
+        "lower": "5"
+      }
+    },
+    {
+      "sample_id": "s4",
+      "project": "p",
+      "revision": 1,
+      "observation": {
+        "kind": "MISSING"
+      }
+    }
+  ]
+}

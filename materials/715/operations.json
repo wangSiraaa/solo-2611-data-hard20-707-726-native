@@ -1,0 +1,65 @@
+{
+  "operations": [
+    {
+      "op": "report",
+      "report_id": "r1",
+      "batch_id": "b1",
+      "project": "p",
+      "threshold_revision": 1
+    },
+    {
+      "op": "import_measurements",
+      "records": [
+        {
+          "sample_id": "s3",
+          "project": "p",
+          "revision": 2,
+          "observation": {
+            "kind": "EXACT",
+            "value": "7"
+          }
+        }
+      ]
+    },
+    {
+      "op": "threshold",
+      "project": "p",
+      "revision": 2,
+      "value": "6"
+    },
+    {
+      "op": "report",
+      "report_id": "r2",
+      "batch_id": "b1",
+      "project": "p",
+      "threshold_revision": 2
+    },
+    {
+      "op": "read_report",
+      "report_id": "r1"
+    },
+    {
+      "op": "import_measurements",
+      "records": [
+        {
+          "sample_id": "s1",
+          "project": "p",
+          "revision": 2,
+          "observation": {
+            "kind": "LT",
+            "upper": "0"
+          }
+        },
+        {
+          "sample_id": "s2",
+          "project": "p",
+          "revision": 2,
+          "observation": {
+            "kind": "EXACT",
+            "value": "1"
+          }
+        }
+      ]
+    }
+  ]
+}
