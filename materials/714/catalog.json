@@ -1,0 +1,31 @@
+{
+  "sales": [
+    {
+      "sale_id": "s-A",
+      "serial": "A",
+      "product": "pump",
+      "sold_day": 100,
+      "warranty_days": 10
+    }
+  ],
+  "replacements": [
+    {
+      "replacement_id": "r-CD",
+      "old": "C",
+      "new": "D",
+      "day": 108
+    },
+    {
+      "replacement_id": "r-BC",
+      "old": "B",
+      "new": "C",
+      "day": 104
+    },
+    {
+      "replacement_id": "r-AB",
+      "old": "A",
+      "new": "B",
+      "day": 104
+    }
+  ]
+}

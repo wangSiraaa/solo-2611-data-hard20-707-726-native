@@ -1,0 +1,74 @@
+{
+  "operations": [
+    {
+      "op": "query",
+      "serial": "A",
+      "day": 103
+    },
+    {
+      "op": "query",
+      "serial": "A",
+      "day": 104
+    },
+    {
+      "op": "claim",
+      "claim_id": "late-C",
+      "serial": "C",
+      "fault_day": 105,
+      "submitted_day": 112
+    },
+    {
+      "op": "confirm",
+      "claim_id": "late-C",
+      "new_serial": "X",
+      "day": 112
+    },
+    {
+      "op": "claim",
+      "claim_id": "d-one",
+      "serial": "D",
+      "fault_day": 109,
+      "submitted_day": 112
+    },
+    {
+      "op": "claim",
+      "claim_id": "d-two",
+      "serial": "D",
+      "fault_day": 109,
+      "submitted_day": 112
+    },
+    {
+      "op": "confirm_competition",
+      "claims": [
+        "d-one",
+        "d-two"
+      ],
+      "new_serials": [
+        "E",
+        "F"
+      ],
+      "day": 112
+    },
+    {
+      "op": "import",
+      "batch": {
+        "sales": [],
+        "replacements": [
+          {
+            "replacement_id": "bad-fork",
+            "old": "A",
+            "new": "Z",
+            "day": 105
+          }
+        ]
+      }
+    },
+    {
+      "op": "claim",
+      "claim_id": "expired-D",
+      "serial": "D",
+      "fault_day": 110,
+      "submitted_day": 112
+    }
+  ]
+}
