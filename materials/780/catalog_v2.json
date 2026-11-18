@@ -1,0 +1,11 @@
+{
+  "schema": "bench-calibration/v2",
+  "revision": "repair-2",
+  "defaults": [
+    {"station": "left", "calibration_id": "L-default", "offset": 1},
+    {"station": "right", "calibration_id": "R-default", "offset": 0}
+  ],
+  "corrections": [
+    {"station": "left", "calibration_id": "L-window", "start": 10, "end": 20, "offset": 5}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "kit-release/v1",
+  "releases": [
+    {
+      "id": "released-0",
+      "lot": "K0",
+      "members": ["archive-L", "archive-R"],
+      "values": [10, 11],
+      "catalog_revision": "base-0"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "schema": "bench-calibration/v1",
+  "revision": "base-1",
+  "defaults": [
+    {"station": "left", "calibration_id": "L-default", "offset": 1},
+    {"station": "right", "calibration_id": "R-default", "offset": 0}
+  ]
+}

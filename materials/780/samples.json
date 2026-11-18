@@ -1,0 +1,8 @@
+{
+  "samples": [
+    {"id": "L-in", "lot": "K1", "station": "left", "minute": 12, "raw": 10},
+    {"id": "R-in", "lot": "K1", "station": "right", "minute": 16, "raw": 12},
+    {"id": "L-edge", "lot": "K2", "station": "left", "minute": 20, "raw": 10},
+    {"id": "R-edge", "lot": "K2", "station": "right", "minute": 20, "raw": 12}
+  ]
+}
