@@ -1,0 +1,122 @@
+{
+  "people": [
+    "u"
+  ],
+  "window": {
+    "id": "W1",
+    "limit": 2
+  },
+  "catalogs": [
+    {
+      "id": "v1",
+      "aliases": [],
+      "mute": [],
+      "events": [
+        {
+          "recipient": "u",
+          "topic": "t1",
+          "seq": 1,
+          "subscribe": true
+        },
+        {
+          "recipient": "u",
+          "topic": "t2",
+          "seq": 2,
+          "subscribe": true
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "parent": "v1",
+      "aliases": [
+        {
+          "from": "t2",
+          "to": "t1"
+        }
+      ],
+      "mute": [
+        "u"
+      ]
+    },
+    {
+      "id": "v3",
+      "parent": "v2",
+      "mute": []
+    }
+  ],
+  "topics": [
+    "t1",
+    "t2"
+  ],
+  "messages": [
+    {
+      "message_id": "m1",
+      "story_id": "s1",
+      "topic": "t1",
+      "window": "W1",
+      "priority": 9
+    },
+    {
+      "message_id": "m2",
+      "story_id": "s1",
+      "topic": "t2",
+      "window": "W1",
+      "priority": 8
+    },
+    {
+      "message_id": "m3",
+      "story_id": "s2",
+      "topic": "t2",
+      "window": "W1",
+      "priority": 7
+    }
+  ],
+  "history_v1": [
+    {
+      "recipient": "u",
+      "window": "W1",
+      "message_id": "old1",
+      "story_id": "s0",
+      "status": "sent"
+    }
+  ],
+  "history_v3": {
+    "replace_quota_state": [
+      {
+        "recipient": "u",
+        "window": "W1",
+        "message_id": "external1",
+        "story_id": "s1",
+        "status": "confirmed"
+      }
+    ]
+  },
+  "operations": [
+    {
+      "action": "preview",
+      "id": "P1",
+      "catalog": "v1",
+      "history": "history_v1"
+    },
+    {
+      "action": "confirm_original",
+      "id": "C1",
+      "preview": "P1",
+      "catalog": "v2",
+      "history": "history_v1"
+    },
+    {
+      "action": "preview",
+      "id": "P2",
+      "catalog": "v2",
+      "history": "history_v1"
+    },
+    {
+      "action": "preview_and_confirm",
+      "id": "P3",
+      "catalog": "v3",
+      "history": "history_v3"
+    }
+  ]
+}
