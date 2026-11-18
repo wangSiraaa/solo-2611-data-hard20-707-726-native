@@ -1,0 +1,5 @@
+{"op": "cut", "cut_id": "C1", "piece_id": "P0", "expected_revision": 1, "u": 30, "left_child": "L1", "right_child": "R1"}
+{"op": "flip", "piece_id": "R1", "expected_revision": 1}
+{"op": "cut", "cut_id": "C2", "piece_id": "R1", "expected_revision": 2, "u": 20, "left_child": "L2", "right_child": "R2"}
+{"op": "deliver", "delivery_id": "D1", "piece_id": "L2", "required_length": 20}
+{"op": "replay", "cut_id": "C2"}

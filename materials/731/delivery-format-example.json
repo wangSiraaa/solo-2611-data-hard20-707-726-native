@@ -1,0 +1,10 @@
+{
+  "schema": "piece-delivery/v1",
+  "delivery_id": "FORMAT_ONLY",
+  "piece_id": "EXAMPLE",
+  "root_id": "EXAMPLE",
+  "root_lo": 0,
+  "root_hi": 5,
+  "orientation": 1,
+  "length": 5
+}

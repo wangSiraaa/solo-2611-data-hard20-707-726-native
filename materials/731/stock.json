@@ -1,0 +1,22 @@
+{
+  "roots": [
+    {
+      "root_id": "ROOT",
+      "length": 100
+    }
+  ],
+  "active_pieces": [
+    {
+      "piece_id": "P0",
+      "root_id": "ROOT",
+      "root_lo": 0,
+      "root_hi": 100,
+      "orientation": 1,
+      "revision": 1
+    }
+  ],
+  "tool": {
+    "tool_id": "SAW",
+    "kerf": 2
+  }
+}
