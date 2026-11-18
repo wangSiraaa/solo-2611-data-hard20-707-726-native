@@ -1,0 +1,28 @@
+{
+  "document_id": "DOC1",
+  "document_revision": 1,
+  "query_day": 20,
+  "slots": [
+    {
+      "slot_id": "A",
+      "stage": "AUTHORING",
+      "allowed_roles": [
+        "AUTHOR"
+      ]
+    },
+    {
+      "slot_id": "R",
+      "stage": "REVIEW",
+      "allowed_roles": [
+        "REVIEWER"
+      ]
+    },
+    {
+      "slot_id": "P",
+      "stage": "APPROVAL",
+      "allowed_roles": [
+        "APPROVER"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "revision": 1,
+  "assignments": [
+    {
+      "person_id": "P1",
+      "role": "AUTHOR",
+      "start": 0,
+      "end": 100
+    },
+    {
+      "person_id": "P1",
+      "role": "REVIEWER",
+      "start": 0,
+      "end": 100
+    },
+    {
+      "person_id": "P2",
+      "role": "AUTHOR",
+      "start": 0,
+      "end": 100
+    },
+    {
+      "person_id": "P3",
+      "role": "APPROVER",
+      "start": 0,
+      "end": 100
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{"operation":"prepare_and_publish","save_as":"PUB1"}
+{"operation":"revise_signature","signature":{"signature_id":"E2","revision":2,"person_id":"P2","role":"AUTHOR","stage":"AUTHORING","document_id":"DOC1","document_revision":1,"day":10,"revoked":true}}
+{"operation":"check_and_try_publish","expect":"no_complete_matching"}
+{"operation":"read_historical","publication":"PUB1"}

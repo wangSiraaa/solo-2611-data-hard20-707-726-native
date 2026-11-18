@@ -1,0 +1,4 @@
+{"signature_id":"E1","revision":1,"person_id":"P1","role":"AUTHOR","stage":"AUTHORING","document_id":"DOC1","document_revision":1,"day":10,"revoked":false}
+{"signature_id":"E2","revision":1,"person_id":"P2","role":"AUTHOR","stage":"AUTHORING","document_id":"DOC1","document_revision":1,"day":10,"revoked":false}
+{"signature_id":"E3","revision":1,"person_id":"P1","role":"REVIEWER","stage":"REVIEW","document_id":"DOC1","document_revision":1,"day":11,"revoked":false}
+{"signature_id":"E4","revision":1,"person_id":"P3","role":"APPROVER","stage":"APPROVAL","document_id":"DOC1","document_revision":1,"day":12,"revoked":false}
