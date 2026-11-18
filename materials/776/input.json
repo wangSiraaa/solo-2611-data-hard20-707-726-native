@@ -1,0 +1,86 @@
+{
+  "template_instances_for_each_day": [
+    {
+      "template_id": "A",
+      "origin": "O",
+      "destination": "H",
+      "departure": 1430,
+      "arrival": 1441
+    },
+    {
+      "template_id": "B",
+      "origin": "O",
+      "destination": "H",
+      "departure": 1435,
+      "arrival": 1447
+    },
+    {
+      "template_id": "D",
+      "origin": "H",
+      "destination": "Z",
+      "departure": 1449,
+      "arrival": 1455
+    },
+    {
+      "template_id": "C",
+      "origin": "H",
+      "destination": "Z",
+      "departure": 1452,
+      "arrival": 1460
+    }
+  ],
+  "service_days": [
+    100,
+    101
+  ],
+  "query_defaults": {
+    "origin": "O",
+    "via": "H",
+    "destination": "Z",
+    "depart_between_offsets_inclusive": [
+      1429,
+      1440
+    ],
+    "latest_arrival_offset": 1470,
+    "wait_range": [
+      4,
+      6
+    ]
+  },
+  "operations": [
+    {
+      "action": "release",
+      "request_id": "P1",
+      "revision": "v1",
+      "service_day": 100
+    },
+    {
+      "action": "replace_instance",
+      "revision": "v2",
+      "instance": {
+        "template_id": "C",
+        "service_day": 100,
+        "origin": "H",
+        "destination": "Z",
+        "departure": 1454,
+        "arrival": 1462
+      }
+    },
+    {
+      "action": "release",
+      "request_id": "P2",
+      "revision": "v2",
+      "service_day": 100
+    },
+    {
+      "action": "release",
+      "request_id": "P3",
+      "revision": "v2",
+      "service_day": 101
+    },
+    {
+      "action": "read",
+      "request_id": "P1"
+    }
+  ]
+}
