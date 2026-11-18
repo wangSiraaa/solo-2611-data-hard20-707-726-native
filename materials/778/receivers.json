@@ -1,0 +1,4 @@
+{
+  "East": {"origin_min":0, "origin_max":20, "steps":[1,2,3,6], "tick_max":2},
+  "West": {"origin_min":0, "origin_max":20, "steps":[1,2,3,6], "tick_max":2}
+}

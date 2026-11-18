@@ -1,0 +1,11 @@
+{
+  "revision": 1,
+  "positions": [
+    {"sample":"L0", "mm":0},
+    {"sample":"L2", "mm":2},
+    {"sample":"A0", "mm":12},
+    {"sample":"A1", "mm":18},
+    {"sample":"B0", "mm":14},
+    {"sample":"B1", "mm":20}
+  ]
+}
