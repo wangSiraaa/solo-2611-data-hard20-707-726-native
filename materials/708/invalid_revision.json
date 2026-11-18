@@ -1,0 +1,21 @@
+{
+  "revision": "bad",
+  "operations": [
+    {
+      "op": "upsert",
+      "edge": {
+        "edge_id": "E_CF",
+        "from": "C",
+        "to": "F",
+        "a": {
+          "n": 9,
+          "d": 5
+        },
+        "b": {
+          "n": 31,
+          "d": 1
+        }
+      }
+    }
+  ]
+}

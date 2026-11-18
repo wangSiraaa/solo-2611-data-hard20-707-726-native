@@ -1,0 +1,41 @@
+{
+  "revision": "r2",
+  "operations": [
+    {
+      "op": "upsert",
+      "edge": {
+        "edge_id": "E_CF",
+        "from": "C",
+        "to": "F",
+        "a": {
+          "n": 9,
+          "d": 5
+        },
+        "b": {
+          "n": 30,
+          "d": 1
+        }
+      }
+    },
+    {
+      "op": "delete",
+      "edge_id": "E_KF"
+    },
+    {
+      "op": "upsert",
+      "edge": {
+        "edge_id": "E_KF2",
+        "from": "K",
+        "to": "F",
+        "a": {
+          "n": 9,
+          "d": 5
+        },
+        "b": {
+          "n": -46167,
+          "d": 100
+        }
+      }
+    }
+  ]
+}

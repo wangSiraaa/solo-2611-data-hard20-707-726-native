@@ -1,0 +1,15 @@
+{
+  "schema": "measurement-report/v1",
+  "evaluations": [
+    {
+      "evaluation_id": "EXAMPLE",
+      "measurement_id": "EXAMPLE",
+      "directory_revision": "format-only",
+      "converted_value": {
+        "n": 3,
+        "d": 2
+      },
+      "passed": true
+    }
+  ]
+}

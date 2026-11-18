@@ -1,0 +1,5 @@
+{"op": "evaluate", "file": "measurements.json", "report": "r1-report.json"}
+{"op": "apply_revision", "file": "revision.json"}
+{"op": "evaluate", "file": "measurements.json", "report": "r2-report.json"}
+{"op": "apply_revision", "file": "invalid_revision.json", "expect": "reject_without_change"}
+{"op": "read_old_report", "report": "r1-report.json"}

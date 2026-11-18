@@ -1,0 +1,71 @@
+{
+  "revision": "r1",
+  "quantities": [
+    {
+      "quantity_id": "TEMP",
+      "allowed_kinds": [
+        "absolute",
+        "difference"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "unit_id": "C",
+      "quantity_id": "TEMP"
+    },
+    {
+      "unit_id": "F",
+      "quantity_id": "TEMP"
+    },
+    {
+      "unit_id": "K",
+      "quantity_id": "TEMP"
+    },
+    {
+      "unit_id": "U",
+      "quantity_id": "TEMP"
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "E_CF",
+      "from": "C",
+      "to": "F",
+      "a": {
+        "n": 9,
+        "d": 5
+      },
+      "b": {
+        "n": 32,
+        "d": 1
+      }
+    },
+    {
+      "edge_id": "E_KC",
+      "from": "K",
+      "to": "C",
+      "a": {
+        "n": 1,
+        "d": 1
+      },
+      "b": {
+        "n": -5463,
+        "d": 20
+      }
+    },
+    {
+      "edge_id": "E_KF",
+      "from": "K",
+      "to": "F",
+      "a": {
+        "n": 9,
+        "d": 5
+      },
+      "b": {
+        "n": -45967,
+        "d": 100
+      }
+    }
+  ]
+}

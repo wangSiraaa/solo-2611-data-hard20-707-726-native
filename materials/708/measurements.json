@@ -1,0 +1,58 @@
+{
+  "specifications": [
+    {
+      "spec_id": "S_ABS",
+      "quantity_id": "TEMP",
+      "kind": "absolute",
+      "unit_id": "F",
+      "lo": {
+        "n": 121,
+        "d": 1
+      },
+      "hi": {
+        "n": 123,
+        "d": 1
+      }
+    },
+    {
+      "spec_id": "S_DIFF",
+      "quantity_id": "TEMP",
+      "kind": "difference",
+      "unit_id": "F",
+      "lo": {
+        "n": 18,
+        "d": 1
+      },
+      "hi": {
+        "n": 18,
+        "d": 1
+      }
+    }
+  ],
+  "measurements": [
+    {
+      "measurement_id": "M_ABS",
+      "sample_id": "A",
+      "spec_id": "S_ABS",
+      "quantity_id": "TEMP",
+      "kind": "absolute",
+      "unit_id": "C",
+      "value": {
+        "n": 50,
+        "d": 1
+      }
+    },
+    {
+      "measurement_id": "M_DIFF",
+      "sample_id": "A",
+      "spec_id": "S_DIFF",
+      "quantity_id": "TEMP",
+      "kind": "difference",
+      "unit_id": "C",
+      "value": {
+        "n": 10,
+        "d": 1
+      }
+    }
+  ]
+}
