@@ -1,0 +1,79 @@
+{
+  "records": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "v1": [
+    {
+      "id": "pAB",
+      "revision": 1,
+      "endpoints": [
+        "B",
+        "A"
+      ],
+      "kind": "CANDIDATE",
+      "priority": 90
+    },
+    {
+      "id": "pBC",
+      "revision": 1,
+      "endpoints": [
+        "B",
+        "C"
+      ],
+      "kind": "CANDIDATE",
+      "priority": 80
+    },
+    {
+      "id": "pCD",
+      "revision": 1,
+      "endpoints": [
+        "D",
+        "C"
+      ],
+      "kind": "CANDIDATE",
+      "priority": 70
+    },
+    {
+      "id": "sAC",
+      "revision": 1,
+      "endpoints": [
+        "A",
+        "C"
+      ],
+      "kind": "SEPARATE"
+    }
+  ],
+  "v2_changes": [
+    {
+      "id": "sAC",
+      "revision": 2,
+      "withdraw": true
+    }
+  ],
+  "operations": [
+    {
+      "id": "P1",
+      "op": "publish",
+      "version": "v1"
+    },
+    {
+      "id": "P2",
+      "op": "publish",
+      "version": "v2"
+    },
+    {
+      "op": "check_same_cluster",
+      "members": [
+        "B",
+        "D"
+      ],
+      "publications": [
+        "P1",
+        "P2"
+      ]
+    }
+  ]
+}
