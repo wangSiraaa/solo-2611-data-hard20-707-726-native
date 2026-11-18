@@ -1,0 +1,16 @@
+{
+  "document":{"id":"D","revision":1,"text":"开🧭始\r\n甲乙终"},
+  "labels":{
+    "Q1":{"unit":"UTF16_UNIT","start":0,"end":4},
+    "Q2":{"unit":"UTF8_BYTE","start":12,"end":21},
+    "Q3":{"unit":"UTF8_BYTE","start":18,"end":21},
+    "P1":{"unit":"UTF16_UNIT","start":7,"end":8},
+    "P2":{"unit":"UTF8_BYTE","start":12,"end":18}
+  },
+  "bad_anchor":{"unit":"UTF16_UNIT","start":2,"end":3},
+  "requests":[
+    {"package_id":"E1","context":{"unit":"UTF16_UNIT","start":0,"end":9},"required":["Q1","Q2"],"protected":["P1"]},
+    {"package_id":"E2","context":{"unit":"UTF16_UNIT","start":0,"end":9},"required":["Q1","Q3"],"protected":["P1"]},
+    {"package_id":"E3","context":{"unit":"UTF16_UNIT","start":0,"end":9},"required":["Q1","Q3"],"protected":["P2"]}
+  ]
+}
