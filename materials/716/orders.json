@@ -1,0 +1,25 @@
+{
+  "orders": [
+    {
+      "order_id": "o-1",
+      "grade": "gold",
+      "lines": [
+        {
+          "line_id": "left",
+          "sku": "A",
+          "quantity": 2
+        },
+        {
+          "line_id": "right",
+          "sku": "A",
+          "quantity": 3
+        },
+        {
+          "line_id": "side",
+          "sku": "B",
+          "quantity": 2
+        }
+      ]
+    }
+  ]
+}

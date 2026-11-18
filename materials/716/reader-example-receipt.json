@@ -1,0 +1,20 @@
+{
+  "format": "order-receipt/v1",
+  "order_id": "reader-example",
+  "grade": "gold",
+  "catalog_version": 1,
+  "total_amount": 6,
+  "lines": [
+    {
+      "line_id": "only",
+      "sku": "S",
+      "quantity": 2,
+      "total_sku_quantity": 2,
+      "unit_price": 3,
+      "amount": 6,
+      "price_ids": [
+        "published-p"
+      ]
+    }
+  ]
+}

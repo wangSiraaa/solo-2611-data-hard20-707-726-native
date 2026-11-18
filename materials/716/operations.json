@@ -1,0 +1,28 @@
+{
+  "operations": [
+    {
+      "op": "submit",
+      "order_id": "o-1"
+    },
+    {
+      "op": "revise_price",
+      "catalog_version": 2,
+      "price_id": "b-high",
+      "unit_price": 200
+    },
+    {
+      "op": "retry",
+      "order_id": "o-1"
+    },
+    {
+      "op": "revise_price",
+      "catalog_version": 3,
+      "price_id": "a-base",
+      "unit_price": 120
+    },
+    {
+      "op": "read_receipt",
+      "order_id": "o-1"
+    }
+  ]
+}

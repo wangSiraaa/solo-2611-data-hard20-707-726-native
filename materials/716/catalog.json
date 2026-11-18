@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "prices": [
+    {
+      "price_id": "a-base",
+      "sku": "A",
+      "grades": [
+        "gold"
+      ],
+      "quantity_lower": 1,
+      "quantity_upper": null,
+      "unit_price": 100,
+      "priority": 0
+    },
+    {
+      "price_id": "a-small",
+      "sku": "A",
+      "grades": [
+        "gold"
+      ],
+      "quantity_lower": 1,
+      "quantity_upper": 2,
+      "unit_price": 150,
+      "priority": 1
+    },
+    {
+      "price_id": "b-main",
+      "sku": "B",
+      "grades": [
+        "gold"
+      ],
+      "quantity_lower": 1,
+      "quantity_upper": 10,
+      "unit_price": 200,
+      "priority": 2
+    },
+    {
+      "price_id": "b-high",
+      "sku": "B",
+      "grades": [
+        "gold"
+      ],
+      "quantity_lower": 1,
+      "quantity_upper": 3,
+      "unit_price": 220,
+      "priority": 2
+    }
+  ]
+}
