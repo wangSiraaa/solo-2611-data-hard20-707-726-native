@@ -1,0 +1,129 @@
+{
+  "as_of": 19,
+  "grants_hash": "bb0734e224175c046513b6dbb708b3c3135a8cdf8d8e810324bb382c4f152d32",
+  "receipts_hash": "20c606797300fcee110caff43972b8a278e2907788407b7caa819d6f098035bb",
+  "receipt_count": 3,
+  "valid_count": 1,
+  "invalid_count": 2,
+  "receipts": [
+    {
+      "receipt_id": "R1",
+      "consignee": "P0",
+      "signer": "B",
+      "signed_day": 10,
+      "received_day": 18,
+      "region": "N",
+      "document_type": "K",
+      "claimed_grant_ids": [
+        "G1",
+        "G2"
+      ],
+      "valid": true,
+      "as_of": 19,
+      "reason": null,
+      "broken_at_level": null,
+      "levels": [
+        {
+          "level": 0,
+          "grant_id": "G1",
+          "revision": 1,
+          "issuer": "P0",
+          "agent": "A",
+          "nominal": [
+            0,
+            20
+          ],
+          "revoked_from": 12,
+          "signed_day": 10,
+          "effective": true,
+          "reason": "effective at signing within scope"
+        },
+        {
+          "level": 1,
+          "grant_id": "G2",
+          "revision": 1,
+          "issuer": "A",
+          "agent": "B",
+          "nominal": [
+            5,
+            15
+          ],
+          "revoked_from": null,
+          "signed_day": 10,
+          "effective": true,
+          "reason": "effective at signing within scope"
+        }
+      ]
+    },
+    {
+      "receipt_id": "R2",
+      "consignee": "P0",
+      "signer": "B",
+      "signed_day": 12,
+      "received_day": 18,
+      "region": "N",
+      "document_type": "K",
+      "claimed_grant_ids": [
+        "G1",
+        "G2"
+      ],
+      "valid": false,
+      "as_of": 19,
+      "reason": "grant 'G1' rev1 not effective at signed_day 12 (nominal [0,20), revoked_from 12)",
+      "broken_at_level": 0,
+      "levels": [
+        {
+          "level": 0,
+          "grant_id": "G1",
+          "revision": 1,
+          "effective": false,
+          "kind": "time",
+          "reason": "grant 'G1' rev1 not effective at signed_day 12 (nominal [0,20), revoked_from 12)"
+        },
+        {
+          "level": 1,
+          "grant_id": "G2",
+          "revision": null,
+          "effective": false,
+          "kind": "not_checked",
+          "reason": "path already broken at level 0"
+        }
+      ]
+    },
+    {
+      "receipt_id": "R3",
+      "consignee": "P0",
+      "signer": "B",
+      "signed_day": 10,
+      "received_day": 18,
+      "region": "S",
+      "document_type": "K",
+      "claimed_grant_ids": [
+        "G1",
+        "G2"
+      ],
+      "valid": false,
+      "as_of": 19,
+      "reason": "grant 'G1': region 'S' not in ['N']",
+      "broken_at_level": 0,
+      "levels": [
+        {
+          "level": 0,
+          "grant_id": "G1",
+          "revision": 1,
+          "effective": false,
+          "kind": "scope",
+          "reason": "grant 'G1': region 'S' not in ['N']"
+        },
+        {
+          "level": 1,
+          "grant_id": "G2",
+          "revision": null,
+          "effective": false,
+          "kind": "not_checked",
+          "reason": "path already broken at level 0"
+        }
+      ]
+    }
+  ]
+}

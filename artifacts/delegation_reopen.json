@@ -1,0 +1,20 @@
+{
+  "REPORT1": {
+    "report_id": "REPORT1",
+    "content_hash": "d58de5f8be34e47a25af6edb12f31581880a1f5c1cdf4492800c743f8bfc9f67",
+    "intact": true,
+    "grants_hash": "bb0734e224175c046513b6dbb708b3c3135a8cdf8d8e810324bb382c4f152d32",
+    "receipts_hash": "20c606797300fcee110caff43972b8a278e2907788407b7caa819d6f098035bb",
+    "is_current_grants": false,
+    "is_current_receipts": true
+  },
+  "REPORT2": {
+    "report_id": "REPORT2",
+    "content_hash": "217f3151dfd5b266b2864978e3f71051f152d9e8af096e9983cbb35159481071",
+    "intact": true,
+    "grants_hash": "08e50c7e6ed87b27aa736e945a096bba305e4fdec9c137865620223627777c5d",
+    "receipts_hash": "20c606797300fcee110caff43972b8a278e2907788407b7caa819d6f098035bb",
+    "is_current_grants": true,
+    "is_current_receipts": true
+  }
+}

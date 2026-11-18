@@ -1,0 +1,2 @@
+{"receipt_id":"R1","consignee":"P0","signer":"B","signed_day":10,"received_day":18,"region":"N","document_type":"K","claimed_grant_ids":["G1","G2"],"shipment_id":"S1","part_ids":["BX1","BX2"]}
+{"receipt_id":"R2","consignee":"P0","signer":"B","signed_day":12,"received_day":18,"region":"N","document_type":"K","claimed_grant_ids":["G1","G2"],"shipment_id":"S1","part_ids":["BX2"]}

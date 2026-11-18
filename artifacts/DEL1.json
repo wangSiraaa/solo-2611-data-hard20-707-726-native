@@ -1,0 +1,82 @@
+{
+  "confirmation_id": "DEL1",
+  "shipment_id": "S1",
+  "seq": 1,
+  "previous_confirmation_id": null,
+  "parts": [
+    "BX1",
+    "BX2"
+  ],
+  "covered_by": {
+    "BX1": [
+      "R1"
+    ],
+    "BX2": [
+      "R1"
+    ]
+  },
+  "evidence": {
+    "required_parts": [
+      "BX1",
+      "BX2"
+    ],
+    "covered_by": {
+      "BX1": [
+        "R1"
+      ],
+      "BX2": [
+        "R1"
+      ]
+    },
+    "contributing_receipts": [
+      "R1"
+    ],
+    "original_hashes": {
+      "R1": "fc2acc52d828a84e84e1ef57ad357e73eb9ed199b6023589cad361c0c7a0e56c"
+    }
+  },
+  "authority": {
+    "receipts": {
+      "R1": {
+        "fingerprint": "a1820a8d1a4939df46d74f7585829dda56c84a5d97ba5754561b6954333458e5",
+        "original_hash": "fc2acc52d828a84e84e1ef57ad357e73eb9ed199b6023589cad361c0c7a0e56c",
+        "levels": [
+          {
+            "level": 0,
+            "grant_id": "G1",
+            "revision": 1,
+            "issuer": "P0",
+            "agent": "A",
+            "nominal": [
+              0,
+              20
+            ],
+            "revoked_from": 12,
+            "signed_day": 10,
+            "effective": true,
+            "reason": "effective at signing within scope"
+          },
+          {
+            "level": 1,
+            "grant_id": "G2",
+            "revision": 1,
+            "issuer": "A",
+            "agent": "B",
+            "nominal": [
+              5,
+              15
+            ],
+            "revoked_from": null,
+            "signed_day": 10,
+            "effective": true,
+            "reason": "effective at signing within scope"
+          }
+        ]
+      }
+    }
+  },
+  "evidence_hash": "495f46192abec6838310645b207c7daaa8ad6ef511b1c4f02b80add2ca541113",
+  "authority_hash": "b168f83f01c23ad59e3781ea71afd4f8c809e0912b9add48fc2dca7878883b0a",
+  "created_at": "2026-11-18T23:21:59+00:00",
+  "consignee": "P0"
+}

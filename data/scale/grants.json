@@ -1,0 +1,1704 @@
+{
+  "grants": [
+    {
+      "grant_id": "G000",
+      "revision": 1,
+      "issuer": "P0",
+      "agent": "A0",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 0,
+      "end": 20,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": 10
+    },
+    {
+      "grant_id": "G001",
+      "revision": 1,
+      "issuer": "P1",
+      "agent": "A3",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 2,
+      "end": 27,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G002",
+      "revision": 1,
+      "issuer": "P2",
+      "agent": "A6",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 5,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G003",
+      "revision": 1,
+      "issuer": "P3",
+      "agent": "A9",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 0,
+      "end": 20,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G004",
+      "revision": 1,
+      "issuer": "P4",
+      "agent": "A12",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 0,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G005",
+      "revision": 1,
+      "issuer": "P5",
+      "agent": "A15",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 5,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G006",
+      "revision": 1,
+      "issuer": "P6",
+      "agent": "A18",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 0,
+      "end": 20,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G007",
+      "revision": 1,
+      "issuer": "P7",
+      "agent": "A1",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 2,
+      "end": 22,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": 12
+    },
+    {
+      "grant_id": "G008",
+      "revision": 1,
+      "issuer": "P8",
+      "agent": "A4",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 0,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G009",
+      "revision": 1,
+      "issuer": "P9",
+      "agent": "A7",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 2,
+      "end": 27,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G010",
+      "revision": 1,
+      "issuer": "P0",
+      "agent": "A10",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 5,
+      "end": 30,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G011",
+      "revision": 1,
+      "issuer": "P1",
+      "agent": "A13",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 5,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G012",
+      "revision": 1,
+      "issuer": "P2",
+      "agent": "A16",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 5,
+      "end": 30,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G013",
+      "revision": 1,
+      "issuer": "P3",
+      "agent": "A19",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 5,
+      "end": 30,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G014",
+      "revision": 1,
+      "issuer": "P4",
+      "agent": "A2",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 5,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": 15
+    },
+    {
+      "grant_id": "G015",
+      "revision": 1,
+      "issuer": "P5",
+      "agent": "A5",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 5,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G016",
+      "revision": 1,
+      "issuer": "P6",
+      "agent": "A8",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 2,
+      "end": 22,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G017",
+      "revision": 1,
+      "issuer": "P7",
+      "agent": "A11",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 0,
+      "end": 20,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G018",
+      "revision": 1,
+      "issuer": "P8",
+      "agent": "A14",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 0,
+      "end": 20,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G019",
+      "revision": 1,
+      "issuer": "P9",
+      "agent": "A17",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 5,
+      "end": 30,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G020",
+      "revision": 1,
+      "issuer": "P0",
+      "agent": "A0",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 0,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G021",
+      "revision": 1,
+      "issuer": "P1",
+      "agent": "A3",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 5,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": 15
+    },
+    {
+      "grant_id": "G022",
+      "revision": 1,
+      "issuer": "P2",
+      "agent": "A6",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 0,
+      "end": 20,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G023",
+      "revision": 1,
+      "issuer": "P3",
+      "agent": "A9",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 5,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G024",
+      "revision": 1,
+      "issuer": "P4",
+      "agent": "A12",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 2,
+      "end": 27,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G025",
+      "revision": 1,
+      "issuer": "P5",
+      "agent": "A15",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 5,
+      "end": 30,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G026",
+      "revision": 1,
+      "issuer": "P6",
+      "agent": "A18",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 5,
+      "end": 30,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G027",
+      "revision": 1,
+      "issuer": "P7",
+      "agent": "A1",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 0,
+      "end": 20,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G028",
+      "revision": 1,
+      "issuer": "P8",
+      "agent": "A4",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 2,
+      "end": 27,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": 14
+    },
+    {
+      "grant_id": "G029",
+      "revision": 1,
+      "issuer": "P9",
+      "agent": "A7",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 0,
+      "end": 20,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G030",
+      "revision": 1,
+      "issuer": "P0",
+      "agent": "A10",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 2,
+      "end": 27,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G031",
+      "revision": 1,
+      "issuer": "P1",
+      "agent": "A13",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 2,
+      "end": 27,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G032",
+      "revision": 1,
+      "issuer": "P2",
+      "agent": "A16",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 0,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G033",
+      "revision": 1,
+      "issuer": "P3",
+      "agent": "A19",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 2,
+      "end": 22,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G034",
+      "revision": 1,
+      "issuer": "P4",
+      "agent": "A2",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 0,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G035",
+      "revision": 1,
+      "issuer": "P5",
+      "agent": "A5",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 5,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": 15
+    },
+    {
+      "grant_id": "G036",
+      "revision": 1,
+      "issuer": "P6",
+      "agent": "A8",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 2,
+      "end": 22,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G037",
+      "revision": 1,
+      "issuer": "P7",
+      "agent": "A11",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 0,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G038",
+      "revision": 1,
+      "issuer": "P8",
+      "agent": "A14",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 0,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G039",
+      "revision": 1,
+      "issuer": "P9",
+      "agent": "A17",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 5,
+      "end": 30,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G040",
+      "revision": 1,
+      "issuer": "P0",
+      "agent": "A0",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 0,
+      "end": 20,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G041",
+      "revision": 1,
+      "issuer": "P1",
+      "agent": "A3",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 0,
+      "end": 20,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G042",
+      "revision": 1,
+      "issuer": "P2",
+      "agent": "A6",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 5,
+      "end": 30,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": 17
+    },
+    {
+      "grant_id": "G043",
+      "revision": 1,
+      "issuer": "P3",
+      "agent": "A9",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 0,
+      "end": 20,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G044",
+      "revision": 1,
+      "issuer": "P4",
+      "agent": "A12",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 5,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G045",
+      "revision": 1,
+      "issuer": "P5",
+      "agent": "A15",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 5,
+      "end": 30,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G046",
+      "revision": 1,
+      "issuer": "P6",
+      "agent": "A18",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 0,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G047",
+      "revision": 1,
+      "issuer": "P7",
+      "agent": "A1",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 0,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G048",
+      "revision": 1,
+      "issuer": "P8",
+      "agent": "A4",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 5,
+      "end": 30,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G049",
+      "revision": 1,
+      "issuer": "P9",
+      "agent": "A7",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 0,
+      "end": 25,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": 12
+    },
+    {
+      "grant_id": "G050",
+      "revision": 1,
+      "issuer": "A0",
+      "agent": "A5",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 1,
+      "end": 19,
+      "can_redelegate": false,
+      "parent_grant_id": "G000",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G051",
+      "revision": 1,
+      "issuer": "A3",
+      "agent": "A12",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 3,
+      "end": 26,
+      "can_redelegate": false,
+      "parent_grant_id": "G001",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G052",
+      "revision": 1,
+      "issuer": "A6",
+      "agent": "A19",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 6,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G002",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G053",
+      "revision": 1,
+      "issuer": "A9",
+      "agent": "A6",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 1,
+      "end": 19,
+      "can_redelegate": false,
+      "parent_grant_id": "G003",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G054",
+      "revision": 1,
+      "issuer": "A12",
+      "agent": "A13",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 1,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G004",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G055",
+      "revision": 1,
+      "issuer": "A15",
+      "agent": "A0",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 6,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G005",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G056",
+      "revision": 1,
+      "issuer": "A18",
+      "agent": "A7",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 1,
+      "end": 19,
+      "can_redelegate": false,
+      "parent_grant_id": "G006",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G057",
+      "revision": 1,
+      "issuer": "A1",
+      "agent": "A14",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 3,
+      "end": 21,
+      "can_redelegate": false,
+      "parent_grant_id": "G007",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G058",
+      "revision": 1,
+      "issuer": "A4",
+      "agent": "A1",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 1,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G008",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G059",
+      "revision": 1,
+      "issuer": "A7",
+      "agent": "A8",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 3,
+      "end": 26,
+      "can_redelegate": false,
+      "parent_grant_id": "G009",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G060",
+      "revision": 1,
+      "issuer": "A10",
+      "agent": "A15",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 6,
+      "end": 29,
+      "can_redelegate": false,
+      "parent_grant_id": "G010",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G061",
+      "revision": 1,
+      "issuer": "A13",
+      "agent": "A2",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 6,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G011",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G062",
+      "revision": 1,
+      "issuer": "A16",
+      "agent": "A9",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 6,
+      "end": 29,
+      "can_redelegate": false,
+      "parent_grant_id": "G012",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G063",
+      "revision": 1,
+      "issuer": "A19",
+      "agent": "A16",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 6,
+      "end": 29,
+      "can_redelegate": false,
+      "parent_grant_id": "G013",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G064",
+      "revision": 1,
+      "issuer": "A2",
+      "agent": "A3",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 6,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G014",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G065",
+      "revision": 1,
+      "issuer": "A5",
+      "agent": "A10",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 6,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G015",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G066",
+      "revision": 1,
+      "issuer": "A8",
+      "agent": "A17",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 3,
+      "end": 21,
+      "can_redelegate": false,
+      "parent_grant_id": "G016",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G067",
+      "revision": 1,
+      "issuer": "A11",
+      "agent": "A4",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 1,
+      "end": 19,
+      "can_redelegate": false,
+      "parent_grant_id": "G017",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G068",
+      "revision": 1,
+      "issuer": "A14",
+      "agent": "A11",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 1,
+      "end": 19,
+      "can_redelegate": false,
+      "parent_grant_id": "G018",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G069",
+      "revision": 1,
+      "issuer": "A17",
+      "agent": "A18",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 6,
+      "end": 29,
+      "can_redelegate": false,
+      "parent_grant_id": "G019",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G070",
+      "revision": 1,
+      "issuer": "A0",
+      "agent": "A5",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 1,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G020",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G071",
+      "revision": 1,
+      "issuer": "A3",
+      "agent": "A12",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 6,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G021",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G072",
+      "revision": 1,
+      "issuer": "A6",
+      "agent": "A19",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 1,
+      "end": 19,
+      "can_redelegate": false,
+      "parent_grant_id": "G022",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G073",
+      "revision": 1,
+      "issuer": "A9",
+      "agent": "A6",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 6,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G023",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G074",
+      "revision": 1,
+      "issuer": "A12",
+      "agent": "A13",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 3,
+      "end": 26,
+      "can_redelegate": false,
+      "parent_grant_id": "G024",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G075",
+      "revision": 1,
+      "issuer": "A15",
+      "agent": "A0",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 6,
+      "end": 29,
+      "can_redelegate": false,
+      "parent_grant_id": "G025",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G076",
+      "revision": 1,
+      "issuer": "A18",
+      "agent": "A7",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 6,
+      "end": 29,
+      "can_redelegate": false,
+      "parent_grant_id": "G026",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G077",
+      "revision": 1,
+      "issuer": "A1",
+      "agent": "A14",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 1,
+      "end": 19,
+      "can_redelegate": false,
+      "parent_grant_id": "G027",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G078",
+      "revision": 1,
+      "issuer": "A4",
+      "agent": "A1",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 3,
+      "end": 26,
+      "can_redelegate": false,
+      "parent_grant_id": "G028",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G079",
+      "revision": 1,
+      "issuer": "A7",
+      "agent": "A8",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 1,
+      "end": 19,
+      "can_redelegate": false,
+      "parent_grant_id": "G029",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G080",
+      "revision": 1,
+      "issuer": "A10",
+      "agent": "A15",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 3,
+      "end": 26,
+      "can_redelegate": false,
+      "parent_grant_id": "G030",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G081",
+      "revision": 1,
+      "issuer": "A13",
+      "agent": "A2",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 3,
+      "end": 26,
+      "can_redelegate": false,
+      "parent_grant_id": "G031",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G082",
+      "revision": 1,
+      "issuer": "A16",
+      "agent": "A9",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 1,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G032",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G083",
+      "revision": 1,
+      "issuer": "A19",
+      "agent": "A16",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 3,
+      "end": 21,
+      "can_redelegate": false,
+      "parent_grant_id": "G033",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G084",
+      "revision": 1,
+      "issuer": "A2",
+      "agent": "A3",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 1,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G034",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G085",
+      "revision": 1,
+      "issuer": "A5",
+      "agent": "A10",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 6,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G035",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G086",
+      "revision": 1,
+      "issuer": "A8",
+      "agent": "A17",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 3,
+      "end": 21,
+      "can_redelegate": false,
+      "parent_grant_id": "G036",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G087",
+      "revision": 1,
+      "issuer": "A11",
+      "agent": "A4",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 1,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G037",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G088",
+      "revision": 1,
+      "issuer": "A14",
+      "agent": "A11",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 1,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G038",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G089",
+      "revision": 1,
+      "issuer": "A17",
+      "agent": "A18",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 6,
+      "end": 29,
+      "can_redelegate": false,
+      "parent_grant_id": "G039",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G090",
+      "revision": 1,
+      "issuer": "A0",
+      "agent": "A5",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 1,
+      "end": 19,
+      "can_redelegate": false,
+      "parent_grant_id": "G040",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G091",
+      "revision": 1,
+      "issuer": "A3",
+      "agent": "A12",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 1,
+      "end": 19,
+      "can_redelegate": false,
+      "parent_grant_id": "G041",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G092",
+      "revision": 1,
+      "issuer": "A6",
+      "agent": "A19",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 6,
+      "end": 29,
+      "can_redelegate": false,
+      "parent_grant_id": "G042",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G093",
+      "revision": 1,
+      "issuer": "A9",
+      "agent": "A6",
+      "regions": [
+        "W"
+      ],
+      "document_types": [
+        "L"
+      ],
+      "start": 1,
+      "end": 19,
+      "can_redelegate": false,
+      "parent_grant_id": "G043",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G094",
+      "revision": 1,
+      "issuer": "A12",
+      "agent": "A13",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 6,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G044",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G095",
+      "revision": 1,
+      "issuer": "A15",
+      "agent": "A0",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 6,
+      "end": 29,
+      "can_redelegate": false,
+      "parent_grant_id": "G045",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G096",
+      "revision": 1,
+      "issuer": "A18",
+      "agent": "A7",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 1,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G046",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G097",
+      "revision": 1,
+      "issuer": "A1",
+      "agent": "A14",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 1,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G047",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G098",
+      "revision": 1,
+      "issuer": "A4",
+      "agent": "A1",
+      "regions": [
+        "E"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 6,
+      "end": 29,
+      "can_redelegate": false,
+      "parent_grant_id": "G048",
+      "revoked_from": null
+    },
+    {
+      "grant_id": "G099",
+      "revision": 1,
+      "issuer": "A7",
+      "agent": "A8",
+      "regions": [
+        "S"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 1,
+      "end": 24,
+      "can_redelegate": false,
+      "parent_grant_id": "G049",
+      "revoked_from": null
+    }
+  ]
+}

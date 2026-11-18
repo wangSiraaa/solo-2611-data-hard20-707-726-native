@@ -1,0 +1,93 @@
+{
+  "shipment_id": "S1",
+  "status": "NEEDS_REVIEW",
+  "current_complete": false,
+  "missing_parts": [
+    "BX1",
+    "BX2"
+  ],
+  "confirmation": {
+    "authority": {
+      "receipts": {
+        "R1": {
+          "fingerprint": "a1820a8d1a4939df46d74f7585829dda56c84a5d97ba5754561b6954333458e5",
+          "levels": [
+            {
+              "agent": "A",
+              "effective": true,
+              "grant_id": "G1",
+              "issuer": "P0",
+              "level": 0,
+              "nominal": [
+                0,
+                20
+              ],
+              "reason": "effective at signing within scope",
+              "revision": 1,
+              "revoked_from": 12,
+              "signed_day": 10
+            },
+            {
+              "agent": "B",
+              "effective": true,
+              "grant_id": "G2",
+              "issuer": "A",
+              "level": 1,
+              "nominal": [
+                5,
+                15
+              ],
+              "reason": "effective at signing within scope",
+              "revision": 1,
+              "revoked_from": null,
+              "signed_day": 10
+            }
+          ],
+          "original_hash": "fc2acc52d828a84e84e1ef57ad357e73eb9ed199b6023589cad361c0c7a0e56c"
+        }
+      }
+    },
+    "authority_hash": "b168f83f01c23ad59e3781ea71afd4f8c809e0912b9add48fc2dca7878883b0a",
+    "confirmation_id": "DEL1",
+    "consignee": "P0",
+    "covered_by": {
+      "BX1": [
+        "R1"
+      ],
+      "BX2": [
+        "R1"
+      ]
+    },
+    "created_at": "2026-11-18T23:21:59+00:00",
+    "evidence": {
+      "contributing_receipts": [
+        "R1"
+      ],
+      "covered_by": {
+        "BX1": [
+          "R1"
+        ],
+        "BX2": [
+          "R1"
+        ]
+      },
+      "original_hashes": {
+        "R1": "fc2acc52d828a84e84e1ef57ad357e73eb9ed199b6023589cad361c0c7a0e56c"
+      },
+      "required_parts": [
+        "BX1",
+        "BX2"
+      ]
+    },
+    "evidence_hash": "495f46192abec6838310645b207c7daaa8ad6ef511b1c4f02b80add2ca541113",
+    "parts": [
+      "BX1",
+      "BX2"
+    ],
+    "previous_confirmation_id": null,
+    "seq": 1,
+    "shipment_id": "S1"
+  },
+  "confirmed_complete": false,
+  "review_reason": "current evidence no longer covers all required parts: missing ['BX1', 'BX2']"
+}

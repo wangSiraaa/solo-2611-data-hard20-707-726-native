@@ -1,0 +1,100 @@
+{
+  "shipment_id": "S1",
+  "required_parts": [
+    "BX1",
+    "BX2"
+  ],
+  "covered_parts": [
+    "BX1",
+    "BX2"
+  ],
+  "covered_by": {
+    "BX1": [
+      "R1"
+    ],
+    "BX2": [
+      "R1"
+    ]
+  },
+  "missing_parts": [],
+  "complete": true,
+  "evidence": [
+    {
+      "receipt_id": "R1",
+      "part_ids": [
+        "BX1",
+        "BX2"
+      ],
+      "context_ok": true,
+      "authority_matched": true,
+      "authority_valid": true,
+      "counts": true,
+      "authority_fingerprint": "a1820a8d1a4939df46d74f7585829dda56c84a5d97ba5754561b6954333458e5",
+      "original_hash": "fc2acc52d828a84e84e1ef57ad357e73eb9ed199b6023589cad361c0c7a0e56c",
+      "reason": null,
+      "levels": [
+        {
+          "level": 0,
+          "grant_id": "G1",
+          "revision": 1,
+          "issuer": "P0",
+          "agent": "A",
+          "nominal": [
+            0,
+            20
+          ],
+          "revoked_from": 12,
+          "signed_day": 10,
+          "effective": true,
+          "reason": "effective at signing within scope"
+        },
+        {
+          "level": 1,
+          "grant_id": "G2",
+          "revision": 1,
+          "issuer": "A",
+          "agent": "B",
+          "nominal": [
+            5,
+            15
+          ],
+          "revoked_from": null,
+          "signed_day": 10,
+          "effective": true,
+          "reason": "effective at signing within scope"
+        }
+      ]
+    },
+    {
+      "receipt_id": "R2",
+      "part_ids": [
+        "BX2"
+      ],
+      "context_ok": true,
+      "authority_matched": true,
+      "authority_valid": false,
+      "counts": false,
+      "authority_fingerprint": "a1820a8d1a4939df46d74f7585829dda56c84a5d97ba5754561b6954333458e5",
+      "original_hash": "3e58753f6c915e20ff8c7cf06f5266f5d44143476282780ec65c96d96185f2f7",
+      "reason": "grant 'G1' rev1 not effective at signed_day 12 (nominal [0,20), revoked_from 12)",
+      "levels": [
+        {
+          "level": 0,
+          "grant_id": "G1",
+          "revision": 1,
+          "effective": false,
+          "kind": "time",
+          "reason": "grant 'G1' rev1 not effective at signed_day 12 (nominal [0,20), revoked_from 12)"
+        },
+        {
+          "level": 1,
+          "grant_id": "G2",
+          "revision": null,
+          "effective": false,
+          "kind": "not_checked",
+          "reason": "path already broken at level 0"
+        }
+      ]
+    }
+  ]
+}
