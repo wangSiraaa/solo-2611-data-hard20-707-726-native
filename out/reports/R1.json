@@ -1,0 +1,243 @@
+{
+  "replayed": false,
+  "report_id": "R1",
+  "plan_revision": "r1",
+  "plan_content_hash": "bb61326a032b88f53c7115e70a9acaa32be8074a4d12e1ad8341afca3743c66a",
+  "request_hash": "ea66001e378de097f1c688013d2c583de8b8efa137d52012b8b53a65261d69cd",
+  "routes": [
+    {
+      "route_id": "VIA_B",
+      "legal": true,
+      "original_polyline": [
+        [
+          "2",
+          "2"
+        ],
+        [
+          "6",
+          "2"
+        ],
+        [
+          "6",
+          "6"
+        ]
+      ],
+      "first_violation": null,
+      "violations": [],
+      "room_stays": [
+        {
+          "room_id": "A",
+          "segment_index": 0,
+          "t_lo": "0",
+          "t_hi": "1/2"
+        },
+        {
+          "room_id": "B",
+          "segment_index": 0,
+          "t_lo": "1/2",
+          "t_hi": "1"
+        },
+        {
+          "room_id": "B",
+          "segment_index": 1,
+          "t_lo": "0",
+          "t_hi": "1/2"
+        },
+        {
+          "room_id": "D",
+          "segment_index": 1,
+          "t_lo": "1/2",
+          "t_hi": "1"
+        }
+      ],
+      "crossings": [
+        {
+          "gate_id": "AB",
+          "point": [
+            "4",
+            "2"
+          ],
+          "from_room": "A",
+          "to_room": "B",
+          "segment_index": 0,
+          "t": "1/2",
+          "all_gate_ids": [
+            "AB"
+          ],
+          "at_node": false
+        },
+        {
+          "gate_id": "BD",
+          "point": [
+            "6",
+            "4"
+          ],
+          "from_room": "B",
+          "to_room": "D",
+          "segment_index": 1,
+          "t": "1/2",
+          "all_gate_ids": [
+            "BD"
+          ],
+          "at_node": false
+        }
+      ],
+      "room_chain": [
+        "A",
+        "B",
+        "D"
+      ],
+      "credential_id": "CRED-0c5a356d8333f171"
+    },
+    {
+      "route_id": "CORNER",
+      "legal": false,
+      "original_polyline": [
+        [
+          "2",
+          "2"
+        ],
+        [
+          "6",
+          "6"
+        ]
+      ],
+      "first_violation": {
+        "reason": "POINT_CONTACT_NO_SHARED_EDGE",
+        "point": [
+          "4",
+          "4"
+        ],
+        "detail": "A 与 D 之间无正长度共边（四角相遇的点接触不能设门）",
+        "segment_index": 0,
+        "t": "1/2"
+      },
+      "violations": [
+        {
+          "reason": "POINT_CONTACT_NO_SHARED_EDGE",
+          "point": [
+            "4",
+            "4"
+          ],
+          "detail": "A 与 D 之间无正长度共边（四角相遇的点接触不能设门）",
+          "segment_index": 0,
+          "t": "1/2"
+        }
+      ],
+      "room_stays": [
+        {
+          "room_id": "A",
+          "segment_index": 0,
+          "t_lo": "0",
+          "t_hi": "1/2"
+        },
+        {
+          "room_id": "D",
+          "segment_index": 0,
+          "t_lo": "1/2",
+          "t_hi": "1"
+        }
+      ],
+      "crossings": [],
+      "room_chain": [
+        "A",
+        "D"
+      ],
+      "credential_id": null
+    }
+  ],
+  "gate_evidence": [
+    {
+      "gate_id": "AB",
+      "rooms": [
+        "A",
+        "B"
+      ],
+      "orientation": "v",
+      "fixed": "4",
+      "open_segment": [
+        "1",
+        "3"
+      ],
+      "frame_endpoints": [
+        "1",
+        "3"
+      ],
+      "shared_edge": {
+        "orientation": "v",
+        "fixed": "4",
+        "lo": "0",
+        "hi": "4"
+      }
+    },
+    {
+      "gate_id": "AC",
+      "rooms": [
+        "A",
+        "C"
+      ],
+      "orientation": "h",
+      "fixed": "4",
+      "open_segment": [
+        "1",
+        "3"
+      ],
+      "frame_endpoints": [
+        "1",
+        "3"
+      ],
+      "shared_edge": {
+        "orientation": "h",
+        "fixed": "4",
+        "lo": "0",
+        "hi": "4"
+      }
+    },
+    {
+      "gate_id": "BD",
+      "rooms": [
+        "B",
+        "D"
+      ],
+      "orientation": "h",
+      "fixed": "4",
+      "open_segment": [
+        "5",
+        "7"
+      ],
+      "frame_endpoints": [
+        "5",
+        "7"
+      ],
+      "shared_edge": {
+        "orientation": "h",
+        "fixed": "4",
+        "lo": "4",
+        "hi": "8"
+      }
+    },
+    {
+      "gate_id": "CD",
+      "rooms": [
+        "C",
+        "D"
+      ],
+      "orientation": "v",
+      "fixed": "4",
+      "open_segment": [
+        "5",
+        "7"
+      ],
+      "frame_endpoints": [
+        "5",
+        "7"
+      ],
+      "shared_edge": {
+        "orientation": "v",
+        "fixed": "4",
+        "lo": "4",
+        "hi": "8"
+      }
+    }
+  ]
+}

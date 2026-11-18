@@ -1,0 +1,22 @@
+{
+  "operations": [
+    {
+      "op": "audit_routes",
+      "report": "R1.json",
+      "replayed": false
+    },
+    {
+      "op": "revise_gate",
+      "revision": "r2"
+    },
+    {
+      "op": "audit_routes",
+      "report": "R2.json",
+      "replayed": false
+    },
+    {
+      "op": "read_report",
+      "report_id": "R1"
+    }
+  ]
+}
