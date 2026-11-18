@@ -1,0 +1,12 @@
+{
+  "records": [
+    {
+      "comparison_id": "E_CA",
+      "source_id": "S3",
+      "left": "C",
+      "right": "A",
+      "revision": 2,
+      "status": "WITHDRAWN"
+    }
+  ]
+}

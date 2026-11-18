@@ -1,0 +1,7 @@
+{"op": "ingest", "file": "input.json"}
+{"op": "analyze", "analysis_id": "AN1"}
+{"op": "publish_shortlist", "product_id": "P1", "analysis_id": "AN1", "capacity": 2}
+{"op": "revise_evidence", "file": "correction.json"}
+{"op": "analyze", "analysis_id": "AN2"}
+{"op": "publish_shortlist", "product_id": "P2", "analysis_id": "AN2", "capacity": 2}
+{"op": "read_frozen_analysis", "analysis_id": "AN1"}

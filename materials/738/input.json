@@ -1,0 +1,59 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "A",
+      "label": "合成方案A"
+    },
+    {
+      "candidate_id": "B",
+      "label": "合成方案B"
+    },
+    {
+      "candidate_id": "C",
+      "label": "合成方案C"
+    },
+    {
+      "candidate_id": "D",
+      "label": "合成方案D"
+    }
+  ],
+  "evidence": [
+    {
+      "comparison_id": "E_AB",
+      "source_id": "S1",
+      "left": "A",
+      "right": "B",
+      "revision": 1,
+      "status": "ACTIVE",
+      "winner": "A"
+    },
+    {
+      "comparison_id": "E_BC",
+      "source_id": "S2",
+      "left": "B",
+      "right": "C",
+      "revision": 1,
+      "status": "ACTIVE",
+      "winner": "B"
+    },
+    {
+      "comparison_id": "E_CA",
+      "source_id": "S3",
+      "left": "C",
+      "right": "A",
+      "revision": 1,
+      "status": "ACTIVE",
+      "winner": "C"
+    },
+    {
+      "comparison_id": "E_CD",
+      "source_id": "S4",
+      "left": "C",
+      "right": "D",
+      "revision": 1,
+      "status": "ACTIVE",
+      "winner": "C"
+    }
+  ],
+  "capacity": 2
+}
