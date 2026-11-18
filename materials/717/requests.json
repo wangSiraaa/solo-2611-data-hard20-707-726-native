@@ -1,0 +1,52 @@
+{
+  "batches": [
+    {
+      "batch_id": "b-ok",
+      "items": [
+        {
+          "template_id": "put",
+          "revision": 1,
+          "bindings": {
+            "id": 1,
+            "text": "hello",
+            "blob": {
+              "$bytes": "00ff"
+            }
+          }
+        },
+        {
+          "template_id": "get",
+          "revision": 1,
+          "bindings": {
+            "id": 1
+          }
+        }
+      ]
+    },
+    {
+      "batch_id": "b-rollback",
+      "items": [
+        {
+          "template_id": "put",
+          "revision": 1,
+          "bindings": {
+            "id": 2,
+            "text": null,
+            "blob": {
+              "$bytes": ""
+            }
+          }
+        },
+        {
+          "template_id": "put",
+          "revision": 1,
+          "bindings": {
+            "id": 1,
+            "text": "duplicate",
+            "blob": null
+          }
+        }
+      ]
+    }
+  ]
+}

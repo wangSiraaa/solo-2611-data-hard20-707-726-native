@@ -1,0 +1,19 @@
+{
+  "format": "sql-param-plan/v1",
+  "template_id": "reader-example",
+  "revision": 1,
+  "source": "SELECT '甲:ignored' AS note, :id AS first, :id AS second -- :ignored",
+  "sql": "SELECT '甲:ignored' AS note, ? AS first, ? AS second -- :ignored",
+  "parameters": [
+    {
+      "name": "id",
+      "start": 28,
+      "end": 31
+    },
+    {
+      "name": "id",
+      "start": 42,
+      "end": 45
+    }
+  ]
+}

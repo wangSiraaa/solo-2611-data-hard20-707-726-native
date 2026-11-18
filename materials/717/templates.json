@@ -1,0 +1,19 @@
+{
+  "templates": [
+    {
+      "template_id": "put",
+      "revision": 1,
+      "source": "INSERT INTO notes(id, message, payload) VALUES(:id, :text || ':literal', :blob) /* :ignored ? ; */"
+    },
+    {
+      "template_id": "get",
+      "revision": 1,
+      "source": "SELECT id, message, payload, :id AS echo FROM notes WHERE id=:id ORDER BY id -- :ignored"
+    },
+    {
+      "template_id": "quoted",
+      "revision": 1,
+      "source": "SELECT '甲:ignored' AS \"a\"\"b\", :id AS first, :id AS second"
+    }
+  ]
+}

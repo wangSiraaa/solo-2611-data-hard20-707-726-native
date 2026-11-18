@@ -1,0 +1,45 @@
+{
+  "operations": [
+    {
+      "op": "publish_template",
+      "template_id": "put",
+      "revision": 2,
+      "source": "INSERT INTO notes(id, message, payload) VALUES(:id, :text || ':revised', :blob)"
+    },
+    {
+      "op": "execute",
+      "batch_id": "b-new",
+      "items": [
+        {
+          "template_id": "put",
+          "revision": 2,
+          "bindings": {
+            "id": 3,
+            "text": "new",
+            "blob": null
+          }
+        },
+        {
+          "template_id": "get",
+          "revision": 1,
+          "bindings": {
+            "id": 3
+          }
+        }
+      ]
+    },
+    {
+      "op": "bind_reject",
+      "template_id": "get",
+      "revision": 1,
+      "bindings": {
+        "id": 1,
+        "extra": 2
+      }
+    },
+    {
+      "op": "read_batch",
+      "batch_id": "b-ok"
+    }
+  ]
+}
