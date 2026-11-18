@@ -1,0 +1,17 @@
+{
+  "schema": "platform-scan/v1",
+  "report_id": "FORMAT_ONLY",
+  "train_id": "EXAMPLE",
+  "composition_version": "EXAMPLE",
+  "cargo_positions": [
+    {
+      "cargo_id": "EXAMPLE",
+      "car_id": "EXAMPLE",
+      "x": {
+        "n": 2,
+        "d": 1
+      },
+      "in_window": true
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{"op": "couple", "event_id": "E1", "target": "T", "target_end": "tail", "other": "S", "other_end": "tail"}
+{"op": "scan_platform", "train_id": "T", "report_id": "R1"}
+{"op": "reverse", "event_id": "E2", "train_id": "T"}
+{"op": "scan_platform", "train_id": "T", "report_id": "R2"}
+{"op": "read_report", "report_id": "R1"}

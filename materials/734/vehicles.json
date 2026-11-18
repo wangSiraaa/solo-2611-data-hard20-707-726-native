@@ -1,0 +1,16 @@
+{
+  "cars": [
+    {
+      "car_id": "V1",
+      "length": 10
+    },
+    {
+      "car_id": "V2",
+      "length": 10
+    },
+    {
+      "car_id": "V3",
+      "length": 10
+    }
+  ]
+}

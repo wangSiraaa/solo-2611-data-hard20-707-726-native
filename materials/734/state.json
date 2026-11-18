@@ -1,0 +1,47 @@
+{
+  "trains": [
+    {
+      "train_id": "T",
+      "cars": [
+        {
+          "car_id": "V1",
+          "orientation": 1
+        },
+        {
+          "car_id": "V2",
+          "orientation": 1
+        }
+      ]
+    },
+    {
+      "train_id": "S",
+      "cars": [
+        {
+          "car_id": "V3",
+          "orientation": 1
+        }
+      ]
+    }
+  ],
+  "cargo": [
+    {
+      "cargo_id": "C1",
+      "car_id": "V1",
+      "local_position": 2
+    },
+    {
+      "cargo_id": "C2",
+      "car_id": "V2",
+      "local_position": 2
+    },
+    {
+      "cargo_id": "C3",
+      "car_id": "V3",
+      "local_position": 2
+    }
+  ],
+  "platform_window": [
+    0,
+    5
+  ]
+}
