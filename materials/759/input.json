@@ -1,0 +1,19 @@
+{
+  "scale_contracts":[
+    {"scale_id":"K","revision":1,"base":0,"p":1,"q":2,"lo":0,"hi":24},
+    {"scale_id":"K","revision":2,"base":1,"p":1,"q":2,"lo":0,"hi":24}
+  ],
+  "reads":[
+    {"read_id":"A","revision":1,"point":"P1","scale_id":"K","scale_revision":1,"code":6},
+    {"read_id":"B","revision":1,"point":"P2","scale_id":"K","scale_revision":1,"code":14},
+    {"read_id":"B","revision":2,"point":"P2","scale_id":"K","scale_revision":2,"code":14},
+    {"read_id":"AX","revision":1,"point":"P1","scale_id":"K","scale_revision":1,"code":4},
+    {"read_id":"BX","revision":1,"point":"P2","scale_id":"K","scale_revision":1,"code":16}
+  ],
+  "requests":[
+    {"request_id":"G1","reads":[["A",1,"PRIMARY"],["B",1,"PRIMARY"]],"backup_limit":0,"shift":["-3","3"],"references":{"P1":[4,"1/4"],"P2":[9,"1/4"]}},
+    {"request_id":"G2","reads":[["A",1,"PRIMARY"],["B",2,"PRIMARY"]],"backup_limit":0,"shift":["-3","3"],"references":{"P1":[4,"1/4"],"P2":[9,"1/4"]}},
+    {"request_id":"G3","reads":[["A",1,"PRIMARY"],["B",2,"PRIMARY"]],"backup_limit":0,"shift":["0","1/2"],"references":{"P1":[4,"1/4"],"P2":[9,"1/4"]}},
+    {"request_id":"G4","reads":[["A",1,"PRIMARY"],["B",1,"PRIMARY"],["AX",1,"BACKUP"],["BX",1,"BACKUP"]],"backup_limit":1,"shift":["-3","3"],"references":{"P1":[4,"1/4"],"P2":[9,"1/4"]}}
+  ]
+}
