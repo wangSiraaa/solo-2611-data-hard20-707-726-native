@@ -1,0 +1,4 @@
+{"operation":"assess_and_publish","save_as":"REPORT1"}
+{"operation":"revise_grant","grant":{"grant_id":"G1","revision":2,"issuer":"P0","agent":"A","regions":["N"],"document_types":["K"],"start":0,"end":20,"can_redelegate":true,"parent_grant_id":null,"revoked_from":9}}
+{"operation":"assess_and_publish","save_as":"REPORT2"}
+{"operation":"read_historical","report":"REPORT1"}

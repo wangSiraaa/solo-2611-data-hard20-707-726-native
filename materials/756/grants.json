@@ -1,0 +1,38 @@
+{
+  "grants": [
+    {
+      "grant_id": "G1",
+      "revision": 1,
+      "issuer": "P0",
+      "agent": "A",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 0,
+      "end": 20,
+      "can_redelegate": true,
+      "parent_grant_id": null,
+      "revoked_from": 12
+    },
+    {
+      "grant_id": "G2",
+      "revision": 1,
+      "issuer": "A",
+      "agent": "B",
+      "regions": [
+        "N"
+      ],
+      "document_types": [
+        "K"
+      ],
+      "start": 5,
+      "end": 15,
+      "can_redelegate": false,
+      "parent_grant_id": "G1",
+      "revoked_from": null
+    }
+  ]
+}
