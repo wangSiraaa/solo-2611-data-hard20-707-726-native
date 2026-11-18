@@ -1,0 +1,90 @@
+{
+  "documents": [
+    {
+      "id": "D1",
+      "revision": 1,
+      "title": [
+        "Amber bolt gear"
+      ],
+      "body": [
+        "stop blue tag"
+      ]
+    },
+    {
+      "id": "D2",
+      "revision": 1,
+      "title": [
+        "amber",
+        "gear"
+      ],
+      "body": [
+        "clean"
+      ]
+    },
+    {
+      "id": "D3",
+      "revision": 1,
+      "title": [
+        "amber gear"
+      ],
+      "body": [
+        "stop-tag"
+      ]
+    },
+    {
+      "id": "D4",
+      "revision": 1,
+      "title": [
+        "amber gear stop tag"
+      ],
+      "body": [
+        "clean"
+      ]
+    }
+  ],
+  "revision": {
+    "id": "D4",
+    "revision": 2,
+    "title": [
+      "amber gear stop tag"
+    ],
+    "body": [
+      "stop tag"
+    ]
+  },
+  "query": {
+    "include": {
+      "field": "title",
+      "words": [
+        "amber",
+        "gear"
+      ],
+      "g": 1
+    },
+    "exclude": {
+      "field": "body",
+      "words": [
+        "stop",
+        "tag"
+      ],
+      "g": 0
+    },
+    "minimum_documents": 2
+  },
+  "operations": [
+    {
+      "id": "P1",
+      "op": "publish",
+      "version": "v1"
+    },
+    {
+      "id": "P2",
+      "op": "publish",
+      "version": "v2"
+    },
+    {
+      "op": "read",
+      "id": "P1"
+    }
+  ]
+}
