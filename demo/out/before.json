@@ -1,0 +1,119 @@
+{
+  "cut": {
+    "catalog_revision": "G1",
+    "fact_revision": "F1",
+    "fact_watermark": 1
+  },
+  "format": "classification-summary/1",
+  "groups": [
+    {
+      "amount": 100,
+      "contributions": [
+        {
+          "amount": 100,
+          "path": [
+            "L",
+            "A"
+          ],
+          "ticket_id": "T1"
+        },
+        {
+          "amount": 0,
+          "path": [
+            "A"
+          ],
+          "ticket_id": "T2"
+        }
+      ],
+      "count": 2,
+      "target_id": "A"
+    },
+    {
+      "amount": 150,
+      "contributions": [
+        {
+          "amount": 100,
+          "path": [
+            "L",
+            "B"
+          ],
+          "ticket_id": "T1"
+        },
+        {
+          "amount": 50,
+          "path": [
+            "B"
+          ],
+          "ticket_id": "T3"
+        }
+      ],
+      "count": 2,
+      "target_id": "B"
+    },
+    {
+      "amount": 150,
+      "contributions": [
+        {
+          "amount": 100,
+          "path": [
+            "L",
+            "A",
+            "R"
+          ],
+          "ticket_id": "T1"
+        },
+        {
+          "amount": 0,
+          "path": [
+            "A",
+            "R"
+          ],
+          "ticket_id": "T2"
+        },
+        {
+          "amount": 50,
+          "path": [
+            "B",
+            "R"
+          ],
+          "ticket_id": "T3"
+        }
+      ],
+      "count": 3,
+      "target_id": "R"
+    },
+    {
+      "amount": 100,
+      "contributions": [
+        {
+          "amount": 100,
+          "path": [
+            "L"
+          ],
+          "ticket_id": "T1"
+        }
+      ],
+      "count": 1,
+      "target_id": "L"
+    }
+  ],
+  "name": "demo-before",
+  "union": {
+    "amount": 150,
+    "contributions": [
+      {
+        "amount": 100,
+        "ticket_id": "T1"
+      },
+      {
+        "amount": 0,
+        "ticket_id": "T2"
+      },
+      {
+        "amount": 50,
+        "ticket_id": "T3"
+      }
+    ],
+    "count": 3
+  }
+}

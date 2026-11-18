@@ -1,0 +1,53 @@
+{
+  "accepted": [
+    {
+      "catalog_revision": "G2",
+      "cut": {
+        "catalog_revision": "G2",
+        "fact_revision": "F2",
+        "fact_watermark": 2
+      },
+      "edge_delta": {
+        "add": [],
+        "remove": [
+          [
+            "L",
+            "A"
+          ]
+        ]
+      },
+      "facts": [
+        {
+          "amount": 120,
+          "classes": [
+            "L"
+          ],
+          "revision": 2,
+          "ticket_id": "T1"
+        }
+      ],
+      "noop": false,
+      "parent_catalog_revision": "G1",
+      "request_id": "B1",
+      "warnings": []
+    }
+  ],
+  "after_cut": {
+    "catalog_revision": "G2",
+    "fact_revision": "F2",
+    "fact_watermark": 2
+  },
+  "before_cut": {
+    "catalog_revision": "G1",
+    "fact_revision": "F1",
+    "fact_watermark": 1
+  },
+  "products_unchanged": true,
+  "rejected": [
+    {
+      "error": "CatalogError",
+      "message": "catalog would contain a cycle: R -> L -> B -> R",
+      "request_id": "B_BAD"
+    }
+  ]
+}
