@@ -1,0 +1,100 @@
+{
+  "batch_id": "b-new",
+  "status": "committed",
+  "items": [
+    {
+      "index": 0,
+      "template_id": "put",
+      "revision": 2,
+      "status": "ok",
+      "plan": {
+        "format": "sql-param-plan/v1",
+        "template_id": "put",
+        "revision": 2,
+        "source": "INSERT INTO notes(id, message, payload) VALUES(:id, :text || ':revised', :blob)",
+        "sql": "INSERT INTO notes(id, message, payload) VALUES(?, ? || ':revised', ?)",
+        "parameters": [
+          {
+            "name": "id",
+            "start": 47,
+            "end": 50
+          },
+          {
+            "name": "text",
+            "start": 52,
+            "end": 57
+          },
+          {
+            "name": "blob",
+            "start": 73,
+            "end": 78
+          }
+        ]
+      },
+      "distinct_names": [
+        "id",
+        "text",
+        "blob"
+      ],
+      "ordered_values": [
+        3,
+        "new",
+        null
+      ],
+      "result": {
+        "kind": "insert",
+        "rowcount": 1
+      }
+    },
+    {
+      "index": 1,
+      "template_id": "get",
+      "revision": 1,
+      "status": "ok",
+      "plan": {
+        "format": "sql-param-plan/v1",
+        "template_id": "get",
+        "revision": 1,
+        "source": "SELECT id, message, payload, :id AS echo FROM notes WHERE id=:id ORDER BY id -- :ignored",
+        "sql": "SELECT id, message, payload, ? AS echo FROM notes WHERE id=? ORDER BY id -- :ignored",
+        "parameters": [
+          {
+            "name": "id",
+            "start": 29,
+            "end": 32
+          },
+          {
+            "name": "id",
+            "start": 61,
+            "end": 64
+          }
+        ]
+      },
+      "distinct_names": [
+        "id"
+      ],
+      "ordered_values": [
+        3,
+        3
+      ],
+      "result": {
+        "kind": "select",
+        "order_by": true,
+        "columns": [
+          "id",
+          "message",
+          "payload",
+          "echo"
+        ],
+        "rows": [
+          [
+            3,
+            "new:revised",
+            null,
+            3
+          ]
+        ]
+      }
+    }
+  ]
+}

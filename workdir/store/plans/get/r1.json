@@ -1,0 +1,19 @@
+{
+  "format": "sql-param-plan/v1",
+  "template_id": "get",
+  "revision": 1,
+  "source": "SELECT id, message, payload, :id AS echo FROM notes WHERE id=:id ORDER BY id -- :ignored",
+  "sql": "SELECT id, message, payload, ? AS echo FROM notes WHERE id=? ORDER BY id -- :ignored",
+  "parameters": [
+    {
+      "name": "id",
+      "start": 29,
+      "end": 32
+    },
+    {
+      "name": "id",
+      "start": 61,
+      "end": 64
+    }
+  ]
+}

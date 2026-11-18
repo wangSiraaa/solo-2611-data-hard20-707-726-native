@@ -1,0 +1,94 @@
+{
+  "batch_id": "b-rollback",
+  "status": "rolled_back",
+  "items": [
+    {
+      "index": 0,
+      "template_id": "put",
+      "revision": 1,
+      "status": "ok",
+      "plan": {
+        "format": "sql-param-plan/v1",
+        "template_id": "put",
+        "revision": 1,
+        "source": "INSERT INTO notes(id, message, payload) VALUES(:id, :text || ':literal', :blob) /* :ignored ? ; */",
+        "sql": "INSERT INTO notes(id, message, payload) VALUES(?, ? || ':literal', ?) /* :ignored ? ; */",
+        "parameters": [
+          {
+            "name": "id",
+            "start": 47,
+            "end": 50
+          },
+          {
+            "name": "text",
+            "start": 52,
+            "end": 57
+          },
+          {
+            "name": "blob",
+            "start": 73,
+            "end": 78
+          }
+        ]
+      },
+      "distinct_names": [
+        "id",
+        "text",
+        "blob"
+      ],
+      "ordered_values": [
+        2,
+        null,
+        {
+          "$bytes": ""
+        }
+      ],
+      "result": {
+        "kind": "insert",
+        "rowcount": 1
+      }
+    },
+    {
+      "index": 1,
+      "template_id": "put",
+      "revision": 1,
+      "status": "failed",
+      "plan": {
+        "format": "sql-param-plan/v1",
+        "template_id": "put",
+        "revision": 1,
+        "source": "INSERT INTO notes(id, message, payload) VALUES(:id, :text || ':literal', :blob) /* :ignored ? ; */",
+        "sql": "INSERT INTO notes(id, message, payload) VALUES(?, ? || ':literal', ?) /* :ignored ? ; */",
+        "parameters": [
+          {
+            "name": "id",
+            "start": 47,
+            "end": 50
+          },
+          {
+            "name": "text",
+            "start": 52,
+            "end": 57
+          },
+          {
+            "name": "blob",
+            "start": 73,
+            "end": 78
+          }
+        ]
+      },
+      "distinct_names": [
+        "id",
+        "text",
+        "blob"
+      ],
+      "ordered_values": [
+        1,
+        "duplicate",
+        null
+      ],
+      "error": "IntegrityError: UNIQUE constraint failed: notes.id"
+    }
+  ],
+  "error": "IntegrityError: UNIQUE constraint failed: notes.id"
+}

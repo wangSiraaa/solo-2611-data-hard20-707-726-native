@@ -1,0 +1,24 @@
+{
+  "format": "sql-param-plan/v1",
+  "template_id": "put",
+  "revision": 1,
+  "source": "INSERT INTO notes(id, message, payload) VALUES(:id, :text || ':literal', :blob) /* :ignored ? ; */",
+  "sql": "INSERT INTO notes(id, message, payload) VALUES(?, ? || ':literal', ?) /* :ignored ? ; */",
+  "parameters": [
+    {
+      "name": "id",
+      "start": 47,
+      "end": 50
+    },
+    {
+      "name": "text",
+      "start": 52,
+      "end": 57
+    },
+    {
+      "name": "blob",
+      "start": 73,
+      "end": 78
+    }
+  ]
+}
