@@ -1,0 +1,24 @@
+{
+  "format": "asset-handoff/1",
+  "handoff_id": "H2",
+  "membership_revision": 2,
+  "roots": [
+    "C1"
+  ],
+  "from": "B",
+  "to": "C",
+  "members": [
+    {
+      "asset_id": "C1",
+      "type": "CONTAINER"
+    },
+    {
+      "asset_id": "C2",
+      "type": "CONTAINER"
+    },
+    {
+      "asset_id": "I2",
+      "type": "ITEM"
+    }
+  ]
+}
