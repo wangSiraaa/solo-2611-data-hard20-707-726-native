@@ -1,0 +1,20 @@
+{
+  "request_id": "REQ1",
+  "revision": 1,
+  "groups": [
+    {
+      "group_id": "G_CORE",
+      "allowed_categories": [
+        "CORE"
+      ],
+      "minimum_points": 3
+    },
+    {
+      "group_id": "G_OPT",
+      "allowed_categories": [
+        "OPT"
+      ],
+      "minimum_points": 3
+    }
+  ]
+}

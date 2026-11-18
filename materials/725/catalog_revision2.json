@@ -1,0 +1,36 @@
+{
+  "format": "course-catalog/1",
+  "revision": 2,
+  "courses": [
+    {
+      "course_id": "LC_CORE",
+      "categories": [
+        "CORE"
+      ]
+    },
+    {
+      "course_id": "LC_OPT",
+      "categories": [
+        "OPT"
+      ]
+    },
+    {
+      "course_id": "LC_BOTH",
+      "categories": [
+        "CORE",
+        "OPT"
+      ]
+    }
+  ],
+  "equivalences": {
+    "X": [
+      "LC_CORE"
+    ],
+    "Y": [
+      "LC_CORE"
+    ],
+    "Z": [
+      "LC_BOTH"
+    ]
+  }
+}

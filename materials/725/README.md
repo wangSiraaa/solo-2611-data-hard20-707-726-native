@@ -1,0 +1,4 @@
+只提供输入与独立外部方案，不含目标求解器/验证器。JSON均为UTF-8，公开字段含义就是题面合同。
+course-allocation/1固定student_id、catalog_revision、records_revision、request_id及requirements_revision；assignments每项只给record_id/course_id/group_id，点数必须从指定转入记录读取，不能信任方案自报点数。未出现的记录未使用。允许额外说明字段，不靠字段顺序判断方案。
+plan_a与plan_b均给两组3点，R3未用，均应接受；二者不是由待实现求解器产生。plan_invalid_reuse复用了R1，应拒绝并指出R1。
+目录修订2后只有R3的2点能进OPT，故整体不可行（OPT单组最大2，CORE单组最大8）。旧修订1仍可查询历史，但不能拿旧准备确认当前审核。无需为这次修订增加课程、规模或新优化目标。

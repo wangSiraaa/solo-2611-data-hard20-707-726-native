@@ -1,0 +1,21 @@
+{
+  "student_id": "ST1",
+  "revision": 1,
+  "records": [
+    {
+      "record_id": "R1",
+      "external_course": "X",
+      "points": 3
+    },
+    {
+      "record_id": "R2",
+      "external_course": "Y",
+      "points": 3
+    },
+    {
+      "record_id": "R3",
+      "external_course": "Z",
+      "points": 2
+    }
+  ]
+}

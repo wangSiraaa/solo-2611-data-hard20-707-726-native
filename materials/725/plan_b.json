@@ -1,0 +1,20 @@
+{
+  "format": "course-allocation/1",
+  "student_id": "ST1",
+  "catalog_revision": 1,
+  "records_revision": 1,
+  "request_id": "REQ1",
+  "requirements_revision": 1,
+  "assignments": [
+    {
+      "record_id": "R1",
+      "course_id": "LC_OPT",
+      "group_id": "G_OPT"
+    },
+    {
+      "record_id": "R2",
+      "course_id": "LC_CORE",
+      "group_id": "G_CORE"
+    }
+  ]
+}
