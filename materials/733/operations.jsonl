@@ -1,0 +1,4 @@
+{"op": "audit_routes", "file": "routes.json", "report_id": "R1"}
+{"op": "revise_gate", "file": "revision.json"}
+{"op": "audit_routes", "file": "routes.json", "report_id": "R2"}
+{"op": "read_report", "report_id": "R1"}

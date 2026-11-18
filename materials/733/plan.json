@@ -1,0 +1,87 @@
+{
+  "revision": "r1",
+  "rooms": [
+    {
+      "room_id": "A",
+      "rect": [
+        0,
+        0,
+        4,
+        4
+      ]
+    },
+    {
+      "room_id": "B",
+      "rect": [
+        4,
+        0,
+        8,
+        4
+      ]
+    },
+    {
+      "room_id": "C",
+      "rect": [
+        0,
+        4,
+        4,
+        8
+      ]
+    },
+    {
+      "room_id": "D",
+      "rect": [
+        4,
+        4,
+        8,
+        8
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "AB",
+      "rooms": [
+        "A",
+        "B"
+      ],
+      "axis": "y",
+      "fixed": 4,
+      "lo": 1,
+      "hi": 3
+    },
+    {
+      "gate_id": "AC",
+      "rooms": [
+        "A",
+        "C"
+      ],
+      "axis": "x",
+      "fixed": 4,
+      "lo": 1,
+      "hi": 3
+    },
+    {
+      "gate_id": "BD",
+      "rooms": [
+        "B",
+        "D"
+      ],
+      "axis": "x",
+      "fixed": 4,
+      "lo": 5,
+      "hi": 7
+    },
+    {
+      "gate_id": "CD",
+      "rooms": [
+        "C",
+        "D"
+      ],
+      "axis": "y",
+      "fixed": 4,
+      "lo": 5,
+      "hi": 7
+    }
+  ]
+}

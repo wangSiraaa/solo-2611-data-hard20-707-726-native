@@ -1,0 +1,14 @@
+{
+  "revision": "r2",
+  "replace_gate": {
+    "gate_id": "AB",
+    "rooms": [
+      "A",
+      "B"
+    ],
+    "axis": "y",
+    "fixed": 4,
+    "lo": 2,
+    "hi": 4
+  }
+}
