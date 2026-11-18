@@ -1,0 +1,6216 @@
+{
+  "measurements": [
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0001",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-000",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "U",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0002",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-001",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "mm",
+      "value": {
+        "d": 1,
+        "n": 1000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0003",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-002",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "lb",
+      "value": {
+        "d": 6479891,
+        "n": 300000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0004",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-003",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0005",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-004",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0006",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-005",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 25
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0007",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-006",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 1800
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0008",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-007",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "molL",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0009",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-008",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "F",
+      "value": {
+        "d": 1,
+        "n": 247
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0010",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-009",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "in",
+      "value": {
+        "d": 127,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0011",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-010",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "lb",
+      "value": {
+        "d": 45359237,
+        "n": 5000000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0012",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-011",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "psi",
+      "value": {
+        "d": 6894757,
+        "n": 500000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0013",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-012",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "m3s",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0014",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-013",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "kV",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0015",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-014",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "min",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0016",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-015",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 5000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0017",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-016",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "C",
+      "value": {
+        "d": 9,
+        "n": 1075
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0018",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-017",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "cm",
+      "value": {
+        "d": 1,
+        "n": 500
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0019",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-018",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "kg",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0020",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-019",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "bar",
+      "value": {
+        "d": 100000,
+        "n": 200001
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0021",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-020",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "gpm",
+      "value": {
+        "d": 1,
+        "n": 1585
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0022",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-021",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "kV",
+      "value": {
+        "d": 40,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0023",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-022",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0024",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-023",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "molL",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0025",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-024",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "F",
+      "value": {
+        "d": 1,
+        "n": 18
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0026",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-025",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "ft",
+      "value": {
+        "d": 381,
+        "n": 625
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0027",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-026",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "lb",
+      "value": {
+        "d": 6479891,
+        "n": 300000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0028",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-027",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 200001
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0029",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-028",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 30000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0030",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-029",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 250
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0031",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-030",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 7201
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0032",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-031",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 500000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0033",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-032",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "F",
+      "value": {
+        "d": 1,
+        "n": 18
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0034",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-033",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "mm",
+      "value": {
+        "d": 1,
+        "n": 1000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0035",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-034",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "g",
+      "value": {
+        "d": 1,
+        "n": 21000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0036",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-035",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "bar",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0037",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-036",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "gpm",
+      "value": {
+        "d": 1,
+        "n": 15850
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0038",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-037",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 101
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0039",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-038",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0040",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-039",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 500000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0041",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-000",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "F",
+      "value": {
+        "d": 1,
+        "n": 18
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0042",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-001",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "m",
+      "value": {
+        "d": 1,
+        "n": 3
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0043",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-002",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "kg",
+      "value": {
+        "d": 1,
+        "n": 201
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0044",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-003",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "kPa",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0045",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-004",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "m3s",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0046",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-005",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "kV",
+      "value": {
+        "d": 40,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0047",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-006",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 1800
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0048",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-007",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "molL",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0049",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-008",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "R",
+      "value": {
+        "d": 1,
+        "n": 18
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0050",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-009",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "ft",
+      "value": {
+        "d": 381,
+        "n": 12500
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0051",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-010",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "lb",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0052",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-011",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 500000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0053",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-012",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 30000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0054",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-013",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0055",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-014",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 1800
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0056",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-015",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "mmolL",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0057",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-016",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "C",
+      "value": {
+        "d": 9,
+        "n": 445
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0058",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-017",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "mm",
+      "value": {
+        "d": 1,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0059",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-018",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "mg",
+      "value": {
+        "d": 1,
+        "n": 100000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0060",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-019",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "bar",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0061",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-020",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0062",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-021",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "kV",
+      "value": {
+        "d": 4,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0063",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-022",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 3600
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0064",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-023",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "mmolL",
+      "value": {
+        "d": 1,
+        "n": 10000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0065",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-024",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "R",
+      "value": {
+        "d": 1,
+        "n": 18
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0066",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-025",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "in",
+      "value": {
+        "d": 127,
+        "n": 25000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0067",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-026",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "kg",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0068",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-027",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "kPa",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0069",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-028",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "gpm",
+      "value": {
+        "d": 1,
+        "n": 7925
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0070",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-029",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "mV",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0071",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-030",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "min",
+      "value": {
+        "d": 1,
+        "n": 30
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0072",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-031",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 21000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0073",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-032",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "F",
+      "value": {
+        "d": 1,
+        "n": 18
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0074",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-033",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "mm",
+      "value": {
+        "d": 1,
+        "n": 500
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0075",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-034",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "g",
+      "value": {
+        "d": 1,
+        "n": 50000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0076",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-035",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "bar",
+      "value": {
+        "d": 1,
+        "n": 10
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0077",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-036",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "m3s",
+      "value": {
+        "d": 5,
+        "n": 6
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0078",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-037",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "mV",
+      "value": {
+        "d": 1,
+        "n": 25000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0079",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-038",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "min",
+      "value": {
+        "d": 1,
+        "n": 30
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0080",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-039",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0081",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-000",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "C",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0082",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-001",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "mm",
+      "value": {
+        "d": 1,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0083",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-002",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "mg",
+      "value": {
+        "d": 1,
+        "n": 5000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0084",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-003",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 50000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0085",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-004",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 3000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0086",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-005",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "kV",
+      "value": {
+        "d": 4,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0087",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-006",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0088",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-007",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 5000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0089",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-008",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "R",
+      "value": {
+        "d": 1,
+        "n": 37
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0090",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-009",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "ft",
+      "value": {
+        "d": 381,
+        "n": 625
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0091",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-010",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "mg",
+      "value": {
+        "d": 1,
+        "n": 50000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0092",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-011",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 500000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0093",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-012",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 3000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0094",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-013",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "kV",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0095",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-014",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "min",
+      "value": {
+        "d": 60,
+        "n": 7201
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0096",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-015",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 500000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0097",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-016",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "R",
+      "value": {
+        "d": 100,
+        "n": 58167
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0098",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-017",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "in",
+      "value": {
+        "d": 127,
+        "n": 105000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0099",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-018",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "lb",
+      "value": {
+        "d": 45359237,
+        "n": 500000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0100",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-019",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 50000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0101",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-020",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "gpm",
+      "value": {
+        "d": 2,
+        "n": 1585
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0102",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-021",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "mV",
+      "value": {
+        "d": 1,
+        "n": 250000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0103",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-022",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "min",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0104",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-023",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "molL",
+      "value": {
+        "d": 1,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0105",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-024",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "R",
+      "value": {
+        "d": 100,
+        "n": 58167
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0106",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-025",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "ft",
+      "value": {
+        "d": 127,
+        "n": 1250
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0107",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-026",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "g",
+      "value": {
+        "d": 1,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0108",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-027",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "psi",
+      "value": {
+        "d": 6894757,
+        "n": 200001000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0109",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-028",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "gpm",
+      "value": {
+        "d": 1,
+        "n": 47550
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0110",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-029",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "mV",
+      "value": {
+        "d": 1,
+        "n": 500000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0111",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-030",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0112",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-031",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "mmolL",
+      "value": {
+        "d": 1,
+        "n": 500
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0113",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-032",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "R",
+      "value": {
+        "d": 1,
+        "n": 18
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0114",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-033",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "cm",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0115",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-034",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "mg",
+      "value": {
+        "d": 1,
+        "n": 50000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0116",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-035",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "psi",
+      "value": {
+        "d": 6894757,
+        "n": 50000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0117",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-036",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "gpm",
+      "value": {
+        "d": 2,
+        "n": 1585
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0118",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-037",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "kV",
+      "value": {
+        "d": 20,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0119",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-038",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 3600
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0120",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-039",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "mmolL",
+      "value": {
+        "d": 1,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0121",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-000",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "C",
+      "value": {
+        "d": 1,
+        "n": 10
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0122",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-001",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "ft",
+      "value": {
+        "d": 381,
+        "n": 6250
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0123",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-002",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "mg",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0124",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-003",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 500000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0125",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-004",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "m3s",
+      "value": {
+        "d": 20,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0126",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-005",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "mV",
+      "value": {
+        "d": 1,
+        "n": 101000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0127",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-006",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 1800
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0128",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-007",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 500000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0129",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-008",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "F",
+      "value": {
+        "d": 1,
+        "n": 18
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0130",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-009",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "mm",
+      "value": {
+        "d": 1,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0131",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-010",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "kg",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0132",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-011",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "kPa",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0133",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-012",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 3000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0134",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-013",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "kV",
+      "value": {
+        "d": 40,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0135",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-014",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0136",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-015",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "molL",
+      "value": {
+        "d": 1,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0137",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-016",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "F",
+      "value": {
+        "d": 1,
+        "n": 18
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0138",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-017",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "in",
+      "value": {
+        "d": 127,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0139",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-018",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "kg",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0140",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-019",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "kPa",
+      "value": {
+        "d": 1,
+        "n": 500
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0141",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-020",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "gpm",
+      "value": {
+        "d": 2,
+        "n": 1585
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0142",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-021",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 25
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0143",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-022",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 1800
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0144",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-023",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "mmolL",
+      "value": {
+        "d": 1,
+        "n": 500
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0145",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-024",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "K",
+      "value": {
+        "d": 9,
+        "n": 185
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0146",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-025",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "in",
+      "value": {
+        "d": 127,
+        "n": 2500
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0147",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-026",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "g",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0148",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-027",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 500000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0149",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-028",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "m3s",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0150",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-029",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "mV",
+      "value": {
+        "d": 1,
+        "n": 25000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0151",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-030",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 1800
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0152",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-031",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "mmolL",
+      "value": {
+        "d": 1,
+        "n": 500
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0153",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-032",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "K",
+      "value": {
+        "d": 9,
+        "n": 185
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0154",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-033",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "m",
+      "value": {
+        "d": 1,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0155",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-034",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "g",
+      "value": {
+        "d": 1,
+        "n": 21000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0156",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-035",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "bar",
+      "value": {
+        "d": 1,
+        "n": 10
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0157",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-036",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "m3s",
+      "value": {
+        "d": 20,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0158",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-037",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "kV",
+      "value": {
+        "d": 40,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0159",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-038",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "min",
+      "value": {
+        "d": 1,
+        "n": 30
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0160",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-039",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 21000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0161",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-000",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "R",
+      "value": {
+        "d": 100,
+        "n": 58267
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0162",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-001",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "in",
+      "value": {
+        "d": 127,
+        "n": 25000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0163",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-002",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "lb",
+      "value": {
+        "d": 6479891,
+        "n": 300000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0164",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-003",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "psi",
+      "value": {
+        "d": 6894757,
+        "n": 1000000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0165",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-004",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "m3s",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0166",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-005",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0167",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-006",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0168",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-007",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "mmolL",
+      "value": {
+        "d": 1,
+        "n": 21000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0169",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-008",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "C",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0170",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-009",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "m",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0171",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-010",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "g",
+      "value": {
+        "d": 1,
+        "n": 100000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0172",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-011",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "bar",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0173",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-012",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 3000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0174",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-013",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "mV",
+      "value": {
+        "d": 1,
+        "n": 101000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0175",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-014",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 1800
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0176",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-015",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 5000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0177",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-016",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "C",
+      "value": {
+        "d": 9,
+        "n": 185
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0178",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-017",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "mm",
+      "value": {
+        "d": 1,
+        "n": 500
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0179",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-018",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "lb",
+      "value": {
+        "d": 45359237,
+        "n": 10000000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0180",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-019",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "psi",
+      "value": {
+        "d": 6894757,
+        "n": 50000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0181",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-020",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "m3s",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0182",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-021",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "mV",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0183",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-022",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "min",
+      "value": {
+        "d": 1,
+        "n": 30
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0184",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-023",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 500000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0185",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-024",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "R",
+      "value": {
+        "d": 1,
+        "n": 18
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0186",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-025",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "m",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0187",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-026",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "lb",
+      "value": {
+        "d": 45359237,
+        "n": 10000000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0188",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-027",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 500000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0189",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-028",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "m3s",
+      "value": {
+        "d": 20,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0190",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-029",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "mV",
+      "value": {
+        "d": 1,
+        "n": 25000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0191",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-030",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 7201
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0192",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-031",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "molL",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0193",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-032",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "C",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0194",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-033",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "ft",
+      "value": {
+        "d": 127,
+        "n": 8750
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0195",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-034",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "lb",
+      "value": {
+        "d": 45359237,
+        "n": 500000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0196",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-035",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "psi",
+      "value": {
+        "d": 6894757,
+        "n": 500000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0197",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-036",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "m3s",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0198",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-037",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0199",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-038",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "min",
+      "value": {
+        "d": 60,
+        "n": 7201
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0200",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-039",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 5000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0201",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-000",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "U",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0202",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-001",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "cm",
+      "value": {
+        "d": 1,
+        "n": 1000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0203",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-002",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "g",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0204",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-003",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0205",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-004",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "m3s",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0206",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-005",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 25
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0207",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-006",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "min",
+      "value": {
+        "d": 1,
+        "n": 30
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0208",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-007",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "molL",
+      "value": {
+        "d": 1,
+        "n": 21
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0209",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-008",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "R",
+      "value": {
+        "d": 100,
+        "n": 70667
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0210",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-009",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "mm",
+      "value": {
+        "d": 1,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0211",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-010",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "mg",
+      "value": {
+        "d": 1,
+        "n": 50000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0212",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-011",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "psi",
+      "value": {
+        "d": 6894757,
+        "n": 500000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0213",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-012",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 30000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0214",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-013",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "kV",
+      "value": {
+        "d": 4,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0215",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-014",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "min",
+      "value": {
+        "d": 1,
+        "n": 60
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0216",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-015",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 5000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0217",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-016",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "R",
+      "value": {
+        "d": 1,
+        "n": 37
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0218",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-017",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "m",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0219",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-018",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "mg",
+      "value": {
+        "d": 1,
+        "n": 21000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0220",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-019",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "psi",
+      "value": {
+        "d": 6894757,
+        "n": 500000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0221",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-020",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "gpm",
+      "value": {
+        "d": 2,
+        "n": 1585
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0222",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-021",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "kV",
+      "value": {
+        "d": 4,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0223",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-022",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0224",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-023",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "mmolL",
+      "value": {
+        "d": 1,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0225",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-024",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "F",
+      "value": {
+        "d": 1,
+        "n": 122
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0226",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-025",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "in",
+      "value": {
+        "d": 127,
+        "n": 2500
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0227",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-026",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "lb",
+      "value": {
+        "d": 45359237,
+        "n": 5000000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0228",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-027",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "kPa",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0229",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-028",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "gpm",
+      "value": {
+        "d": 1,
+        "n": 7925
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0230",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-029",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "mV",
+      "value": {
+        "d": 1,
+        "n": 25000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0231",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-030",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0232",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-031",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "molL",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0233",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-032",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "K",
+      "value": {
+        "d": 20,
+        "n": 6463
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0234",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-033",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "cm",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0235",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-034",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "kg",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0236",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-035",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 1000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0237",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-036",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 3000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0238",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-037",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 250
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0239",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-038",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0240",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-039",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "molL",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0241",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-000",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "K",
+      "value": {
+        "d": 1,
+        "n": 10
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0242",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-001",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "in",
+      "value": {
+        "d": 127,
+        "n": 2500
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0243",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-002",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "g",
+      "value": {
+        "d": 1,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0244",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-003",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 50000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0245",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-004",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 3000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0246",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-005",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 500
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0247",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-006",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0248",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-007",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "molL",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0249",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-008",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "R",
+      "value": {
+        "d": 1,
+        "n": 18
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0250",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-009",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "ft",
+      "value": {
+        "d": 381,
+        "n": 6250
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0251",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-010",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "mg",
+      "value": {
+        "d": 1,
+        "n": 21000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0252",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-011",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 50000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0253",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-012",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 30000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0254",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-013",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0255",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-014",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 1800
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0256",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-015",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 5000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0257",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-016",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "C",
+      "value": {
+        "d": 1,
+        "n": 10
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0258",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-017",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "in",
+      "value": {
+        "d": 127,
+        "n": 25000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0259",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-018",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "mg",
+      "value": {
+        "d": 1,
+        "n": 50000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0260",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-019",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0261",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-020",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 30000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0262",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-021",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 500
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0263",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-022",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "min",
+      "value": {
+        "d": 1,
+        "n": 60
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0264",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-023",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "molL",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0265",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-024",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "K",
+      "value": {
+        "d": 180,
+        "n": 58267
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0266",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-025",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "in",
+      "value": {
+        "d": 127,
+        "n": 105000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0267",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-026",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "kg",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0268",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-027",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "kPa",
+      "value": {
+        "d": 1,
+        "n": 500
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0269",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-028",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "gpm",
+      "value": {
+        "d": 2,
+        "n": 1585
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0270",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-029",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 1001
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0271",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-030",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "min",
+      "value": {
+        "d": 1,
+        "n": 30
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0272",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-031",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "molL",
+      "value": {
+        "d": 1,
+        "n": 3
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0273",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-032",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "F",
+      "value": {
+        "d": 1,
+        "n": 247
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0274",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-033",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "in",
+      "value": {
+        "d": 127,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0275",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-034",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "mg",
+      "value": {
+        "d": 1,
+        "n": 21000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0276",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-035",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "kPa",
+      "value": {
+        "d": 1,
+        "n": 500
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0277",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-036",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "m3s",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0278",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-037",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 25
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0279",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-038",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0280",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-039",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "molL",
+      "value": {
+        "d": 1,
+        "n": 3
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0281",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-000",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "C",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0282",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-001",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "ft",
+      "value": {
+        "d": 381,
+        "n": 1250
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0283",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-002",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "g",
+      "value": {
+        "d": 1,
+        "n": 21000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0284",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-003",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "bar",
+      "value": {
+        "d": 100000,
+        "n": 200001
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0285",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-004",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 30000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0286",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-005",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 250
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0287",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-006",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 1800
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0288",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-007",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0289",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-008",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "K",
+      "value": {
+        "d": 180,
+        "n": 70667
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0290",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-009",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "ft",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0291",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-010",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "g",
+      "value": {
+        "d": 1,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0292",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-011",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "kPa",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0293",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-012",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "gpm",
+      "value": {
+        "d": 1,
+        "n": 7925
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0294",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-013",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 25
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0295",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-014",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0296",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-015",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 21000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0297",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-016",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "C",
+      "value": {
+        "d": 9,
+        "n": 445
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0298",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-017",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "in",
+      "value": {
+        "d": 127,
+        "n": 2500
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0299",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-018",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "mg",
+      "value": {
+        "d": 1,
+        "n": 50000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0300",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-019",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "psi",
+      "value": {
+        "d": 6894757,
+        "n": 100000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0301",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-020",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "gpm",
+      "value": {
+        "d": 2,
+        "n": 1585
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0302",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-021",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0303",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-022",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "min",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0304",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-023",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "molL",
+      "value": {
+        "d": 1,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0305",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-024",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "F",
+      "value": {
+        "d": 1,
+        "n": 247
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0306",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-025",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "in",
+      "value": {
+        "d": 127,
+        "n": 2500
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0307",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-026",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "mg",
+      "value": {
+        "d": 1,
+        "n": 5000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0308",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-027",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "kPa",
+      "value": {
+        "d": 1000,
+        "n": 200001
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0309",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-028",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "gpm",
+      "value": {
+        "d": 1,
+        "n": 7925
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0310",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-029",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "kV",
+      "value": {
+        "d": 40,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0311",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-030",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 1,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0312",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-031",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "mmolL",
+      "value": {
+        "d": 1,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0313",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-032",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "C",
+      "value": {
+        "d": 9,
+        "n": 455
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0314",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-033",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "ft",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0315",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-034",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "mg",
+      "value": {
+        "d": 1,
+        "n": 50000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0316",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-035",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "psi",
+      "value": {
+        "d": 6894757,
+        "n": 200001000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0317",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-036",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 30000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0318",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-037",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 250
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0319",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-038",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0320",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-039",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "molL",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0321",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-000",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "F",
+      "value": {
+        "d": 1,
+        "n": 122
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0322",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-001",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "m",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0323",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-002",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "mg",
+      "value": {
+        "d": 1,
+        "n": 50000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0324",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-003",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "bar",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0325",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-004",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0326",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-005",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "kV",
+      "value": {
+        "d": 4,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0327",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-006",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "min",
+      "value": {
+        "d": 60,
+        "n": 7201
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0328",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-007",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 500000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0329",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-008",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "F",
+      "value": {
+        "d": 1,
+        "n": 37
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0330",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-009",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "m",
+      "value": {
+        "d": 1,
+        "n": 3
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0331",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-010",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "g",
+      "value": {
+        "d": 1,
+        "n": 21000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0332",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-011",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "psi",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0333",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-012",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "gpm",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0334",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-013",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 25
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0335",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-014",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0336",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-015",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 5000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0337",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-016",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "C",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0338",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-017",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "m",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0339",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-018",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "mg",
+      "value": {
+        "d": 1,
+        "n": 100000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0340",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-019",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "bar",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0341",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-020",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 72000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0342",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-021",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "kV",
+      "value": {
+        "d": 1000,
+        "n": 1001
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0343",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-022",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0344",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-023",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 500000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0345",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-024",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "R",
+      "value": {
+        "d": 1,
+        "n": 18
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0346",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-025",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "in",
+      "value": {
+        "d": 127,
+        "n": 2500
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0347",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-026",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "mg",
+      "value": {
+        "d": 1,
+        "n": 5000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0348",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-027",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 100000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0349",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-028",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "gpm",
+      "value": {
+        "d": 1,
+        "n": 7925
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0350",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-029",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 250
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0351",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-030",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 1800
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0352",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-031",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "mmolL",
+      "value": {
+        "d": 1,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0353",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-032",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "C",
+      "value": {
+        "d": 9,
+        "n": 1075
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0354",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-033",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "m",
+      "value": {
+        "d": 1,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0355",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-034",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "kg",
+      "value": {
+        "d": 1,
+        "n": 10
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0356",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-035",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "bar",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0357",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-036",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "gpm",
+      "value": {
+        "d": 1,
+        "n": 7925
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0358",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-037",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "mV",
+      "value": {
+        "d": 1,
+        "n": 250000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0359",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-038",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0360",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-039",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 500000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0361",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-000",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "R",
+      "value": {
+        "d": 1,
+        "n": 37
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0362",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-001",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "cm",
+      "value": {
+        "d": 1,
+        "n": 300
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0363",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-002",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "kg",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0364",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-003",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "psi",
+      "value": {
+        "d": 6894757,
+        "n": 500000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0365",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-004",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "m3s",
+      "value": {
+        "d": 20,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0366",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-005",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "kV",
+      "value": {
+        "d": 1000,
+        "n": 1001
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0367",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-006",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0368",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-007",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "molL",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0369",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-008",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "R",
+      "value": {
+        "d": 100,
+        "n": 58167
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0370",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-009",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "m",
+      "value": {
+        "d": 1,
+        "n": 21
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0371",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-010",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "mg",
+      "value": {
+        "d": 1,
+        "n": 50000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0372",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-011",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "kPa",
+      "value": {
+        "d": 1000,
+        "n": 2000001
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0373",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-012",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 72000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0374",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-013",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "mV",
+      "value": {
+        "d": 1,
+        "n": 25000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0375",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-014",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 1800
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0376",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-015",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "mmolL",
+      "value": {
+        "d": 1,
+        "n": 10000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0377",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-016",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "R",
+      "value": {
+        "d": 1,
+        "n": 18
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0378",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-017",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "ft",
+      "value": {
+        "d": 381,
+        "n": 625
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0379",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-018",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "lb",
+      "value": {
+        "d": 45359237,
+        "n": 10000000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0380",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-019",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 50000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0381",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-020",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "gpm",
+      "value": {
+        "d": 1,
+        "n": 1585
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0382",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-021",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 25
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0383",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-022",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0384",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-023",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "mmolL",
+      "value": {
+        "d": 1,
+        "n": 21000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0385",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-024",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "K",
+      "value": {
+        "d": 1,
+        "n": 10
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0386",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-025",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "m",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0387",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-026",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "kg",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0388",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-027",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 500000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0389",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-028",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "m3s",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0390",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-029",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "kV",
+      "value": {
+        "d": 1000,
+        "n": 1001
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0391",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-030",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 1800
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0392",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-031",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 1000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0393",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-032",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "R",
+      "value": {
+        "d": 1,
+        "n": 18
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0394",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-033",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "in",
+      "value": {
+        "d": 127,
+        "n": 15000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0395",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-034",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "kg",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0396",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-035",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "bar",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0397",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-036",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "gpm",
+      "value": {
+        "d": 1,
+        "n": 7925
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0398",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-037",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "mV",
+      "value": {
+        "d": 1,
+        "n": 250000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0399",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-038",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0400",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-039",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "mmolL",
+      "value": {
+        "d": 1,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0401",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-000",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "U",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0402",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-001",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "cm",
+      "value": {
+        "d": 1,
+        "n": 1000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0403",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-002",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "mg",
+      "value": {
+        "d": 1,
+        "n": 5000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0404",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-003",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0405",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-004",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 180000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0406",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-005",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "mV",
+      "value": {
+        "d": 1,
+        "n": 250000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0407",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-006",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "min",
+      "value": {
+        "d": 60,
+        "n": 7201
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0408",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-007",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 5000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0409",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-008",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "R",
+      "value": {
+        "d": 1,
+        "n": 18
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0410",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-009",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "in",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0411",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-010",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "lb",
+      "value": {
+        "d": 45359237,
+        "n": 500000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0412",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-011",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "kPa",
+      "value": {
+        "d": 1,
+        "n": 100
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0413",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-012",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0414",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-013",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 25
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0415",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-014",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0416",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-015",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 5000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0417",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-016",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "F",
+      "value": {
+        "d": 1,
+        "n": 18
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0418",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-017",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "m",
+      "value": {
+        "d": 1,
+        "n": 21
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0419",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-018",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "g",
+      "value": {
+        "d": 1,
+        "n": 50000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0420",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-019",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "bar",
+      "value": {
+        "d": 1,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0421",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-020",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "m3s",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0422",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-021",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 25
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0423",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-022",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0424",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-023",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "molL",
+      "value": {
+        "d": 1,
+        "n": 10
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0425",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-024",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "C",
+      "value": {
+        "d": 1,
+        "n": 10
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0426",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-025",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "mm",
+      "value": {
+        "d": 1,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0427",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-026",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "g",
+      "value": {
+        "d": 1,
+        "n": 50000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0428",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-027",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "bar",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0429",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-028",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "gpm",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0430",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-029",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "kV",
+      "value": {
+        "d": 20,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0431",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-030",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 1800
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0432",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-031",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 500000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0433",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-032",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "F",
+      "value": {
+        "d": 1,
+        "n": 18
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0434",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-033",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "m",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0435",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-034",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "lb",
+      "value": {
+        "d": 45359237,
+        "n": 5000000000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0436",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-035",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "bar",
+      "value": {
+        "d": 1,
+        "n": 10
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0437",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-036",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "m3s",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0438",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-037",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "mV",
+      "value": {
+        "d": 1,
+        "n": 1001000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0439",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-038",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0440",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-039",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 500000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0441",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-000",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "F",
+      "value": {
+        "d": 1,
+        "n": 122
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0442",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-001",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "ft",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0443",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-002",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "g",
+      "value": {
+        "d": 1,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0444",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-003",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "bar",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0445",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-004",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "m3s",
+      "value": {
+        "d": 5,
+        "n": 6
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0446",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-005",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "mV",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0447",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-006",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 1800
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0448",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-007",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "mmolL",
+      "value": {
+        "d": 1,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0449",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-008",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "C",
+      "value": {
+        "d": 1,
+        "n": 10
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0450",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-009",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "m",
+      "value": {
+        "d": 1,
+        "n": 3
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0451",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-010",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "kg",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0452",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-011",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 500000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0453",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-012",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "gpm",
+      "value": {
+        "d": 2,
+        "n": 1585
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0454",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-013",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0455",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-014",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 3600
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0456",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-015",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "mmolL",
+      "value": {
+        "d": 1,
+        "n": 5000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0457",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-016",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "K",
+      "value": {
+        "d": 1,
+        "n": 10
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0458",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-017",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "ft",
+      "value": {
+        "d": 381,
+        "n": 625
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0459",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-018",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "kg",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0460",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-019",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0461",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-020",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 3000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0462",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-021",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "mV",
+      "value": {
+        "d": 1,
+        "n": 25000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0463",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-022",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0464",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-023",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 5000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0465",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-024",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "C",
+      "value": {
+        "d": 9,
+        "n": 185
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0466",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-025",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "cm",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0467",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-026",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "lb",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0468",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-027",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "Pa",
+      "value": {
+        "d": 1,
+        "n": 50000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0469",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-028",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "Lmin",
+      "value": {
+        "d": 1,
+        "n": 3000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0470",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-029",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "kV",
+      "value": {
+        "d": 4,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0471",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-030",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0472",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-031",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "mmolL",
+      "value": {
+        "d": 1,
+        "n": 500
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0473",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-032",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "C",
+      "value": {
+        "d": 9,
+        "n": 185
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0474",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-033",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "mm",
+      "value": {
+        "d": 1,
+        "n": 1000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0475",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-034",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "g",
+      "value": {
+        "d": 1,
+        "n": 50000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0476",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-035",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "psi",
+      "value": {
+        "d": 6894757,
+        "n": 200001000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0477",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-036",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "gpm",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0478",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-037",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "kV",
+      "value": {
+        "d": 4,
+        "n": 1
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0479",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-038",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "min",
+      "value": {
+        "d": 1,
+        "n": 60
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0480",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-039",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "mmolL",
+      "value": {
+        "d": 1,
+        "n": 10000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0481",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-000",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "K",
+      "value": {
+        "d": 20,
+        "n": 6463
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0482",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-001",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "cm",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0483",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-002",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "kg",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0484",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-003",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "kPa",
+      "value": {
+        "d": 1,
+        "n": 0
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0485",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-004",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "gpm",
+      "value": {
+        "d": 2,
+        "n": 1585
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0486",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-005",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "mV",
+      "value": {
+        "d": 1,
+        "n": 250000
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0487",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-006",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "h",
+      "value": {
+        "d": 2,
+        "n": 1
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0488",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-007",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "ppm",
+      "value": {
+        "d": 1,
+        "n": 3000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0489",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-008",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "C",
+      "value": {
+        "d": 1,
+        "n": 10
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0490",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-009",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "mm",
+      "value": {
+        "d": 1,
+        "n": 500
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0491",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-010",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "lb",
+      "value": {
+        "d": 45359237,
+        "n": 5000000000
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0492",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-011",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "kPa",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0493",
+      "quantity_id": "FLOW",
+      "sample_id": "SAMPLE-012",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "gpm",
+      "value": {
+        "d": 1,
+        "n": 19020
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0494",
+      "quantity_id": "VOLTAGE",
+      "sample_id": "SAMPLE-013",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "V",
+      "value": {
+        "d": 1,
+        "n": 25
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0495",
+      "quantity_id": "TIME",
+      "sample_id": "SAMPLE-014",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s",
+      "value": {
+        "d": 1,
+        "n": 3600
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0496",
+      "quantity_id": "CONCENTRATION",
+      "sample_id": "SAMPLE-015",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "molL",
+      "value": {
+        "d": 1,
+        "n": 21
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0497",
+      "quantity_id": "TEMP",
+      "sample_id": "SAMPLE-016",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "R",
+      "value": {
+        "d": 100,
+        "n": 58167
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0498",
+      "quantity_id": "LENGTH",
+      "sample_id": "SAMPLE-017",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "m",
+      "value": {
+        "d": 1,
+        "n": 5
+      }
+    },
+    {
+      "kind": "absolute",
+      "measurement_id": "SYN-0499",
+      "quantity_id": "MASS",
+      "sample_id": "SAMPLE-018",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "kg",
+      "value": {
+        "d": 1,
+        "n": 100
+      }
+    },
+    {
+      "kind": "difference",
+      "measurement_id": "SYN-0500",
+      "quantity_id": "PRESSURE",
+      "sample_id": "SAMPLE-019",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "kPa",
+      "value": {
+        "d": 1,
+        "n": 50
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "hi": {
+        "d": 1,
+        "n": 123
+      },
+      "kind": "absolute",
+      "lo": {
+        "d": 1,
+        "n": 121
+      },
+      "quantity_id": "TEMP",
+      "spec_id": "S_TEMP_ABS",
+      "unit_id": "F"
+    },
+    {
+      "hi": {
+        "d": 1,
+        "n": 18
+      },
+      "kind": "difference",
+      "lo": {
+        "d": 1,
+        "n": 18
+      },
+      "quantity_id": "TEMP",
+      "spec_id": "S_TEMP_DIFF",
+      "unit_id": "F"
+    },
+    {
+      "hi": {
+        "d": 1,
+        "n": 10
+      },
+      "kind": "absolute",
+      "lo": {
+        "d": 1,
+        "n": 0
+      },
+      "quantity_id": "LENGTH",
+      "spec_id": "S_LENGTH_ABS",
+      "unit_id": "m"
+    },
+    {
+      "hi": {
+        "d": 1,
+        "n": 1
+      },
+      "kind": "difference",
+      "lo": {
+        "d": 1,
+        "n": 0
+      },
+      "quantity_id": "LENGTH",
+      "spec_id": "S_LENGTH_DIFF",
+      "unit_id": "m"
+    },
+    {
+      "hi": {
+        "d": 1,
+        "n": 100
+      },
+      "kind": "absolute",
+      "lo": {
+        "d": 1,
+        "n": 0
+      },
+      "quantity_id": "MASS",
+      "spec_id": "S_MASS_ABS",
+      "unit_id": "kg"
+    },
+    {
+      "hi": {
+        "d": 1,
+        "n": 10
+      },
+      "kind": "difference",
+      "lo": {
+        "d": 1,
+        "n": 0
+      },
+      "quantity_id": "MASS",
+      "spec_id": "S_MASS_DIFF",
+      "unit_id": "kg"
+    },
+    {
+      "hi": {
+        "d": 1,
+        "n": 1000000
+      },
+      "kind": "absolute",
+      "lo": {
+        "d": 1,
+        "n": 0
+      },
+      "quantity_id": "PRESSURE",
+      "spec_id": "S_PRESSURE_ABS",
+      "unit_id": "Pa"
+    },
+    {
+      "hi": {
+        "d": 1,
+        "n": 100000
+      },
+      "kind": "difference",
+      "lo": {
+        "d": 1,
+        "n": 0
+      },
+      "quantity_id": "PRESSURE",
+      "spec_id": "S_PRESSURE_DIFF",
+      "unit_id": "Pa"
+    },
+    {
+      "hi": {
+        "d": 1,
+        "n": 1
+      },
+      "kind": "absolute",
+      "lo": {
+        "d": 1,
+        "n": 0
+      },
+      "quantity_id": "FLOW",
+      "spec_id": "S_FLOW_ABS",
+      "unit_id": "m3s"
+    },
+    {
+      "hi": {
+        "d": 10,
+        "n": 1
+      },
+      "kind": "difference",
+      "lo": {
+        "d": 1,
+        "n": 0
+      },
+      "quantity_id": "FLOW",
+      "spec_id": "S_FLOW_DIFF",
+      "unit_id": "m3s"
+    },
+    {
+      "hi": {
+        "d": 1,
+        "n": 500
+      },
+      "kind": "absolute",
+      "lo": {
+        "d": 1,
+        "n": 0
+      },
+      "quantity_id": "VOLTAGE",
+      "spec_id": "S_VOLTAGE_ABS",
+      "unit_id": "V"
+    },
+    {
+      "hi": {
+        "d": 1,
+        "n": 50
+      },
+      "kind": "difference",
+      "lo": {
+        "d": 1,
+        "n": 0
+      },
+      "quantity_id": "VOLTAGE",
+      "spec_id": "S_VOLTAGE_DIFF",
+      "unit_id": "V"
+    },
+    {
+      "hi": {
+        "d": 1,
+        "n": 3600
+      },
+      "kind": "absolute",
+      "lo": {
+        "d": 1,
+        "n": 0
+      },
+      "quantity_id": "TIME",
+      "spec_id": "S_TIME_ABS",
+      "unit_id": "s"
+    },
+    {
+      "hi": {
+        "d": 1,
+        "n": 10
+      },
+      "kind": "absolute",
+      "lo": {
+        "d": 1,
+        "n": 0
+      },
+      "quantity_id": "CONCENTRATION",
+      "spec_id": "S_CONCENTRATION_ABS",
+      "unit_id": "molL"
+    },
+    {
+      "hi": {
+        "d": 1,
+        "n": 1
+      },
+      "kind": "difference",
+      "lo": {
+        "d": 1,
+        "n": 0
+      },
+      "quantity_id": "CONCENTRATION",
+      "spec_id": "S_CONCENTRATION_DIFF",
+      "unit_id": "molL"
+    }
+  ]
+}

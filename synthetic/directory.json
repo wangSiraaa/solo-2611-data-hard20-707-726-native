@@ -1,0 +1,561 @@
+{
+  "edges": [
+    {
+      "a": {
+        "d": 1,
+        "n": 1
+      },
+      "b": {
+        "d": 20,
+        "n": -5463
+      },
+      "edge_id": "E_K_C",
+      "from": "K",
+      "to": "C"
+    },
+    {
+      "a": {
+        "d": 5,
+        "n": 9
+      },
+      "b": {
+        "d": 100,
+        "n": -45967
+      },
+      "edge_id": "E_K_F",
+      "from": "K",
+      "to": "F"
+    },
+    {
+      "a": {
+        "d": 5,
+        "n": 9
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_K_R",
+      "from": "K",
+      "to": "R"
+    },
+    {
+      "a": {
+        "d": 5,
+        "n": 9
+      },
+      "b": {
+        "d": 1,
+        "n": 32
+      },
+      "edge_id": "E_C_F",
+      "from": "C",
+      "to": "F"
+    },
+    {
+      "a": {
+        "d": 1,
+        "n": 100
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_m_cm",
+      "from": "m",
+      "to": "cm"
+    },
+    {
+      "a": {
+        "d": 1,
+        "n": 1000
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_m_mm",
+      "from": "m",
+      "to": "mm"
+    },
+    {
+      "a": {
+        "d": 127,
+        "n": 5000
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_m_in",
+      "from": "m",
+      "to": "in"
+    },
+    {
+      "a": {
+        "d": 381,
+        "n": 1250
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_m_ft",
+      "from": "m",
+      "to": "ft"
+    },
+    {
+      "a": {
+        "d": 1,
+        "n": 10
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_cm_mm",
+      "from": "cm",
+      "to": "mm"
+    },
+    {
+      "a": {
+        "d": 1,
+        "n": 1000
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_kg_g",
+      "from": "kg",
+      "to": "g"
+    },
+    {
+      "a": {
+        "d": 1,
+        "n": 1000000
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_kg_mg",
+      "from": "kg",
+      "to": "mg"
+    },
+    {
+      "a": {
+        "d": 45359237,
+        "n": 100000000
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_kg_lb",
+      "from": "kg",
+      "to": "lb"
+    },
+    {
+      "a": {
+        "d": 1,
+        "n": 1000
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_g_mg",
+      "from": "g",
+      "to": "mg"
+    },
+    {
+      "a": {
+        "d": 1000,
+        "n": 1
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_Pa_kPa",
+      "from": "Pa",
+      "to": "kPa"
+    },
+    {
+      "a": {
+        "d": 100000,
+        "n": 1
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_Pa_bar",
+      "from": "Pa",
+      "to": "bar"
+    },
+    {
+      "a": {
+        "d": 6894757,
+        "n": 1000
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_Pa_psi",
+      "from": "Pa",
+      "to": "psi"
+    },
+    {
+      "a": {
+        "d": 100,
+        "n": 1
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_kPa_bar",
+      "from": "kPa",
+      "to": "bar"
+    },
+    {
+      "a": {
+        "d": 1,
+        "n": 60000
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_m3s_Lmin",
+      "from": "m3s",
+      "to": "Lmin"
+    },
+    {
+      "a": {
+        "d": 1,
+        "n": 15850
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_m3s_gpm",
+      "from": "m3s",
+      "to": "gpm"
+    },
+    {
+      "a": {
+        "d": 1200,
+        "n": 317
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_Lmin_gpm",
+      "from": "Lmin",
+      "to": "gpm"
+    },
+    {
+      "a": {
+        "d": 1,
+        "n": 1000
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_V_mV",
+      "from": "V",
+      "to": "mV"
+    },
+    {
+      "a": {
+        "d": 1000,
+        "n": 1
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_V_kV",
+      "from": "V",
+      "to": "kV"
+    },
+    {
+      "a": {
+        "d": 1000000,
+        "n": 1
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_mV_kV",
+      "from": "mV",
+      "to": "kV"
+    },
+    {
+      "a": {
+        "d": 60,
+        "n": 1
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_s_min",
+      "from": "s",
+      "to": "min"
+    },
+    {
+      "a": {
+        "d": 3600,
+        "n": 1
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_s_h",
+      "from": "s",
+      "to": "h"
+    },
+    {
+      "a": {
+        "d": 60,
+        "n": 1
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_min_h",
+      "from": "min",
+      "to": "h"
+    },
+    {
+      "a": {
+        "d": 1,
+        "n": 1000
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_molL_mmolL",
+      "from": "molL",
+      "to": "mmolL"
+    },
+    {
+      "a": {
+        "d": 1,
+        "n": 1000000
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_molL_ppm",
+      "from": "molL",
+      "to": "ppm"
+    },
+    {
+      "a": {
+        "d": 1,
+        "n": 1000
+      },
+      "b": {
+        "d": 1,
+        "n": 0
+      },
+      "edge_id": "E_mmolL_ppm",
+      "from": "mmolL",
+      "to": "ppm"
+    }
+  ],
+  "quantities": [
+    {
+      "allowed_kinds": [
+        "absolute",
+        "difference"
+      ],
+      "quantity_id": "TEMP"
+    },
+    {
+      "allowed_kinds": [
+        "absolute",
+        "difference"
+      ],
+      "quantity_id": "LENGTH"
+    },
+    {
+      "allowed_kinds": [
+        "absolute",
+        "difference"
+      ],
+      "quantity_id": "MASS"
+    },
+    {
+      "allowed_kinds": [
+        "absolute",
+        "difference"
+      ],
+      "quantity_id": "PRESSURE"
+    },
+    {
+      "allowed_kinds": [
+        "absolute",
+        "difference"
+      ],
+      "quantity_id": "FLOW"
+    },
+    {
+      "allowed_kinds": [
+        "absolute",
+        "difference"
+      ],
+      "quantity_id": "VOLTAGE"
+    },
+    {
+      "allowed_kinds": [
+        "absolute"
+      ],
+      "quantity_id": "TIME"
+    },
+    {
+      "allowed_kinds": [
+        "absolute",
+        "difference"
+      ],
+      "quantity_id": "CONCENTRATION"
+    }
+  ],
+  "revision": "syn-r1",
+  "units": [
+    {
+      "quantity_id": "TEMP",
+      "unit_id": "K"
+    },
+    {
+      "quantity_id": "TEMP",
+      "unit_id": "C"
+    },
+    {
+      "quantity_id": "TEMP",
+      "unit_id": "F"
+    },
+    {
+      "quantity_id": "TEMP",
+      "unit_id": "R"
+    },
+    {
+      "quantity_id": "TEMP",
+      "unit_id": "U"
+    },
+    {
+      "quantity_id": "LENGTH",
+      "unit_id": "m"
+    },
+    {
+      "quantity_id": "LENGTH",
+      "unit_id": "cm"
+    },
+    {
+      "quantity_id": "LENGTH",
+      "unit_id": "mm"
+    },
+    {
+      "quantity_id": "LENGTH",
+      "unit_id": "in"
+    },
+    {
+      "quantity_id": "LENGTH",
+      "unit_id": "ft"
+    },
+    {
+      "quantity_id": "MASS",
+      "unit_id": "kg"
+    },
+    {
+      "quantity_id": "MASS",
+      "unit_id": "g"
+    },
+    {
+      "quantity_id": "MASS",
+      "unit_id": "mg"
+    },
+    {
+      "quantity_id": "MASS",
+      "unit_id": "lb"
+    },
+    {
+      "quantity_id": "PRESSURE",
+      "unit_id": "Pa"
+    },
+    {
+      "quantity_id": "PRESSURE",
+      "unit_id": "kPa"
+    },
+    {
+      "quantity_id": "PRESSURE",
+      "unit_id": "bar"
+    },
+    {
+      "quantity_id": "PRESSURE",
+      "unit_id": "psi"
+    },
+    {
+      "quantity_id": "FLOW",
+      "unit_id": "m3s"
+    },
+    {
+      "quantity_id": "FLOW",
+      "unit_id": "Lmin"
+    },
+    {
+      "quantity_id": "FLOW",
+      "unit_id": "gpm"
+    },
+    {
+      "quantity_id": "VOLTAGE",
+      "unit_id": "V"
+    },
+    {
+      "quantity_id": "VOLTAGE",
+      "unit_id": "mV"
+    },
+    {
+      "quantity_id": "VOLTAGE",
+      "unit_id": "kV"
+    },
+    {
+      "quantity_id": "TIME",
+      "unit_id": "s"
+    },
+    {
+      "quantity_id": "TIME",
+      "unit_id": "min"
+    },
+    {
+      "quantity_id": "TIME",
+      "unit_id": "h"
+    },
+    {
+      "quantity_id": "CONCENTRATION",
+      "unit_id": "molL"
+    },
+    {
+      "quantity_id": "CONCENTRATION",
+      "unit_id": "mmolL"
+    },
+    {
+      "quantity_id": "CONCENTRATION",
+      "unit_id": "ppm"
+    }
+  ]
+}

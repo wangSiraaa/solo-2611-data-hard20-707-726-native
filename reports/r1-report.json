@@ -1,0 +1,152 @@
+{
+  "directory_fingerprint": "ee190a8c4a140ecf12f98f803192babfd198d735cadd0be69ddc859b17e83d67",
+  "directory_revision": "r1",
+  "evaluations": [
+    {
+      "conversion": {
+        "a": {
+          "d": 5,
+          "n": 9
+        },
+        "b": {
+          "d": 1,
+          "n": 32
+        }
+      },
+      "converted_unit": "F",
+      "converted_value": {
+        "d": 1,
+        "n": 122
+      },
+      "directory_fingerprint": "ee190a8c4a140ecf12f98f803192babfd198d735cadd0be69ddc859b17e83d67",
+      "directory_revision": "r1",
+      "evaluation_id": "EV-M_ABS-r1-f7ea0a8770b0",
+      "kind": "absolute",
+      "measurement": {
+        "kind": "absolute",
+        "measurement_id": "M_ABS",
+        "quantity_id": "TEMP",
+        "sample_id": "A",
+        "spec_id": "S_ABS",
+        "unit_id": "C",
+        "value": {
+          "d": 1,
+          "n": 50
+        }
+      },
+      "measurement_id": "M_ABS",
+      "passed": true,
+      "path": [
+        {
+          "a": {
+            "d": 5,
+            "n": 9
+          },
+          "b": {
+            "d": 1,
+            "n": 32
+          },
+          "direction": "forward",
+          "edge_id": "E_CF",
+          "from": "C",
+          "to": "F"
+        }
+      ],
+      "quantity_id": "TEMP",
+      "sample_id": "A",
+      "spec_id": "S_ABS",
+      "specification": {
+        "hi": {
+          "d": 1,
+          "n": 123
+        },
+        "kind": "absolute",
+        "lo": {
+          "d": 1,
+          "n": 121
+        },
+        "quantity_id": "TEMP",
+        "spec_id": "S_ABS",
+        "unit_id": "F"
+      },
+      "status": "evaluated"
+    },
+    {
+      "conversion": {
+        "a": {
+          "d": 5,
+          "n": 9
+        },
+        "b": {
+          "d": 1,
+          "n": 0
+        }
+      },
+      "converted_unit": "F",
+      "converted_value": {
+        "d": 1,
+        "n": 18
+      },
+      "directory_fingerprint": "ee190a8c4a140ecf12f98f803192babfd198d735cadd0be69ddc859b17e83d67",
+      "directory_revision": "r1",
+      "evaluation_id": "EV-M_DIFF-r1-df0d4fdcb2c9",
+      "kind": "difference",
+      "measurement": {
+        "kind": "difference",
+        "measurement_id": "M_DIFF",
+        "quantity_id": "TEMP",
+        "sample_id": "A",
+        "spec_id": "S_DIFF",
+        "unit_id": "C",
+        "value": {
+          "d": 1,
+          "n": 10
+        }
+      },
+      "measurement_id": "M_DIFF",
+      "passed": true,
+      "path": [
+        {
+          "a": {
+            "d": 5,
+            "n": 9
+          },
+          "b": {
+            "d": 1,
+            "n": 32
+          },
+          "direction": "forward",
+          "edge_id": "E_CF",
+          "from": "C",
+          "to": "F"
+        }
+      ],
+      "quantity_id": "TEMP",
+      "sample_id": "A",
+      "spec_id": "S_DIFF",
+      "specification": {
+        "hi": {
+          "d": 1,
+          "n": 18
+        },
+        "kind": "difference",
+        "lo": {
+          "d": 1,
+          "n": 18
+        },
+        "quantity_id": "TEMP",
+        "spec_id": "S_DIFF",
+        "unit_id": "F"
+      },
+      "status": "evaluated"
+    }
+  ],
+  "rejections": [],
+  "schema": "measurement-report/v1",
+  "summary": {
+    "evaluated": 2,
+    "failed": 0,
+    "passed": 2,
+    "rejected": 0
+  }
+}
