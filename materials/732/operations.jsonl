@@ -1,0 +1,4 @@
+{"op": "evaluate", "report_id": "R1"}
+{"op": "correct_sample", "file": "correction.json"}
+{"op": "evaluate", "report_id": "R2"}
+{"op": "read_report", "report_id": "R1"}

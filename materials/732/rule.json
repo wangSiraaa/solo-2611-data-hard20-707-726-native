@@ -1,0 +1,13 @@
+{
+  "revision": "r1",
+  "entry_band": [
+    50,
+    52
+  ],
+  "exit_band": [
+    49,
+    53
+  ],
+  "max_sample_gap": 2,
+  "required_continuous_hold": 4
+}
