@@ -1,0 +1,3 @@
+{"evidence_id":"A1","revision":1,"lot_id":"L1","verdict":"ACCEPT","intervals":[[1,6]]}
+{"evidence_id":"A2","revision":1,"lot_id":"L1","verdict":"ACCEPT","intervals":[[5,9]]}
+{"evidence_id":"R1","revision":1,"lot_id":"L1","verdict":"REJECT","intervals":[[4,5]]}

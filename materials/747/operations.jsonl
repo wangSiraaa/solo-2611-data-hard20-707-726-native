@@ -1,0 +1,4 @@
+{"operation":"assess_and_publish","requests":["Q1","Q2"],"save_as":"BEFORE"}
+{"operation":"revise_evidence","evidence":{"evidence_id":"R1","revision":2,"lot_id":"L1","verdict":"REJECT","intervals":[[8,9]]}}
+{"operation":"assess_and_publish","requests":["Q1","Q2"],"save_as":"AFTER"}
+{"operation":"read_historical","product":"BEFORE"}
