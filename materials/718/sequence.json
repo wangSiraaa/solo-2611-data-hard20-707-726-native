@@ -1,0 +1,41 @@
+{
+  "sequence_id": "line-1",
+  "horizon_end": 30,
+  "downtime": [
+    [
+      6,
+      9
+    ]
+  ],
+  "actions": [
+    {
+      "type": "production",
+      "order_id": "a1",
+      "mould": "A",
+      "duration": 4,
+      "earliest_start": 0,
+      "latest_finish": 4
+    },
+    {
+      "type": "production",
+      "order_id": "b1",
+      "mould": "B",
+      "duration": 3,
+      "earliest_start": 14,
+      "latest_finish": 18
+    },
+    {
+      "type": "clean",
+      "action_id": "wash",
+      "duration": 2
+    },
+    {
+      "type": "production",
+      "order_id": "a2",
+      "mould": "A",
+      "duration": 2,
+      "earliest_start": 22,
+      "latest_finish": 24
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "operations": [
+    {
+      "op": "check",
+      "check_id": "before",
+      "sequence_id": "line-1",
+      "rules_revision": 1
+    },
+    {
+      "op": "revise_rule",
+      "revision": 2,
+      "from": "A",
+      "to": "B",
+      "duration": 7
+    },
+    {
+      "op": "check",
+      "check_id": "after",
+      "sequence_id": "line-1",
+      "rules_revision": 2
+    },
+    {
+      "op": "read_check",
+      "check_id": "before"
+    }
+  ]
+}

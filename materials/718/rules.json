@@ -1,0 +1,21 @@
+{
+  "revision": 1,
+  "initial_mould": "A",
+  "transitions": [
+    {
+      "from": "A",
+      "to": "B",
+      "duration": 3
+    },
+    {
+      "from": "NONE",
+      "to": "A",
+      "duration": 2
+    },
+    {
+      "from": "NONE",
+      "to": "B",
+      "duration": 4
+    }
+  ]
+}
