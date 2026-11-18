@@ -1,0 +1,40 @@
+{
+  "format": "classification-catalog/1",
+  "revision": "G1",
+  "nodes": [
+    {
+      "id": "R",
+      "name": "全部"
+    },
+    {
+      "id": "A",
+      "name": "办件"
+    },
+    {
+      "id": "B",
+      "name": "办件"
+    },
+    {
+      "id": "L",
+      "name": "交叉子类"
+    }
+  ],
+  "edges": [
+    [
+      "A",
+      "R"
+    ],
+    [
+      "B",
+      "R"
+    ],
+    [
+      "L",
+      "A"
+    ],
+    [
+      "L",
+      "B"
+    ]
+  ]
+}

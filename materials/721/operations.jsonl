@@ -1,0 +1,2 @@
+{"operation":"bundle","request_id":"B1","remove_edges":[["L","A"]],"add_edges":[],"fact_revisions":[{"ticket_id":"T1","revision":2,"amount":120,"classes":["L"]}]}
+{"operation":"bundle","request_id":"B_BAD","add_edges":[["R","L"]],"remove_edges":[],"fact_revisions":[{"ticket_id":"T2","revision":2,"amount":999,"classes":["A"]}]}

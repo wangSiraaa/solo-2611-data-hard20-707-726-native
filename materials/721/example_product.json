@@ -1,0 +1,71 @@
+{
+  "format": "classification-summary/1",
+  "cut": {
+    "catalog_revision": "G1",
+    "fact_revision": "F1"
+  },
+  "groups": [
+    {
+      "target_id": "A",
+      "count": 2,
+      "amount": 100,
+      "contributions": [
+        {
+          "ticket_id": "T1",
+          "amount": 100,
+          "path": [
+            "L",
+            "A"
+          ]
+        },
+        {
+          "ticket_id": "T2",
+          "amount": 0,
+          "path": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "target_id": "B",
+      "count": 2,
+      "amount": 150,
+      "contributions": [
+        {
+          "ticket_id": "T1",
+          "amount": 100,
+          "path": [
+            "L",
+            "B"
+          ]
+        },
+        {
+          "ticket_id": "T3",
+          "amount": 50,
+          "path": [
+            "B"
+          ]
+        }
+      ]
+    }
+  ],
+  "union": {
+    "count": 3,
+    "amount": 150,
+    "contributions": [
+      {
+        "ticket_id": "T1",
+        "amount": 100
+      },
+      {
+        "ticket_id": "T2",
+        "amount": 0
+      },
+      {
+        "ticket_id": "T3",
+        "amount": 50
+      }
+    ]
+  }
+}
