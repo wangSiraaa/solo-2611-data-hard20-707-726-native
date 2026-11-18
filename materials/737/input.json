@@ -1,0 +1,97 @@
+{
+  "initial_customers": [
+    {
+      "id": "u1",
+      "name": {
+        "kind": "TEXT",
+        "value": "Ada"
+      },
+      "memo": {
+        "kind": "TEXT",
+        "value": "old"
+      },
+      "category": {
+        "kind": "TEXT",
+        "value": "active"
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "version": "p1",
+      "fields": [
+        {
+          "header": "id",
+          "occurrence": 1,
+          "field": "id"
+        },
+        {
+          "header": "name",
+          "occurrence": 1,
+          "field": "name"
+        },
+        {
+          "header": "note",
+          "occurrence": 1,
+          "field": "memo"
+        },
+        {
+          "header": "note",
+          "occurrence": 2,
+          "field": "category"
+        }
+      ]
+    },
+    {
+      "version": "p2",
+      "fields": [
+        {
+          "header": "id",
+          "occurrence": 1,
+          "field": "id"
+        },
+        {
+          "header": "name",
+          "occurrence": 1,
+          "field": "name"
+        },
+        {
+          "header": "note",
+          "occurrence": 1,
+          "field": "category"
+        },
+        {
+          "header": "note",
+          "occurrence": 2,
+          "field": "memo"
+        }
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "op": "import",
+      "file_id": "f1",
+      "path": "first.csv",
+      "profile": "p1"
+    },
+    {
+      "op": "read_customer",
+      "id": "u1"
+    },
+    {
+      "op": "import",
+      "file_id": "f2",
+      "path": "correction.csv",
+      "profile": "p2"
+    },
+    {
+      "op": "read_customer",
+      "id": "u1"
+    },
+    {
+      "op": "read_file_receipt",
+      "file_id": "f1"
+    }
+  ]
+}
