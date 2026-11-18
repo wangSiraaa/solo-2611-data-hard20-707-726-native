@@ -1,0 +1,31 @@
+{
+  "table_id":"T",
+  "versions":[
+    {
+      "revision":1,
+      "rows":[
+        {"piece":"P1","batch":"N","stage":"paint"},
+        {"piece":"P2","batch":null,"stage":null},
+        {"piece":"P3","batch":"R","stage":null},
+        {"piece":"P4","batch":null,"stage":null}
+      ],
+      "merge":[{"column":"batch","first":1,"last":2},{"column":"stage","first":1,"last":3}]
+    },
+    {
+      "revision":2,
+      "rows":[
+        {"piece":"P1","batch":"N","stage":"paint"},
+        {"piece":"P2","batch":null,"stage":null},
+        {"piece":"P3","batch":"R","stage":null},
+        {"piece":"P4","batch":null,"stage":null}
+      ],
+      "merge":[{"column":"batch","first":1,"last":2},{"column":"batch","first":3,"last":4},{"column":"stage","first":1,"last":4}]
+    }
+  ],
+  "existing_usage":[{"receipt_id":"OLD","piece":"P3","confirmed":true}],
+  "requests":[
+    {"request_id":"R1","table_revision":1,"stage":"paint","batches":["N","R"]},
+    {"request_id":"R2","table_revision":2,"stage":"paint","batches":["N","R"]},
+    {"request_id":"R3","table_revision":2,"stage":"paint","batches":["N","R"]}
+  ]
+}
