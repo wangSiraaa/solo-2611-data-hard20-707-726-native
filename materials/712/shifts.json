@@ -1,0 +1,23 @@
+{
+  "revision": "s1",
+  "shifts": [
+    {
+      "shift_id": "S_EARLY",
+      "device_id": "D1",
+      "start": 0,
+      "end": 2
+    },
+    {
+      "shift_id": "S_LATE",
+      "device_id": "D1",
+      "start": 2,
+      "end": 5
+    },
+    {
+      "shift_id": "S_D2",
+      "device_id": "D2",
+      "start": 0,
+      "end": 5
+    }
+  ]
+}

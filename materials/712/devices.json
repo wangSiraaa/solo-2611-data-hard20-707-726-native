@@ -1,0 +1,15 @@
+{
+  "revision": "r1",
+  "devices": [
+    {
+      "device_id": "D1",
+      "M": 10,
+      "R": 2
+    },
+    {
+      "device_id": "D2",
+      "M": 10,
+      "R": 3
+    }
+  ]
+}

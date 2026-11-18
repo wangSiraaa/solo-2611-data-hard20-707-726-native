@@ -1,0 +1,15 @@
+{
+  "revision": "o2",
+  "operations": [
+    {
+      "op": "upsert",
+      "observation": {
+        "observation_id": "O1",
+        "device_id": "D1",
+        "time": 2,
+        "reading": 0,
+        "generation": "G1"
+      }
+    }
+  ]
+}

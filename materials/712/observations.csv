@@ -1,0 +1,5 @@
+observation_id,device_id,time,reading,generation
+O2,D1,4,4,G1
+O0,D1,0,8,G1
+Q0,D2,0,8,G1
+Q1,D2,4,0,G1

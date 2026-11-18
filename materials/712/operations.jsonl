@@ -1,0 +1,9 @@
+{"op": "report", "report_id": "R0"}
+{"op": "revise_observations", "file": "revision.json"}
+{"op": "report", "report_id": "R1"}
+{"op": "revise_observations", "revision": "o3", "operations": [{"op": "upsert", "observation": {"observation_id": "O2", "device_id": "D1", "time": 4, "reading": 3, "generation": "G1"}}]}
+{"op": "report", "report_id": "R2"}
+{"op": "revise_observations", "revision": "o4", "operations": [{"op": "delete", "observation_id": "O1"}]}
+{"op": "report", "report_id": "R3"}
+{"op": "revise_observations", "revision": "bad", "operations": [{"op": "upsert", "observation": {"observation_id": "O_BAD", "device_id": "D1", "time": 4, "reading": 1, "generation": "G1"}}], "expect": "reject_duplicate_time"}
+{"op": "read_report", "report_id": "R0"}
