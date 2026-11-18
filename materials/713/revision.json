@@ -1,0 +1,43 @@
+{
+  "revision": "r2",
+  "deactivate": [
+    {
+      "package_id": "P",
+      "version": 1
+    }
+  ],
+  "publish": [
+    {
+      "package_id": "P",
+      "version": 2,
+      "active": true,
+      "slots": [
+        {
+          "slot_id": "BODY",
+          "part_kind": "body",
+          "per_bundle": 1,
+          "candidates": [
+            "K"
+          ]
+        },
+        {
+          "slot_id": "LEFT",
+          "part_kind": "accessory",
+          "per_bundle": 1,
+          "candidates": [
+            "X",
+            "Y"
+          ]
+        },
+        {
+          "slot_id": "RIGHT",
+          "part_kind": "accessory",
+          "per_bundle": 1,
+          "candidates": [
+            "X"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{"op": "revise_catalog", "file": "revision.json"}
+{"op": "return", "request_id": "RET_OVER", "lines": [{"credit_id": "C1_RIGHT", "quantity": 2}, {"credit_id": "C1_RIGHT", "quantity": 2}, {"credit_id": "C1_RIGHT", "quantity": 1}]}
+{"op": "return", "request_id": "RET_OK", "lines": [{"credit_id": "C1_LEFT", "quantity": 1}, {"credit_id": "C1_RIGHT", "quantity": 3}]}
+{"op": "return", "request_id": "RET_OK", "lines": [{"credit_id": "C1_LEFT", "quantity": 1}, {"credit_id": "C1_RIGHT", "quantity": 3}]}
+{"op": "sell", "sale_id": "SALE3", "package_id": "P", "version": 2, "bundle_qty": 1, "choices": {"BODY": "K", "LEFT": "X", "RIGHT": "X"}}
