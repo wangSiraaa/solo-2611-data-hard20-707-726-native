@@ -1,0 +1,15 @@
+{
+  "horizon":10,
+  "versions":[
+    {"revision":1,"devices":{"A":[[5,"UP"],[2,"DOWN"],[3,"UP"]],"B":[[4,"UP"],[2,"DOWN"],[4,"UP"]],"C":[[4,"UP"],[6,"UNKNOWN"]]}},
+    {"revision":2,"devices":{"A":[[5,"UP"],[2,"DOWN"],[3,"UP"]],"B":[[4,"UP"],[4,"DOWN"],[2,"UP"]],"C":[[4,"UP"],[6,"UNKNOWN"]]}}
+  ],
+  "tasks":[
+    {"task_id":"X","duration":2,"devices":["A","B"],"starts":[0,2,7]},
+    {"task_id":"Y","duration":3,"devices":["A","C"],"starts":[0]}
+  ],
+  "plans":[
+    {"plan_id":"P1","source_revision":1},
+    {"plan_id":"P2","source_revision":2}
+  ]
+}
