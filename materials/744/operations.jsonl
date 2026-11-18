@@ -1,0 +1,5 @@
+{"operation":"publish","report_id":"old","cut":"initial","page_height":7}
+{"operation":"apply","cut":"corrected","entries":[{"entry_id":"a1","group_id":"A","ordinal":1,"revision":2,"height":2,"amount":11},{"entry_id":"a2","group_id":"A","ordinal":2,"revision":2,"height":2,"amount":10},{"entry_id":"a3","group_id":"A","ordinal":3,"revision":2,"height":2,"amount":10},{"entry_id":"a4","group_id":"A","ordinal":4,"revision":2,"height":2,"amount":10}]}
+{"operation":"publish","report_id":"new","cut":"corrected","page_height":7}
+{"operation":"read_report","report_id":"old"}
+{"operation":"publish","report_id":"too-short","cut":"corrected","page_height":5}

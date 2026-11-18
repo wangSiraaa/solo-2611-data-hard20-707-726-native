@@ -1,0 +1,11 @@
+{
+  "cut": "initial",
+  "entries": [
+    {"entry_id":"a1","group_id":"A","ordinal":1,"revision":1,"height":1,"amount":10},
+    {"entry_id":"a2","group_id":"A","ordinal":2,"revision":1,"height":1,"amount":10},
+    {"entry_id":"a3","group_id":"A","ordinal":3,"revision":1,"height":1,"amount":10},
+    {"entry_id":"a4","group_id":"A","ordinal":4,"revision":1,"height":1,"amount":10},
+    {"entry_id":"a5","group_id":"A","ordinal":5,"revision":1,"height":1,"amount":10},
+    {"entry_id":"a6","group_id":"A","ordinal":6,"revision":1,"height":2,"amount":10}
+  ]
+}
