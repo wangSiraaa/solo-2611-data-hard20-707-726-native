@@ -1,0 +1,35 @@
+{
+  "format": "partial-date-legacy/1",
+  "records": [
+    {
+      "person_id": "P1",
+      "revision": 1,
+      "raw_date": "2024-03",
+      "cached_day": "2024-03-01"
+    },
+    {
+      "person_id": "P2",
+      "revision": 1,
+      "raw_date": "2024-03-15",
+      "cached_day": "2024-03-15"
+    },
+    {
+      "person_id": "P3",
+      "revision": 1,
+      "raw_date": "UNKNOWN",
+      "cached_day": null
+    },
+    {
+      "person_id": "P4",
+      "revision": 1,
+      "raw_date": "2024",
+      "cached_day": "2024-01-01"
+    },
+    {
+      "person_id": "P5",
+      "revision": 1,
+      "raw_date": "2024-02-29",
+      "cached_day": "2024-02-29"
+    }
+  ]
+}

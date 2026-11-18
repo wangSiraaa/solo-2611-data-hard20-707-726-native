@@ -1,0 +1,40 @@
+{
+  "format": "partial-date-groups/1",
+  "report_id": "HIST_DATE_001",
+  "date_contract": "legacy-fill-first-day",
+  "source_revisions": {
+    "P1": 1,
+    "P2": 1,
+    "P3": 1,
+    "P4": 1,
+    "P5": 1
+  },
+  "groups": [
+    {
+      "group_id": "W1",
+      "count": 2,
+      "person_ids": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "group_id": "W2",
+      "count": 0,
+      "person_ids": []
+    }
+  ],
+  "outside": {
+    "count": 2,
+    "person_ids": [
+      "P4",
+      "P5"
+    ]
+  },
+  "unknown": {
+    "count": 1,
+    "person_ids": [
+      "P3"
+    ]
+  }
+}

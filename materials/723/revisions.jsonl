@@ -1,0 +1,2 @@
+{"request_id":"DATE_FIX_1","records":[{"person_id":"P1","revision":2,"raw_date":"2024-03-20"}]}
+{"request_id":"DATE_CONFLICT","records":[{"person_id":"P2","revision":1,"raw_date":"2024-03-16"},{"person_id":"P5","revision":2,"raw_date":"2024-02-30"}],"expect":"reject_entire_batch"}
