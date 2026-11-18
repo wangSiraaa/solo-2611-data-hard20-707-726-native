@@ -1,0 +1,25 @@
+{
+  "revision": 1,
+  "stacks": [
+    {
+      "stack_id": "A",
+      "capacity": 2,
+      "bottom_to_top": [
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "stack_id": "B",
+      "capacity": 2,
+      "bottom_to_top": [
+        "C3"
+      ]
+    },
+    {
+      "stack_id": "C",
+      "capacity": 2,
+      "bottom_to_top": []
+    }
+  ]
+}

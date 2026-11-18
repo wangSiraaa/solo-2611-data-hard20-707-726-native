@@ -1,0 +1,6 @@
+{"operation":"prepare_plan","request_id":"OUT1","save_as":"P1"}
+{"operation":"actual_move","container_id":"C3","from":"B","to":"C"}
+{"operation":"execute_plan","plan":"P1","expect":"stale_no_changes"}
+{"operation":"prepare_plan","request_id":"OUT1","save_as":"P2"}
+{"operation":"execute_plan","plan":"P2"}
+{"operation":"reopen_and_list_history"}
