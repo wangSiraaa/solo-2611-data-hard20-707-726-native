@@ -1,0 +1,7 @@
+{
+  "chapter_updates":[
+    {"revision":"R2","chapters":[{"chapter_id":"A","start":0,"end":6},{"chapter_id":"B","start":6,"end":10}]},
+    {"revision":"INVALID","chapters":[{"chapter_id":"A","start":0,"end":6},{"chapter_id":"B","start":5,"end":10}]}
+  ],
+  "append_events":[{"event_id":"E3","start":5,"end":7}]
+}
