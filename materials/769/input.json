@@ -1,0 +1,106 @@
+{
+  "heads": [
+    {
+      "id": "P",
+      "limit": 10
+    },
+    {
+      "id": "Q",
+      "limit": 4
+    }
+  ],
+  "installs": [
+    {
+      "head": "P",
+      "machine": "M1",
+      "from": 0,
+      "to": 5
+    },
+    {
+      "head": "P",
+      "machine": "M2",
+      "from": 5,
+      "to": 12
+    },
+    {
+      "head": "Q",
+      "machine": "M2",
+      "from": 12,
+      "to": null
+    }
+  ],
+  "cut_v1": [
+    {
+      "id": "f1",
+      "revision": 1,
+      "machine": "M1",
+      "from": 1,
+      "to": 3,
+      "sheet_count": 3
+    },
+    {
+      "id": "f2",
+      "revision": 1,
+      "machine": "M2",
+      "from": 6,
+      "to": 8,
+      "sheet_count": 2
+    }
+  ],
+  "correction": {
+    "id": "f1",
+    "revision": 2,
+    "machine": "M1",
+    "from": 1,
+    "to": 3,
+    "sheet_count": 1
+  },
+  "reservations": [
+    {
+      "job": "J1",
+      "head": "P",
+      "machine": "M2",
+      "amount": 2
+    },
+    {
+      "job": "J2",
+      "head": "P",
+      "machine": "M2",
+      "amount": 1
+    }
+  ],
+  "operations": [
+    {
+      "id": "T1",
+      "action": "reserve",
+      "at": 9,
+      "cut": "v1",
+      "job": "J3",
+      "machine": "M2",
+      "head": "P",
+      "amount": 3
+    },
+    {
+      "id": "T2",
+      "action": "reserve",
+      "at": 10,
+      "cut": "v2",
+      "job": "J3",
+      "machine": "M2",
+      "head": "P",
+      "amount": 3
+    },
+    {
+      "id": "T3",
+      "action": "rebind",
+      "at": 12,
+      "cut": "v2",
+      "jobs": [
+        "J1",
+        "J3"
+      ],
+      "machine": "M2",
+      "new_head": "Q"
+    }
+  ]
+}
