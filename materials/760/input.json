@@ -1,0 +1,15 @@
+{
+  "initial_directory":{"revision":1,"names":{"P1":"x","P2":"y","P3":"z"}},
+  "rename":{"revision":2,"changes":{"P1":"y","P2":"x"}},
+  "observations":{"P1":11,"P2":22,"P3":33},
+  "readers":{
+    "A":{"revision":1,"columns":["x","y"]},
+    "B":{"revision":2,"columns":["x"]},
+    "C":{"revision":2,"columns":["z"]}
+  },
+  "requests":[
+    {"publication_id":"O1","file_limit":1,"readers":["A"]},
+    {"publication_id":"O2","file_limit":1,"readers":["A","B","C"]},
+    {"publication_id":"O3","file_limit":2,"readers":["A","B","C"]}
+  ]
+}
