@@ -1,0 +1,115 @@
+{
+  "card": {
+    "id": "K",
+    "uses": 2,
+    "max_legs": 3,
+    "start_to_board_limit": 15
+  },
+  "routes": {
+    "x": [
+      "a0",
+      "a1"
+    ],
+    "y": [
+      "b0",
+      "b1"
+    ],
+    "z": [
+      "c0",
+      "c1",
+      "d1"
+    ],
+    "w": [
+      "e0",
+      "e1"
+    ]
+  },
+  "directory_v1": {
+    "interchange": [
+      [
+        "a1",
+        "b0"
+      ],
+      [
+        "b1",
+        "c0"
+      ]
+    ]
+  },
+  "directory_v2": {
+    "interchange": [
+      [
+        "b1",
+        "c0"
+      ]
+    ]
+  },
+  "legs": [
+    {
+      "id": "A",
+      "line": "x",
+      "from": "a0",
+      "to": "a1",
+      "board": 0,
+      "leave": 5
+    },
+    {
+      "id": "B",
+      "line": "y",
+      "from": "b0",
+      "to": "b1",
+      "board": 9,
+      "leave": 13
+    },
+    {
+      "id": "C",
+      "line": "z",
+      "from": "c0",
+      "to": "c1",
+      "board": 17,
+      "leave": 21
+    },
+    {
+      "id": "D",
+      "line": "z",
+      "from": "c1",
+      "to": "d1",
+      "board": 22,
+      "leave": 25
+    },
+    {
+      "id": "E",
+      "line": "w",
+      "from": "e0",
+      "to": "e1",
+      "board": 26,
+      "leave": 30
+    }
+  ],
+  "operations": [
+    {
+      "action": "admit",
+      "directory": "v1",
+      "legs": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "action": "independent_control",
+      "use_historical_prepared_snapshots": [
+        "A",
+        "B"
+      ],
+      "restore_current_history_only": [
+        "A"
+      ],
+      "directory": "v2",
+      "candidate": "B",
+      "operation_id": "B-v2"
+    }
+  ]
+}
