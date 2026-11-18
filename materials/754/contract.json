@@ -1,0 +1,16 @@
+{
+  "contract_id": "K1",
+  "revision": 1,
+  "bands": [
+    {
+      "lower": 0,
+      "upper": 100,
+      "unit_cents": 2
+    },
+    {
+      "lower": 100,
+      "upper": null,
+      "unit_cents": 1
+    }
+  ]
+}

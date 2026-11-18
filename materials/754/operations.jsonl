@@ -1,0 +1,5 @@
+{"operation":"import_issued_bills"}
+{"operation":"revise_usage","record":{"account_id":"AC1","year":2025,"period":1,"revision":2,"quantity":60}}
+{"operation":"recalculate_and_issue_adjustments","account_id":"AC1","year":2025,"through_period":3,"save_as":"ADJ1"}
+{"operation":"recalculate_and_issue_adjustments","account_id":"AC1","year":2025,"through_period":3,"expect":"no_duplicate_adjustments"}
+{"operation":"read_original_bills_and_adjustments"}
