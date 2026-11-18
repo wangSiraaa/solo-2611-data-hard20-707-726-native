@@ -1,0 +1,6 @@
+{
+  "states":["A","B","C","D","W","Z"],
+  "start":"A",
+  "end":"C",
+  "records":[{"edge_id":"E1","from":"A","to":"B"},{"edge_id":"E2","from":"B","to":"A"},{"edge_id":"E3","from":"A","to":"C"}]
+}

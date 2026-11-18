@@ -1,0 +1,6 @@
+{
+  "updates":[
+    {"batch_id":"R2","records":[{"edge_id":"E5","revision":1,"from":"W","to":"Z"},{"edge_id":"E4","revision":1,"from":"Z","to":"W"}]},
+    {"batch_id":"R3","records":[{"edge_id":"E5","revision":2,"from":"D","to":"C"},{"edge_id":"E4","revision":2,"from":"C","to":"D"}]}
+  ]
+}
