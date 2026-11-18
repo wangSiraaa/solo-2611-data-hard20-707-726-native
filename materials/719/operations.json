@@ -1,0 +1,98 @@
+{
+  "operations": [
+    {
+      "op": "create",
+      "run_id": "reserve-U",
+      "method_id": "M",
+      "method_revision": 1,
+      "day": 10,
+      "selection": [
+        {
+          "bottle_id": "U",
+          "portions": 1
+        }
+      ]
+    },
+    {
+      "op": "create",
+      "run_id": "expire-P",
+      "method_id": "M",
+      "method_revision": 1,
+      "day": 10,
+      "selection": [
+        {
+          "bottle_id": "P",
+          "portions": 1
+        }
+      ]
+    },
+    {
+      "op": "reserve_competition",
+      "day": 10,
+      "run_ids": [
+        "last-1",
+        "last-2"
+      ],
+      "method_id": "M",
+      "method_revision": 1,
+      "selection": [
+        {
+          "bottle_id": "LAST",
+          "portions": 1
+        }
+      ]
+    },
+    {
+      "op": "start",
+      "run_id": "expire-P",
+      "day": 11
+    },
+    {
+      "op": "start",
+      "run_id": "reserve-U",
+      "day": 12
+    },
+    {
+      "op": "repeat_start",
+      "run_id": "reserve-U",
+      "day": 12
+    },
+    {
+      "op": "revise_method",
+      "method_id": "M",
+      "revision": 2,
+      "requirements": {
+        "R": 2
+      },
+      "day": 12
+    },
+    {
+      "op": "create",
+      "run_id": "new-need",
+      "method_id": "M",
+      "method_revision": 2,
+      "day": 12,
+      "selection": [
+        {
+          "bottle_id": "U",
+          "portions": 2
+        }
+      ]
+    },
+    {
+      "op": "start",
+      "run_id": "new-need",
+      "day": 12
+    },
+    {
+      "op": "query",
+      "bottle_id": "U",
+      "day": 13
+    },
+    {
+      "op": "query",
+      "bottle_id": "U",
+      "day": 14
+    }
+  ]
+}

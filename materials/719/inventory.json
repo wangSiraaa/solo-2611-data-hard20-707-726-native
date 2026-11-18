@@ -1,0 +1,44 @@
+{
+  "initial_day": 10,
+  "kinds": [
+    {
+      "kind": "R",
+      "open_lifetime_days": 2
+    }
+  ],
+  "bottles": [
+    {
+      "bottle_id": "U",
+      "kind": "R",
+      "total_portions": 4,
+      "intake_day": 10,
+      "printed_expiry_day": 20,
+      "opened_day": null
+    },
+    {
+      "bottle_id": "P",
+      "kind": "R",
+      "total_portions": 2,
+      "intake_day": 8,
+      "printed_expiry_day": 20,
+      "opened_day": 9
+    },
+    {
+      "bottle_id": "LAST",
+      "kind": "R",
+      "total_portions": 1,
+      "intake_day": 10,
+      "printed_expiry_day": 20,
+      "opened_day": null
+    }
+  ],
+  "methods": [
+    {
+      "method_id": "M",
+      "revision": 1,
+      "requirements": {
+        "R": 1
+      }
+    }
+  ]
+}
