@@ -1,0 +1,11 @@
+{"operation":"prepare","purchase_id":"P1","save_as":"PREP_INITIAL"}
+{"operation":"amend_quote","quote_id":"S2","revision":2,"currency":"DOV","unit_price":"3/4"}
+{"operation":"confirm","prepared":"PREP_INITIAL","expect":"stale"}
+{"operation":"prepare","purchase_id":"P1","save_as":"PREP_QUOTE2"}
+{"operation":"amend_purchase","purchase_id":"P1","revision":2,"quantity":4,"payment_currency":"GLN"}
+{"operation":"confirm","prepared":"PREP_QUOTE2","expect":"stale"}
+{"operation":"prepare","purchase_id":"P1","save_as":"PREP_QUANTITY2"}
+{"operation":"publish_rates","revision":2,"quotes":[{"base":"DOV","quote":"GLN","bid":"3/2","ask":"21/10"}]}
+{"operation":"confirm","prepared":"PREP_QUANTITY2","expect":"stale"}
+{"operation":"prepare","purchase_id":"P1","save_as":"PREP_FINAL"}
+{"operation":"confirm","prepared":"PREP_FINAL","quote_id":"S1","expect":"confirmed_with_incomplete_comparison_scope"}

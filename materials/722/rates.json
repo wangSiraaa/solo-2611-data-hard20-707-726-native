@@ -1,0 +1,17 @@
+{
+  "format": "fx-quotes/1",
+  "revision": 1,
+  "minor_units": {
+    "GLN": 100,
+    "DOV": 100,
+    "NIX": 100
+  },
+  "quotes": [
+    {
+      "base": "DOV",
+      "quote": "GLN",
+      "bid": "3/2",
+      "ask": "2/1"
+    }
+  ]
+}

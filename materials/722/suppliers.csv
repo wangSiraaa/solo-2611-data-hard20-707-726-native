@@ -1,0 +1,4 @@
+quote_id,item_id,revision,currency,unit_price
+S1,ITEM1,1,DOV,1001/3000
+S2,ITEM1,1,GLN,667/1000
+S3,ITEM1,1,NIX,1/2
