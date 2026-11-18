@@ -1,0 +1,26 @@
+{
+  "snapshots": [
+    {"snapshot_id":"S1","chunks":["x","y","x"]},
+    {"snapshot_id":"S2","chunks":["z"]}
+  ],
+  "initial_revision": "R1",
+  "packs": [
+    {"pack_id":"P1","failure_domain":"A","size":6,"chunks":["x"]},
+    {"pack_id":"P2","failure_domain":"A","size":4,"chunks":["y"]},
+    {"pack_id":"P3","failure_domain":"B","size":8,"chunks":["x","y"]},
+    {"pack_id":"P4","failure_domain":"C","size":7,"chunks":["x"]},
+    {"pack_id":"P5","failure_domain":"C","size":3,"chunks":["y"]},
+    {"pack_id":"P6","failure_domain":"A","size":5,"chunks":["z"]},
+    {"pack_id":"P7","failure_domain":"B","size":5,"chunks":["z"]},
+    {"pack_id":"P8","failure_domain":"C","size":2,"chunks":["z"]}
+  ],
+  "retained": ["S1","S2"],
+  "deletable_for_each_request": ["P1","P2","P3","P4","P5","P6","P7","P8"],
+  "operations": [
+    {"action":"plan","request_id":"D1","revision":"R1","max_packs":2,"min_space":13},
+    {"action":"plan","request_id":"D2","revision":"R1","max_packs":2,"min_space":14},
+    {"action":"update_catalog","revision":"R2","add":[{"pack_id":"P9","failure_domain":"D","size":2,"chunks":["x"]}]},
+    {"action":"plan","request_id":"D3","revision":"R2","max_packs":2,"min_space":14},
+    {"action":"read_plan","request_id":"D1"}
+  ]
+}
