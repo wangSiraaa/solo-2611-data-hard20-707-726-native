@@ -1,0 +1,5 @@
+{"op": "resolve_points", "file": "requests.json"}
+{"op": "evaluate", "session_id": "J1", "evaluation_id": "E1"}
+{"op": "apply_clock_revision", "file": "revision.json"}
+{"op": "evaluate", "session_id": "J1", "evaluation_id": "E2"}
+{"op": "read_evaluation", "evaluation_id": "E1"}

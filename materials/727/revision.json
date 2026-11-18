@@ -1,0 +1,21 @@
+{
+  "revision": "r2",
+  "zone_id": "Z",
+  "replace_segments": [
+    {
+      "utc_start": 0,
+      "utc_end": 120,
+      "offset": 60
+    },
+    {
+      "utc_start": 120,
+      "utc_end": 240,
+      "offset": 90
+    },
+    {
+      "utc_start": 240,
+      "utc_end": 600,
+      "offset": 60
+    }
+  ]
+}

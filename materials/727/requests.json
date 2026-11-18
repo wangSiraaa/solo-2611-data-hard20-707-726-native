@@ -1,0 +1,31 @@
+{
+  "point_checks": [
+    {
+      "local": 90
+    },
+    {
+      "local": 200
+    },
+    {
+      "local": 330
+    }
+  ],
+  "sessions": [
+    {
+      "session_id": "J1",
+      "zone_id": "Z",
+      "local_start": 300,
+      "start_occurrence": "earlier",
+      "local_end": 330,
+      "end_occurrence": "later",
+      "rate_per_utc_minute": 2
+    },
+    {
+      "session_id": "J_GAP",
+      "zone_id": "Z",
+      "local_start": 200,
+      "local_end": 260,
+      "rate_per_utc_minute": 2
+    }
+  ]
+}
