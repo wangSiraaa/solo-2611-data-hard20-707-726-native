@@ -1,0 +1,5 @@
+{"operation":"prepare_and_commit_handoff","request_id":"H1","roots":["C1","C2"],"from":"A","to":"B"}
+{"operation":"revise_membership","revision":2,"moves":[{"asset_id":"I1","new_parent":"C3"}]}
+{"operation":"prepare_and_commit_handoff","request_id":"H2","roots":["C1"],"from":"B","to":"C"}
+{"operation":"read_handoff","request_id":"H1"}
+{"operation":"read_current_custodians"}
