@@ -1,0 +1,15 @@
+{
+  "stream": "DEMO",
+  "segments": [
+    {"segment_id":"A","revision":1,"dictionary":{"0":"VALUE","1":"SKIP","2":"PENDING"},"records":[{"slot":1,"code":0,"value":7},{"slot":3,"code":0,"value":9}]},
+    {"segment_id":"B","revision":1,"dictionary":{"0":"PENDING","1":"VALUE","2":"SKIP"},"records":[{"slot":2,"code":0,"value":null}]}
+  ],
+  "operations": [
+    {"op":"deliver","delivery_id":"D1","end":1},
+    {"op":"deliver","delivery_id":"D2","end":3},
+    {"op":"replace_segment","segment":{"segment_id":"B","revision":2,"dictionary":{"0":"PENDING","1":"VALUE","2":"SKIP"},"records":[{"slot":2,"code":2,"value":null}]}},
+    {"op":"deliver","delivery_id":"D3","end":3},
+    {"op":"read_delivery","delivery_id":"D1"},
+    {"op":"deliver","delivery_id":"D4","end":4}
+  ]
+}
