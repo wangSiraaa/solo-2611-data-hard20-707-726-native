@@ -1,0 +1,19 @@
+{
+  "width":3,
+  "height":2,
+  "revisions":[
+    {"revision":1,"order":"MSB","bad_rows":["80","20"],"known_rows":["a0","e0"]},
+    {"revision":2,"order":"LSB","bad_rows":["04","04"],"known_rows":["05","07"]}
+  ],
+  "invalid_example":{"revision":3,"order":"LSB","bad_rows":["84","04"],"known_rows":["05","07"]},
+  "windows":[
+    {"window_id":"F","rows":[0,2],"cols":[0,3]},
+    {"window_id":"L","rows":[0,2],"cols":[0,1]},
+    {"window_id":"R","rows":[0,2],"cols":[2,3]}
+  ],
+  "requests":[
+    {"plan_id":"P1","source_revision":1,"limit":1},
+    {"plan_id":"P2","source_revision":1,"limit":2},
+    {"plan_id":"P3","source_revision":2,"limit":1}
+  ]
+}
