@@ -1,0 +1,74 @@
+{
+  "mapping_version": 1,
+  "ingredients": [
+    {
+      "ingredient_id": "oat",
+      "allergens": [
+        "gluten"
+      ]
+    },
+    {
+      "ingredient_id": "wheat",
+      "allergens": [
+        "gluten"
+      ]
+    },
+    {
+      "ingredient_id": "rice",
+      "allergens": []
+    },
+    {
+      "ingredient_id": "milk",
+      "allergens": [
+        "milk"
+      ]
+    }
+  ],
+  "recipe": {
+    "recipe_id": "mix",
+    "revision": 1,
+    "slots": [
+      {
+        "slot_id": "base",
+        "allowed": [
+          "oat",
+          "wheat"
+        ]
+      },
+      {
+        "slot_id": "drink",
+        "allowed": [
+          "rice",
+          "milk"
+        ]
+      }
+    ]
+  },
+  "line": {
+    "line_id": "line-a",
+    "revision": 1,
+    "contact": [
+      "milk",
+      "nut"
+    ]
+  },
+  "batch": {
+    "batch_id": "b1",
+    "configuration_revision": 1,
+    "recipe_id": "mix",
+    "recipe_revision": 1,
+    "line_id": "line-a",
+    "choices": [
+      {
+        "slot_id": "base",
+        "ingredient_id": "oat",
+        "amount": 2
+      },
+      {
+        "slot_id": "drink",
+        "ingredient_id": "milk",
+        "amount": 1
+      }
+    ]
+  }
+}

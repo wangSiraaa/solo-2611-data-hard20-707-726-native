@@ -1,0 +1,71 @@
+{
+  "operations": [
+    {
+      "op": "prepare",
+      "label_id": "delivered-first",
+      "batch_id": "b1"
+    },
+    {
+      "op": "confirm",
+      "label_id": "delivered-first"
+    },
+    {
+      "op": "prepare",
+      "label_id": "stale-selection",
+      "batch_id": "b1"
+    },
+    {
+      "op": "confirm_configuration",
+      "batch_id": "b1",
+      "configuration_revision": 2,
+      "choices": [
+        {
+          "slot_id": "base",
+          "ingredient_id": "oat",
+          "amount": 2
+        },
+        {
+          "slot_id": "drink",
+          "ingredient_id": "rice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "op": "confirm_reject",
+      "label_id": "stale-selection"
+    },
+    {
+      "op": "prepare",
+      "label_id": "stale-mapping",
+      "batch_id": "b1"
+    },
+    {
+      "op": "publish_mapping",
+      "mapping_version": 2,
+      "replace_ingredient": {
+        "ingredient_id": "rice",
+        "allergens": [
+          "nut"
+        ]
+      }
+    },
+    {
+      "op": "confirm_reject",
+      "label_id": "stale-mapping"
+    },
+    {
+      "op": "prepare",
+      "label_id": "new-mapping",
+      "batch_id": "b1"
+    },
+    {
+      "op": "confirm",
+      "label_id": "new-mapping"
+    },
+    {
+      "op": "read_label",
+      "label_id": "delivered-first"
+    }
+  ]
+}
